@@ -10,6 +10,7 @@ Durable memory and workflow hub for **Unifier operations**: CRM (Unity), deploym
 4. For CRM and quoting automation, see [`docs/unity-crm.md`](./docs/unity-crm.md) and the Unity repo at `/home/klara/dev/unity`.
 
 **Raw imports:** `raw/` holds CRM/statement exports and a Google `manifest.json` — see [`docs/internal/raw-provenance.md`](./docs/internal/raw-provenance.md).
+**Unity CLI:** configure `.env` with `UNITY_MCP_TOKEN`, then `npm run unity -- help` — [`docs/runbooks/unity-cli.md`](./docs/runbooks/unity-cli.md).
 
 ## Remote repository
 

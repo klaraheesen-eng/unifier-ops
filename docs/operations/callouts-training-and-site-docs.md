@@ -1,6 +1,8 @@
 # Operational documents catalog (from `raw/manifest.json`)
 
-The following Google Workspace files were indexed in `raw/manifest.json`. **Live content** is in Google Drive; this repo stores links and taxonomy only.
+**Context:** Unity now owns **scheduling, job cards, pricelists, and related CRM workflow**. Entries below come from a **Drive export manifest** and are largely **historic or parallel** documentation. For **current** installs, schedules, and PDFs, use Unity ([`../reference/unity-scheduling-and-jobcards.md`](../reference/unity-scheduling-and-jobcards.md)) and MCP/CLI — not these Doc titles alone.
+
+The following Google Workspace files were indexed in `raw/manifest.json`. **Live content** may still exist in Drive; verify whether each doc is still maintained before relying on it.
 
 ## How to use
 

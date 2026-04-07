@@ -19,6 +19,7 @@ Centralize:
 - Operational runbooks and troubleshooting notes that are not marketing-specific.
 - Pointers to authoritative repos (`unity`, `unifier-marketing`) so agents do not duplicate or drift.
 - **Imported raw data** (`raw/`) interpreted into procedures, customer context, and reference docs — **Unity remains canonical** for live CRM.
+- **Unity-first ops:** job cards, install schedules, pricelists, shopping lists, and quote pipeline are **in Unity** (`/home/klara/dev/unity`). `raw/` Google/CSV material is mostly **historic**; use MCP or the **Unity CLI** below for current data.
 
 ## Repo map — where to find what
 
@@ -38,6 +39,13 @@ Read [`docs/internal/repo-map.md`](docs/internal/repo-map.md) first for navigati
 - `raw/CGR Statement 19 06 2023.csv` — CGR / Fuel Me statement (duplicate path variant under `raw/CGR Statement 19/06/2023.csv`)  
 - `raw/README.md` — quick file list  
 - `data/derived/` — optional summaries; see `data/derived/claims-export-snapshot.md`  
+
+### Unity live operations (prefer over raw exports)
+
+- `docs/reference/unity-scheduling-and-jobcards.md` — schedules, job cards, shopping list (Unity canonical)  
+- `docs/runbooks/unity-cli.md` — **`npm run unity`** CLI against `mcp_*.asp` (`.env`: `UNITY_MCP_TOKEN`)  
+- `skills/unifier-unity-cli/SKILL.md` — OpenClaw/Cursor skill stub for the CLI  
+- `unity/skills/unifier-unity/` (in `dev/unity`) — authoritative MCP tool semantics  
 
 ### Reference (from raw extraction)
 
@@ -86,7 +94,7 @@ Default to **this repo** for **ops** Telegram/chat threads and for tasks that sp
 - Unity MCP skill: `/home/klara/dev/unity/skills/unifier-unity/SKILL.md`
 - Integration surface: `/home/klara/dev/unity/skills/unifier-unity/references/integration-surface.md`
 
-Secrets for MCP (never commit): `UNITY_MCP_TOKEN`, `UNITY_EDGE_AUTH_TOKEN`; optional `UNITY_BASE_URL`. See Unity skill and `.env.example` in this repo for naming only.
+Secrets for MCP and CLI (never commit): `UNITY_MCP_TOKEN` (required for `scripts/unity-cli.mjs`); `UNITY_EDGE_AUTH_TOKEN` only for Cloudflare relay clients; optional `UNITY_BASE_URL`. See `.env.example`, [`docs/runbooks/unity-cli.md`](docs/runbooks/unity-cli.md), and the Unity skill.
 
 ## Operations model (how we run Unifier)
 
@@ -107,12 +115,14 @@ Secrets for MCP (never commit): `UNITY_MCP_TOKEN`, `UNITY_EDGE_AUTH_TOKEN`; opti
 - [`docs/related-repos.md`](docs/related-repos.md) — links and paths.
 - [`docs/access.md`](docs/access.md) — secrets and safe handling.
 - [`docs/runbooks/unity-deploy.md`](docs/runbooks/unity-deploy.md) — deploy checklist (points to Unity).
+- [`docs/runbooks/unity-cli.md`](docs/runbooks/unity-cli.md) — Unity MCP CLI (`npm run unity`) with `.env` credentials.
 - [`docs/internal/repo-map.md`](docs/internal/repo-map.md) — detailed repo map (start here for file layout).
 
 ## Skills and tools
 
 - Prefer **Cursor** / **OpenClaw** tooling already configured on this machine.
-- For Unity MCP actions in chat, use the **unifier-unity** skill in the Unity repo when the gateway exposes MCP.
+- **Unity MCP:** use the **unifier-unity** skill in `/home/klara/dev/unity` when the gateway exposes MCP tools.
+- **Unity CLI:** from this repo, `npm run unity` with `UNITY_MCP_TOKEN` in `.env` — see [`skills/unifier-unity-cli/SKILL.md`](skills/unifier-unity-cli/SKILL.md) and [`docs/runbooks/unity-cli.md`](docs/runbooks/unity-cli.md).
 - Use **browser** tools when inspecting live CRM pages or auth flows.
 
 ## Access and secrets

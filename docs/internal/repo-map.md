@@ -15,6 +15,10 @@ Read this section first when orienting on an ops task (pattern aligned with `tes
 | `docs/runbooks/ar-statements-and-reconciliation.md` | Statement-of-account workflows and reconciliation cues |
 | `docs/operations/callouts-training-and-site-docs.md` | Operational Google Docs/Sheets catalog (from manifest) |
 | `docs/operations/main-agent-subagent-workflow.md` | How to split chat vs repo-deep work |
+| `docs/reference/unity-scheduling-and-jobcards.md` | Schedules & job cards — **Unity** (not Drive) |
+| `docs/runbooks/unity-cli.md` | `npm run unity` — direct MCP HTTP from `.env` |
+| `skills/unifier-unity-cli/SKILL.md` | Agent skill for the CLI |
+| `scripts/unity-cli.mjs` | Implementation |
 
 ## Raw imports and derived notes
 

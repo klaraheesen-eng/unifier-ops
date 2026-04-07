@@ -17,6 +17,21 @@ Unity is Unifier’s **CRM** (quotes, opportunities, pipeline, Sage integration,
 
 - App: `https://www.unifier.co.za/unity/`
 
+## What runs in Unity today (vs historic files)
+
+Day-to-day **quotes, pipeline, pricelists, scheduling, job cards, shopping lists, and technician workflows** run in **Unity**. Google Sheets/Docs and CSV snapshots under `unifier-ops/raw/` are mainly **historic** or **supplemental**; do not treat them as the live system of record.
+
+See [`reference/unity-scheduling-and-jobcards.md`](reference/unity-scheduling-and-jobcards.md).
+
+## CLI and agents (this repo)
+
+From `/home/klara/dev/unifier-ops`:
+
+- Configure `.env` with `UNITY_MCP_TOKEN` (and optional `UNITY_BASE_URL`).
+- Run `npm run unity -- help` — direct calls to `mcp_*.asp` (same bearer auth as IIS).
+
+Details: [`runbooks/unity-cli.md`](runbooks/unity-cli.md), skill [`skills/unifier-unity-cli/SKILL.md`](../skills/unifier-unity-cli/SKILL.md).
+
 ## MCP operations
 
 Tools (via relay) include leads, quotes, quote items, pricelists, item updates. See `integration-surface.md` for the tool → endpoint map and auth boundaries:

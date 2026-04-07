@@ -2,7 +2,9 @@
 
 ## Purpose of `raw/`
 
-The `raw/` directory holds **imports and snapshots** used to bootstrap ops knowledge. It is **not** the system of record for live CRM data — **Unity** is.
+The `raw/` directory holds **imports and snapshots** used to bootstrap ops knowledge and historic Google Drive catalog metadata. It is **not** the system of record for live CRM, **job cards**, **schedules**, or **pricelists** — **Unity** is. Most manual spreadsheet/Docs workflows have been **moved into Unity**; treat Drive-linked names in `manifest.json` as **archive or secondary** unless you confirm they are still maintained.
+
+**Live operations:** quotes, pipeline, scheduling, job cards, shopping lists → Unity ([`../reference/unity-scheduling-and-jobcards.md`](../reference/unity-scheduling-and-jobcards.md)).
 
 ## Files
 

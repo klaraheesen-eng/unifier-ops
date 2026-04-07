@@ -12,6 +12,7 @@
 |-----------|----------|
 | Unity FTP / deploy | `/home/klara/dev/unity/README.md`, `.env.example` in Unity |
 | Unity MCP | `unity/skills/unifier-unity/SKILL.md`, `unity/mcp-cf/` Wrangler secrets |
+| Unity CLI (this repo) | `unifier-ops/.env` — `UNITY_MCP_TOKEN` (and optional `UNITY_BASE_URL`); see [`runbooks/unity-cli.md`](runbooks/unity-cli.md) |
 | Marketing dashboard | `/home/klara/dev/unifier-marketing/marketing-dashboard/.env` (see marketing `AGENTS.md`) |
 
 ## This repo

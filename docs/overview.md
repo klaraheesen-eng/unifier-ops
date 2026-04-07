@@ -29,3 +29,4 @@ When in doubt, **link** to the Unity or marketing repo instead of copying long p
 ## Raw-driven knowledge
 
 Snapshot exports and Drive manifests live under `raw/`; derived notes and procedures are under `docs/` and `data/derived/`. See [`internal/repo-map.md`](internal/repo-map.md).
+**Live** CRM data: use Unity MCP or the repo CLI — [`runbooks/unity-cli.md`](runbooks/unity-cli.md).

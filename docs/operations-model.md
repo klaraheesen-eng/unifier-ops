@@ -18,9 +18,13 @@ This describes **how Unifier operations are intended to run**, at a level suitab
 
 | Repo | Role |
 |------|------|
-| `dev/unity` | CRM codebase, MCP, deploy, logs |
+| `dev/unity` | CRM codebase, MCP, deploy, logs — **canonical** for quotes, pricelists, schedules, job cards |
 | `dev/unifier-marketing` | Dashboard, SEO, WordPress, marketing AGENTS |
-| `dev/unifier-ops` | Ops memory, runbooks, coordination |
+| `dev/unifier-ops` | Ops memory, runbooks, **Unity CLI** (`.env` + `scripts/unity-cli.mjs`), coordination |
+
+## Unity vs `unifier-ops/raw`
+
+Imports in `unifier-ops/raw/` (CSV, manifest) are **snapshots or legacy** context. **Live** operational data for sales and field workflow is in **Unity**. Use MCP or the [`unity-cli`](runbooks/unity-cli.md) runbook for current quotes and pricelists.
 
 ## Handoff between marketing and ops
 

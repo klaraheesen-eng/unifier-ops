@@ -1,0 +1,13 @@
+{
+  "name": "unifier-ops",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unifier operations hub, docs, and Unity MCP CLI",
+  "type": "module",
+  "scripts": {
+    "unity": "node scripts/unity-cli.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
