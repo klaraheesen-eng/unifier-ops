@@ -53,7 +53,7 @@ Secrets for MCP (never commit): `UNITY_MCP_TOKEN`, `UNITY_EDGE_AUTH_TOKEN`; opti
 
 ## OpenClaw Telegram (ops chat)
 
-- [`docs/openclaw-telegram-ops.md`](docs/openclaw-telegram-ops.md) — system prompt command for the ops Telegram group (replace group id).
+- [`docs/openclaw-telegram-ops.md`](docs/openclaw-telegram-ops.md) — system prompt command for the ops Telegram group (`-5298149734`, [web chat](https://web.telegram.org/a/#-5298149734)).
 
 ## Core docs in this repo
 
