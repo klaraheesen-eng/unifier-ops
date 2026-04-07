@@ -10,7 +10,9 @@ Durable memory and workflow hub for **Unifier operations**: CRM (Unity), deploym
 
 ## Remote repository
 
-This repo was originally intended to be cloned from `https://github.com/whheesen-personal/unifier-ops.git`. If that URL is unavailable (private or not yet created), use the Git remote you push to (for example `origin` on GitHub).
+- **Current `origin`:** https://github.com/klaraheesen-eng/unifier-ops
+
+If you also use `https://github.com/whheesen-personal/unifier-ops.git`, add it as a second remote after that repository exists (for example `git remote add whheesen …`) and push as needed.
 
 ## Related work (not duplicated here)
 
