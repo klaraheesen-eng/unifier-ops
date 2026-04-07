@@ -18,6 +18,50 @@ Centralize:
 - How Unifier **operations** are supposed to run (Unity CRM, MCP, deploy, smoke tests).
 - Operational runbooks and troubleshooting notes that are not marketing-specific.
 - Pointers to authoritative repos (`unity`, `unifier-marketing`) so agents do not duplicate or drift.
+- **Imported raw data** (`raw/`) interpreted into procedures, customer context, and reference docs — **Unity remains canonical** for live CRM.
+
+## Repo map — where to find what
+
+Read [`docs/internal/repo-map.md`](docs/internal/repo-map.md) first for navigation. Condensed index:
+
+### Core operating instructions
+
+- `AGENTS.md` — rules, scope, this map pointer  
+- `docs/internal/repo-map.md` — full navigation index  
+- `docs/internal/raw-provenance.md` — what `raw/` contains and how it relates to Drive/Unity  
+
+### Raw imports and derived data
+
+- `raw/manifest.json` — Google Docs/Sheets catalog with `webViewLink`s  
+- `raw/Unifier Claims.csv` — CRM quotes export (PII; historical snapshot)  
+- `raw/Statement of Account.csv` — Unifier template statement  
+- `raw/CGR Statement 19 06 2023.csv` — CGR / Fuel Me statement (duplicate path variant under `raw/CGR Statement 19/06/2023.csv`)  
+- `raw/README.md` — quick file list  
+- `data/derived/` — optional summaries; see `data/derived/claims-export-snapshot.md`  
+
+### Reference (from raw extraction)
+
+- `docs/reference/crm-quote-statuses.md` — quote status values  
+- `docs/reference/lead-channel-taxonomy.md` — Bark, Leads, web, etc.  
+- `docs/reference/claims-export-columns.md` — CSV column meanings  
+
+### Customers and finance
+
+- `docs/customers/cgr-holdings-fuelme.md` — CGR / Fuel Me context  
+- `docs/customers/notable-commercial-accounts.md` — Buffalo, Bracken Lodge, Invest Gold, SkyCorp, Pizza Perfect (stubs)  
+- `docs/runbooks/ar-statements-and-reconciliation.md` — statements and AR checks  
+
+### Operations and incidents
+
+- `docs/operations/callouts-training-and-site-docs.md` — Drive doc catalog  
+- `docs/operations/main-agent-subagent-workflow.md` — how to split chat vs deep repo work  
+- `docs/incidents/pharmaleaf-20231211.md` — incident doc link (body stays in Google)  
+
+### Workflow (Tesla-style)
+
+- **Main assistant:** routing, approvals, live MCP/tool use, short task-focus updates.  
+- **Repo / sub-agent:** deep reading of `raw/` + `docs/`, evidence-based write-ups, no customer sends without approval.  
+- Details: [`docs/operations/main-agent-subagent-workflow.md`](docs/operations/main-agent-subagent-workflow.md).  
 
 ## Scope boundaries
 
@@ -63,6 +107,7 @@ Secrets for MCP (never commit): `UNITY_MCP_TOKEN`, `UNITY_EDGE_AUTH_TOKEN`; opti
 - [`docs/related-repos.md`](docs/related-repos.md) — links and paths.
 - [`docs/access.md`](docs/access.md) — secrets and safe handling.
 - [`docs/runbooks/unity-deploy.md`](docs/runbooks/unity-deploy.md) — deploy checklist (points to Unity).
+- [`docs/internal/repo-map.md`](docs/internal/repo-map.md) — detailed repo map (start here for file layout).
 
 ## Skills and tools
 

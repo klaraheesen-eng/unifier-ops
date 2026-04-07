@@ -4,6 +4,7 @@
 
 - Never commit `.env`, tokens, passwords, or live credentials.
 - Prefer `.env.example` in this repo for **variable names only**.
+- Treat `raw/*.csv` as **sensitive**: names, phones, emails, commercial amounts, and customer identifiers. Do not copy into public tickets or logs; redact for external sharing.
 
 ## Where secrets live by subsystem
 

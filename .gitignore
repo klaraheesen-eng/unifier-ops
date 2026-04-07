@@ -7,3 +7,8 @@ node_modules/
 __pycache__/
 *.pyc
 .venv/
+
+# Large local exports alongside raw CSV/JSON (keep Google as source of truth; see raw/README.md)
+raw/*.docx
+raw/*.pdf
+raw/*.xlsx

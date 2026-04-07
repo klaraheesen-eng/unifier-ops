@@ -22,5 +22,10 @@ Update `unifier-ops` when you document:
 
 - Operational procedures that apply across CRM and tooling.
 - Stable facts about how deploy/MCP/logging fit together (without duplicating Unity’s full README).
+- Interpretation of **raw imports** (`raw/*.csv`, `manifest.json`) — see [`internal/raw-provenance.md`](internal/raw-provenance.md).
 
 When in doubt, **link** to the Unity or marketing repo instead of copying long procedures.
+
+## Raw-driven knowledge
+
+Snapshot exports and Drive manifests live under `raw/`; derived notes and procedures are under `docs/` and `data/derived/`. See [`internal/repo-map.md`](internal/repo-map.md).

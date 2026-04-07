@@ -1,0 +1,395 @@
+ID,Age,Status,Quote,Customer,Contact,Opportunity,Quote Total,Margin,GP %,ACTIONS,Scheduled date,Claim Date
+Q-0959,11 days old,Final Invoice Sent,Unifier Quote - [Leads] [Ecohygiene] [Midrand] [8],Private,Ecohygiene,[Leads] [Ecohygiene] [Midrand] [8] L-6872 (1),"R19 989,00","R7 634,00","38,2%",,,FALSE
+Q-0958,12 days old,Cool,Unifier Quote - [Leads] [Bonolo] [Centurion] [4],Private,Bonolo,[Leads] [Bonolo] [Centurion] [4] L-6861 (1),"R12 048,00","R4 313,00","35,8%",,,FALSE
+Q-0957,12 days old,Cool,Unifier Quote - [Unifier] [Raymond] [Pretoria west] [1],Private,Raymond,[Unifier] [Raymond] [Pretoria west] [1] L-6856 (1),"R12 048,00","R4 313,00","35,8%",,,FALSE
+Q-0956,12 days old,In Queue,Unifier Quote - [Unifier] [Raymond] [Pretoria west] [1],Private,,[Unifier] [Raymond] [Pretoria west] [1] L-6856 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0955,16 days old,Cool,Unifier Quote - [Bark] [Marghon] [eladuspark] [4],Private,Marghon,[Bark] [Marghon] [eladuspark] [4] L-6838 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0954,16 days old,Cool,Unifier Quote - [Bark] [Andre] [Equestria] [8],Private,Andre,[Bark] [Andre] [Equestria] [8] L-6831 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0953,17 days old,Cool,Unifier Quote - [Bark] [Anton] [Monument park] [8],Private,Anton,[Bark] [Anton] [Monument park] [8] L-6828 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0952,17 days old,Cool,Unifier Quote - [Bark] [Amukelani] [Westdene] [8],Private,Amukelani,[Bark] [Amukelani] [Westdene] [8] L-6825 (1),"R11 999,00","R4 999,00","41,7%",,,FALSE
+Q-0951,17 days old,Cool,Unifier Quote - [Bark] [Amukelani] [Westdene] [4],Private,Amukelani,[Bark] [Amukelani] [Westdene] [4] L-6826 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0950,17 days old,In Queue,Unifier Quote - [Bark] [Amukelani] [Westdene] [4],Private,,[Bark] [Amukelani] [Westdene] [4] L-6826 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0949,17 days old,Cool,Unifier Quote - [Leads] [Ishe Mudzamiri] [8],Private,Ishe Mudzamiri,[Leads] [Ishe Mudzamiri] [8] L-6822 (1),"R850,00","R100,00","11,8%",,,FALSE
+Q-0948,17 days old,Final Invoice Sent,Unifier Quote - [Leads] [Gerhad Koen] [8],Private,Gerhard Koen,[Leads] [Gerhad Koen] [8] L-6821 (1),"R850,00","R100,00","11,8%",,,FALSE
+Q-0947,18 days old,Cool,Unifier Quote - [Leads] [Percy Thaver] [Bryanston] [6],Private,Percy,[Leads] [Percy Thaver] [Bryanston] [6] L-6811 (1),"R4 012,00","R1 573,00","39,2%",,,FALSE
+Q-0946,19 days old,Cool,Unifier Quote - [Bark] [Naledi] [Orchards] [4],Private,Naledi,[Bark] [Naledi] [Orchards] [4] L-6806 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0945,19 days old,Cool,Unifier Quote - [Heinrich] [Percy Thaver] [Bryanston] [6],Private,Percy Thaver,[Heinrich] [Percy Thaver] [Bryanston] [6] L-6804 (1),"R18 718,00","R7 953,00","42,5%",,,FALSE
+Q-0944,19 days old,In Queue,Unifier Quote - [Heinrich] [Percy Thaver] [Bryanston] [6],Private,,[Heinrich] [Percy Thaver] [Bryanston] [6] L-6804 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0943,19 days old,Full Payment Made,Unifier Quote -,Private,Bonolo,New opportunity for L-6796 (1),"R18 989,00","R6 634,00","34,9%",,,FALSE
+Q-0942,20 days old,Cool,Unifier Quote - [Leads] [Michelle] [Olifantsfontein] [callout],Private,Michelle,[Leads] [Michelle] [Olifantsfontein] [callout] L-6793 (1),"R850,00","R100,00","11,8%",,,FALSE
+Q-0941,20 days old,In Queue,Unifier Quote - [Leads] [Michelle] [Olifantsfontein] [callout],Private,,[Leads] [Michelle] [Olifantsfontein] [callout] L-6793 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0940,20 days old,Cool,Unifier Quote - [Bark] [Ludiwgh] [Kempton park] [8],Private,Ludwigh,[Bark] [Ludiwgh] [Kempton park] [8] L-6787 (1),"R11 999,00","R4 999,00","41,7%",,,FALSE
+Q-0939,20 days old,In Queue,Unifier Quote - [Bark] [Ludiwgh] [Kempton park] [8],Private,,[Bark] [Ludiwgh] [Kempton park] [8] L-6787 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0938,22 days old,Cool,Unifier Quote - [Bark] [Phumlani] [Boksburg] [8],Private,Phumlani,[Bark] [Phumlani] [Boksburg] [8] L-6782 (1),"R10 999,00","R3 999,00","36,4%",,,FALSE
+Q-0937,22 days old,In Queue,Unifier Quote - [Bark] [Phumlani] [Boksburg] [8],Private,,[Bark] [Phumlani] [Boksburg] [8] L-6782 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0936,23 days old,Cool,Unifier Quote - [Bark] [Delia] [Eldorado park] [4],Private,Delia,[Bark] [Delia] [Eldorado park] [4] L-6768 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0935,23 days old,Cool,Unifier Quote - [Bark] [Phineas] [Pretoria] [8],Private,Phineas,[Bark] [Phineas] [Pretoria] [8] L-6755 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0934,23 days old,In Queue,Unifier Quote - [Bark] [Phineas] [Pretoria] [8],Private,,[Bark] [Phineas] [Pretoria] [8] L-6755 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0933,26 days old,In Queue,Unifier Quote - [Bark] [Mary] [Midrand] [64],Private,Mary,[Bark] [Mary] [Midrand] [64] L-6713 (1),"R150 000,00","R88 400,00","58,9%",,,FALSE
+Q-0932,27 days old,Cool,Unifier Quote - [Bark] [Name] [Atteridgeville] [8],Private,Mduduzi,[Bark] [Name] [Atteridgeville] [8] L-6709 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0931,1 month old,Cool,Unifier Quote - [Lead Souce] [Mxolisi] [Bronkhorstspruit] [8],Private,Mxolisi,[Lead Souce] [Mxolisi] [Bronkhorstspruit] [8] L-6681 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0930,1 month old,Cool,Unifier Quote - [Lead Souce] [Gaciela] [Soshanguve] [4],Private,Graciela,[Lead Souce] [Gaciela] [Soshanguve] [4] L-6677 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0929,1 month old,Cool,Unifier Quote - [Bark] [Tumelo] [Vosloorus] [4],Private,Tumelo,[Bark] [Tumelo] [Vosloorus] [4] L-6673 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0928,1 month old,Cool,Unifier Quote - [Bark] [Tumelo] [Vosloorus] [4],Private,Tumelo,[Bark] [Tumelo] [Vosloorus] [4] L-6673 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0927,1 month old,Cool,Unifier Quote - Norbert Callout,Private,Norbert Fuhr,Norbert callout (1),"R4 471,00","R1 668,00","37,3%",,,FALSE
+Q-0926,1 month old,Cool,Faan Jooste - harties L-1625,Private,Faan Jooste,Faan Jooste - harties L-1625 (1),"R4 471,00","R1 668,00","37,3%",,,FALSE
+Q-0925,1 month old,Cool,Unifier Quote - [Bark] [Boipelo] [Noordheuwel] [8],Private,Boipelo,[Bark] [Boipelo] [Noordheuwel] [8] L-6641 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0924,1 month old,In Queue,Unifier Quote - [Bark] [Boipelo] [Noordheuwel] [8],Private,,[Bark] [Boipelo] [Noordheuwel] [8] L-6641 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0923,1 month old,Cool,Unifier Quote - [Bark] [Taf] [Khayalami] [4],Private,Taf,[Bark] [Taf] [Khayalami] [4] L-6613 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0922,1 month old,In Queue,Unifier Quote - [Bark] [Taf] [Khayalami] [4],Private,,[Bark] [Taf] [Khayalami] [4] L-6613 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0921,1 month old,Cool,Unifier Quote - Fiston has read your response,Private,Fiston,Fiston has read your response L-6610 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0920,1 month old,In Queue,Unifier Quote - [Bark] [Fiston] [Midrand] [8],Private,,[Bark] [Fiston] [Midrand] [8] L-6611 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0919,1 month old,Cool,Unifier Quote - [Bark] [Tasneem] [Centurion] [tassy187@gmail.com],Private,Tasneem,[Bark] [Tasneem] [Centurion] [tassy187@gmail.com] L-6604 (1),"R11 999,00","R4 999,00","41,7%",,,FALSE
+Q-0917,1 month old,In Queue,Unifier Quote - [Bark] [Sibongile] [Orlando] [4],Private,,[Bark] [Sibongile] [Orlando] [4] L-6594 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0916,1 month old,Cool,Unifier Quote - Â [Bark] [Sean] [Faerie Glen] [4],Private,Sean van Rooyen,Â [Bark] [Sean] [Faerie Glen] [4] L-6589 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0914,1 month old,Cool,Unifier Quote - [Bark] [Kozette] [klerksoord] [2],Private,Kozette,[Bark] [Kozette] [klerksoord] [2] L-6572 (1),"R9 038,00","R3 215,00","35,6%",,,FALSE
+Q-0913,1 month old,Cool,Unifier Quote - [Bark] [Faried] [Location] [Eldorado park] [8],Private,Faried,[Bark] [Faried] [Location] [Eldorado park] [8] L-6565 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0911,1 month old,Cool,Unifier Quote - [Bark] [Percy] [Moreleta park] [8],Private,Percy,[Bark] [Percy] [Moreleta park] [8] L-6554 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0910,1 month old,Cool,Unifier Quote - [Bark] [Tumelo] [Olievenhoutbos] [6],Private,Tumelo,[Bark] [Tumelo] [Olievenhoutbos] [6] L-6549 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0909,1 month old,In Queue,Unifier Quote - [Bark] [Tumelo] [Olievenhoutbos] [6],Private,,[Bark] [Tumelo] [Olievenhoutbos] [6] L-6549 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0908,1 month old,Cool,Unifier Quote - [Bark] [Jeff] [Halfway House] [8],Private,Jeff,[Bark] [Jeff] [Halfway House] [8] L-6511 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0907,1 month old,Cool,Unifier Quote -,Private,Noreen,New opportunity for L-6499 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0906,1 month old,Cool,Unifier Quote - [Bark] [Gaven] [Randfontein] [4],Private,Gaven,[Bark] [Gaven] [Randfontein] [4] L-6483 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0905,1 month old,Cool,Unifier Quote - Bark Reminder: Call Phumzile ðŸ“ž,Private,Phumzile,Bark Reminder: Call Phumzile ðŸ“ž L-6223 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0904,1 month old,Cool,Unifier Quote - RE: need to do a quote for sim and Rock Ridge Complex,Private,Alice,RE: need to do a quote for sim and Rock Ridge Complex L-6465 (1),"R13 652,00","R5 018,00","36,8%",,,FALSE
+Q-0902,1 month old,In Queue,Unifier Quote - RE: [Bark] [Roshan] [Johannesburg] [6],Private,,RE: [Bark] [Roshan] [Johannesburg] [6] L-6459 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0900,1 month old,Cool,Unifier Quote - [Bark] [Vincent] [Katlehong] [8],Private,Vincent,[Bark] [Vincent] [Katlehong] [8] L-6453 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0899,1 month old,Cool,Unifier Quote - Relocate Cameras and HDMI,Private,Andre (Fuel Me),Fuel me maintenance and monitoring contract. +network point. L-6051 (1),"R5 040,00","R1 990,00","39,5%",,,FALSE
+Q-0898,1 month old,Full Payment Made,Unifier Quote - [Phone] [Ipfi] [Fourways] [Number of cameras] 8,Private,Ipfi,[Phone] [Ipfi] [Fourways] [Number of cameras] 8 L-6387 (1),"R18 894,00","R8 025,00","42,5%",,,Oct & Nov 2022
+Q-0897,1 month old,Full Payment Made,Unifier Quote - Bark [Raymond] [Pretoria] 4,Private,Raymond,Bark [Raymond] [Pretoria] [Number of cameras] L-6376 (1),"R10 413,00","R3 428,00","32,9%",,,Oct & Nov 2022
+Q-0895,1 month old,Cool,Unifier Quote - Bark [Lerato] [Tshiawelo] [4],Private,Lerato,Bark [Lerato] [Tshiawelo] [4] L-6361 (1),"R11 638,00","R4 393,00","37,7%",,,FALSE
+Q-0894,1 month old,Cool,Unifier Quote - add extra cameras for Salomane - Centurion,Private,Salomane,add extra cameras for Salomane - Centurion L-6335 (1),"R3 350,00","R1 350,00","40,3%",,,FALSE
+Q-0892,1 month old,Full Payment Made,Unifier Quote - Bark [Lindy] [Highveld] [13+],Water Orphans,Lindy Lowne-hughes,Bark [Lindy] [Highveld] [13+] L-6329 (1),"R22 101,00","R8 988,00","40,7%",,,Oct & Nov 2022
+Q-0891,1 month old,Final Invoice Sent,Unifier Invoice - Bracken Lodge Monthly SIM fee,Bracken Lodge Body Corporate,Bracken Lodge,Bracken Lodge Monthly SIM fee L-6323 (1),"R599,00","R249,00","41,6%",,,Oct & Nov 2022
+Q-0889,2 months old,In Queue,Unifier Quote - test mr smith,Test ABC,Lianne Testing,test mr smith L-6305 (1),"R11 538,00","R3 934,00","34,1%",,,FALSE
+Q-0888,2 months old,Cool,Unifier Quote - Bark: Themba Daveyton 4,Private,Themba Kubheka,Bark: Themba Daveyton 4 L-6261 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0887,2 months old,Cool,Unifier Quote - Bark: Themba Daveyton 8,Private,Themba Kubheka,Bark: Themba Daveyton 8 L-6262 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0886,2 months old,Cool,Unifier Quote - FW: Bark: Bernard Sandton 8 cam.,Private,Bernard,FW: Bark: Bernard Sandton 8 cam. L-6237 (1),"R27 220,00","R10 872,00","39,9%",,,FALSE
+Q-0885,2 months old,Cool,Unifier Quote - Bark: Marvin Johannesburg 8 cam,Private,Marvin,Bark: Marvin Johannesburg 8 cam L-6239 (1),"R21 702,00","R8 857,00","40,8%",,,FALSE
+Q-0884,2 months old,Cool,Unifier Quote - 8 Cam Minnie Bokaba_preschool,Private,Minnie Bokaba,8 Cam Minnie Bokaba_preschool L-6220 (1),"R14 488,00","R5 877,00","40,6%",,,FALSE
+Q-0883,2 months old,Final Invoice Sent,Unifier Quote - Bark: Nhlonipho Johannesburg 8 cam,Private,Jabulile Zondi,Bark: Nhlonipho Johannesburg 8 cam L-6219 (1),"R15 779,00","R4 759,00","30,2%",,,FALSE
+Q-0882,2 months old,Cool,Unifier Quote - bark: David Pretoria 4,Private,David,bark: David Pretoria 4 L-6209 (1),"R11 220,00","R4 222,00","37,6%",,,FALSE
+Q-0881,2 months old,Full Payment Made,Unifier Quote - Skycorp callout,SkyCorp Distributions,Veronica Swart,Skycorp callout L-6200 (1),"R850,00","R100,00","11,8%",,,Oct & Nov 2022
+Q-0879,2 months old,Cool,Unifier Quote - Buffalo Spartan Cloud storage,Buffalo International Logistics Pty Ltd,Travis Haefele,Buffalo Spartan Cloud storage L-6193 (1),"R12 110,00","R4 356,00","36,0%",,,FALSE
+Q-0878,2 months old,Cool,Unifier Quote - Buffalo Spartan Additional Storage HDD,Buffalo International Logistics Pty Ltd,Travis Haefele,Buffalo Spartan Additional Storage HDD L-6192 (1),"R15 566,00","R6 021,00","38,7%",,,FALSE
+Q-0877,2 months old,Full Payment Made,Unifier Quote - Bark: Mandla Pretoria 8 cam.,Private,Mandla,Bark: Mandla Pretoria 8 cam. L-6189 (1),"R20 120,00","R7 114,00","35,4%",,,Oct & Nov 2022
+Q-0876,2 months old,Cool,Unifier Quote - Thor Cloud solution,Private,Thor,Thor Cloud solution L-6186 (1),"R4 329,00","R1 668,00","38,5%",,,FALSE
+Q-0875,2 months old,Cool,Unifier Quote - Unifier Quote_Fuelme - Monthly Maintenance,CGR Holdings (Pty)Ltd,Andre (Fuel Me),Unifier Quote_Fuelme - Monthly Maintenance L-6175 (1),"R3 916,00","R1 676,00","42,8%",,,FALSE
+Q-0874,2 months old,Cool,Unifier Quote - Unifier Quote_Fuelme - Additional HDD Storage,CGR Holdings (Pty)Ltd,Andre (Fuel Me),Unifier Quote_Fuelme - Option 2 Additional HDD Storage L-6174 (1),"R30 632,00","R12 117,00","39,6%",,,FALSE
+Q-0873,2 months old,Cool,Unifier Quote_Fuelme - Cloud Storage,CGR Holdings (Pty)Ltd,Andre (Fuel Me),Fuelme cloud L-6120 (1),"R9 297,00","R3 489,00","37,5%",,,FALSE
+Q-0872,2 months old,Cool,Unifier Quote - Bark: Moses Johannesburg 8 standard 8 colorVu + Screens,Private,Moses,Bark: Moses Johannesburg 8 standard 8 colorVu + Screens L-6155 (1),"R39 808,00","R15 803,00","39,7%",,,FALSE
+Q-0871,2 months old,Cool,Unifier Quote - Bark: Kgoloko Boordfontein-Wes 8 cameras,Private,Kgoloko,Bark: Kgoloko Boordfontein-Wes 8 cameras L-6123 (1),"R22 965,00","R9 305,00","40,5%",,,FALSE
+Q-0870,2 months old,Cool,Unifier Quote - Bark: Dheraj Highveld 8 cam,Private,Dheraj,Bark: Dheraj Highveld 8 cam L-6115 (1),"R27 039,00","R11 050,00","40,9%",,,FALSE
+Q-0869,2 months old,Cool,Rev TL Mashiloane 19 cam,Private,Rev TL Mashiloane,"ðŸ”” Mashiloane is looking for CCTV Installers in Winterveldt, City of Tshwane Metropolitan Municipality L-5986 (1)","R141 400,00","R50 703,00","35,9%",,,FALSE
+Q-0868,2 months old,Cool,Unifier Quote - Bark: Timothy Benoni 4 cam,Private,Timothy,Bark: Timothy Benoni 4 cam L-6095 (1),"R11 818,00","R4 433,00","37,5%",,,FALSE
+Q-0867,2 months old,Cool,Unifier Quote - Bark: Lebo Tembisa 4,Private,Lebo,Bark: Lebo Tembisa 4 L-6092 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0866,2 months old,Cool,Unifier Quote - Bez: Camera Move,Private,Bez,Bez: Camera Move L-6080 (1),"R1 725,00","R475,00","27,5%",,,FALSE
+Q-0865,2 months old,In Queue,Unifier Quote - Bez: Camera Move,Private,,Bez: Camera Move L-6080 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0864,2 months old,Cool,Unifier Quote - Etienne Brits : Move conduit,Private,Etienne Brits,Etienne Brits : Move conduit L-6079 (1),"R1 725,00","R475,00","27,5%",,,FALSE
+Q-0863,2 months old,Cool,Unifier Quote - Dr Oelofse Remainder of cams to covert,Private,Dr L Oelofse,Dr Oelofse Remainder of cams to covert L-6063 (1),"R22 373,00","R5 903,00","26,4%",,,FALSE
+Q-0862,2 months old,Cool,Unifier Quote - George - Bracken lodge - Callout quote,Private,George du Plooy,George - Bracken lodge - Callout quote L-6061 (1),"R850,00","R100,00","11,8%",,,FALSE
+Q-0861,2 months old,Cool,Unifier Quote - TR: Viv singh PTA,Private,Carla,TR: Viv singh PTA L-6059 (1),"R14 640,00","R6 705,00","45,8%",,,FALSE
+Q-0860,2 months old,Full Payment Made,Unifier Quote - Robbie Investgold Change recording,Invest Gold,Robbie Robbetze,Robbie Investgold Change recording L-6058 (1),"R850,00","R100,00","11,8%",,,Sep 2022
+Q-0859,2 months old,Cool,"Unifier Quote - Bark: Sanet Kempton Park, 8 cam",Private,Sanet,"Bark: Sanet Kempton Park, 8 cam L-6057 (1)","R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0858,2 months old,Final Invoice Sent,Unifier Quote - Dr Breaan Spies - Quote for new HDMI extender.,Private,Susan (Dr BA Spies),Dr Brian Spies - Quote for new HDMI extender. L-6054 (1),"R2 135,00","R485,00","22,7%",,,Sep 2022
+Q-0856,2 months old,Cool,Unifier Quote - Bark: Toolz Monavoni,Private,Toolz,Bark: Toolz Monavoni L-6023 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0855,2 months old,Cool,Unifier Quote - Bark: Baloi Pretoria 4 cam,Private,Baloi,Bark: Baloi Pretoria 4 cam L-6022 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0854,2 months old,Cool,Unifier Quote - RE: Thomas Regal Security - Access & Camera Installation: Quotation,Private,Carla,RE: Thomas Regal Security - Access & Camera Installation: Quotation L-6011 (1),"R34 331,00","R12 356,00","36,0%",,,FALSE
+Q-0853,2 months old,PO Received,Unifier Quote - Melville spar system reset,Private,Juan-Dre (Mellville Spar),Melville spar system reset L-5980 (1),"R850,00","R100,00","11,8%",,,FALSE
+Q-0852,3 months old,Cool,"Unifier Quote - Bark: Maboko's customer Halfway House, 4cam",Private,Maboko,"Bark: Maboko's customer Halfway House, 4cam L-5942 (1)","R7 021,00","R2 508,00","35,7%",,,FALSE
+Q-0851,3 months old,Cool,Unifier Quote - Bark: Mpho Gezina 4 cam,Private,Mpho (Gezina),Bark: Mpho Gezina 4 cam L-5936 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0850,3 months old,Cool,Unifier Quote - Bark: Mpho Gezina 8 cam,Private,Mpho (Gezina),Bark: Mpho Gezina 8 cam L-5937 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0849,3 months old,Cool,Unifier Quote - Bark: Charlotte - 8 cam.,Private,Charlotte,Bark: Charlotte - 8 cam. L-5929 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0847,3 months old,Cool,Unifier Quote - Bark: Francois 10 cam. Kaap.,Private,Francoisuys Uys,Bark: Francois 10 cam. Kaap. L-5927 (1),"R27 249,00","R11 604,00","42,6%",,,FALSE
+Q-0846,3 months old,Full Payment Made,Unifier Quote - Buffalo EX Spartan extra camera,Buffalo International Logistics Pty Ltd,Travis Haefele,Buffalo EX Spartan extra camera L-5925 (1),"R2 458,00","R731,00","29,7%",,,Sep 2022
+Q-0845,3 months old,Final Invoice Sent,Unifier Quote - Paulo Callout,Pure Esthetics on 11th,Paulo Cardoso,Paulo Callout L-5921 (1),"R850,00","R100,00","11,8%",,,Sep 2022
+Q-0844,3 months old,Cool,Unifier Quote - Mohammed 16 cam,Private,Mohamed Adan,Mohammed Quote L-5898 (1),"R29 353,00","R10 383,00","35,4%",,,FALSE
+Q-0843,3 months old,Cool,Unifier Quote - Bark: Lloyd Benoni 8 cam,Private,Lloyd,Bark: Lloyd Benoni 8 cam L-5897 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0842,3 months old,In Queue,Unifier Quote - Bark: Lloyd Benoni 8 cam,Private,,Bark: Lloyd Benoni 8 cam L-5897 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0841,3 months old,Cool,Unifier Quote - Bark: Phumlani Mohlakeng 4 cam,Private,Phumlani,Bark: Phumlani Mohlakeng 4 cam L-5895 (1),"R7 494,00","R2 819,00","37,6%",,,FALSE
+Q-0840,3 months old,Cool,Unifier Quote - Refer by Themba for Funi Mnguni 8 cam,Private,Themba,Refer by Themba for Funi Mnguni 8 cam L-5879 (1),"R14 453,00","R5 804,00","40,2%",,,FALSE
+Q-0839,3 months old,Cool,Unifier Quote - Refer by Themba for Funi Mnguni 4 cam,Private,Themba,Refer by Themba for Funi Mnguni 4 cam L-5878 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0838,3 months old,Cool,Unifier Quote - Bark: John Mohlakeng 4 cam Screen + router internet,Private,John,Bark: John Mohlakeng 4 cam Screen + router internet L-5877 (1),"R13 652,00","R5 018,00","36,8%",,,FALSE
+Q-0836,3 months old,Cool,Unifier Quote - bark: Bongani Pretoria,Private,Bongani,bark: Bongani Pretoria L-5869 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0835,3 months old,Cool,Unifier Quote - Bark: Mpho Meadowlands 4cam + ai,Private,Mpho,Bark: Mpho Meadowlands 4cam + ai L-5858 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0834,3 months old,Cool,Unifier Quote - Website Contact from Unifier,Private,Edward,Website Contact from Unifier L-5855 (1),"R16 067,00","R6 353,00","39,5%",,,FALSE
+Q-0833,3 months old,In Queue,Unifier Quote - RE: bark: Calvin Midrand,Private,Calvin Govender,RE: bark: Calvin Midrand L-5844 (1),"R61 492,00","R20 724,00","33,7%",,,FALSE
+Q-0832,3 months old,Cool,"Unifier Quote - Bark: Indhiran, Petit - 8 cam",Private,Indhiran,"Bark: Indhiran, Petit - 8 cam L-5845 (1)","R18 639,00","R6 284,00","33,7%",,,FALSE
+Q-0831,3 months old,Cool,"Unifier Quote - Bark: Indhiran, Petit - 4 cam",Private,Indhiran,"Bark: Indhiran, Petit - 4 cam L-5841 (1)","R10 098,00","R3 113,00","30,8%",,,FALSE
+Q-0830,3 months old,Cool,"Unifier Quote - Jd Koekemoer, Halfway House",Private,Jd Koekemoer,"Jd Koekemoer, Halfway House L-5839 (1)","R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0829,3 months old,Cool,Unifier Quote - switch for FuelMe,CGR Holdings (Pty)Ltd,Andre (Fuel Me),switch for FuelMe L-5830 (1),"R2 917,00","R1 132,00","38,8%",,,FALSE
+Q-0827,3 months old,Cool,Unifier Quote - bark: Sindisiwe Johannesburg 4 cam,Private,Sindisiwe,bark: Sindisiwe Johannesburg 4 cam L-5817 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0826,3 months old,Cool,"Unifier Quote - RE: Bark: Marco, 16 cam.",Private,Marco,"RE: Bark: Marco, 16 cam. L-5810 (1)","R42 698,00","R17 508,00","41,0%",,,FALSE
+Q-0825,3 months old,Cool,Unifier Quote - bark: Zenande - 4cam,Private,Zenande,bark: Zenande - 4cam L-5809 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0824,3 months old,Full Payment Made,Unifier Quote - Refer: Vanessa,Private,Vanessa,Refer: Vanessa L-5793 (1),"R7 349,00","R2 674,00","36,4%",,,Sep 2022
+Q-0823,3 months old,Final Invoice Sent,Unifier Quote - Call: Stanley Mlambo Ruimsig 4cam upg to 8 dvr.,Private,Stanley Mlambo,Call: Stanley Mlambo Ruimsig 4cam upg to 8 dvr. L-5781 (1),"R15 248,00","R6 000,00","39,3%",,,Sep 2022
+Q-0821,3 months old,Cool,Unifier Quote - Brak: Craig 8 cam - ai4,Private,Craig,Brak: Craig 8 cam - ai4 L-5777 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0820,3 months old,Cool,Unifier Quote - Call: Jonathan Gratch - Pothole Patrol,Private,Jonathan Gratch,Call: Jonathan Gratch - Pothole Patrol L-5770 (1),"R42 698,00","R17 508,00","41,0%",,,FALSE
+Q-0819,3 months old,Cool,Unifier Quote - Jonathan Gratch - 4cam Vaal,Private,Jonathan Gratch,Jonathan Gratch - 4cam Vaal L-5771 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0818,3 months old,Cool,Unifier Quote - Jonathan Gratch - Callout IP cameras at house.,Private,Jonathan Gratch,Jonathan Gratch - Callout IP cameras at house. L-5772 (1),"R850,00","R100,00","11,8%",,,FALSE
+Q-0817,3 months old,Cool,Unifier Quote - Robbie Robbetze - update cameras - 4 (2mp cameras),Private,Robbie Robbetze,Robbie Robbetze - update cameras - 4 (2mp cameras) L-5761 (1),"R4 992,00","R2 492,00","49,9%",,,FALSE
+Q-0816,3 months old,Full Payment Made,Unifier Quote - Robbie Robbetze - update cameras - 8 (5mp cameras),Invest Gold,Robbie Robbetze,Robbie Robbetze - update cameras - 8 (5mp cameras) L-5762 (1),"R22 989,00","R7 875,00","34,3%",,,Sep 2022
+Q-0815,3 months old,Cool,Unifier Quote - Thomas Regal Security - 2 cam AI - Hartbeespoort,Private,Carla,Thomas Regal Security - 2 cam AI - Hartbeespoort L-5759 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0814,3 months old,Full Payment Made,Unifier Quote - Buffalo EX Spartan,Buffalo International Logistics Pty Ltd,Travis Haefele,Buffalo EX Spartan L-5758 (1),"R36 798,00","R12 809,00","34,8%",,,Sep 2022
+Q-0813,3 months old,Cool,Unifier Quote - Bark: Raqeeba Pretoria,Private,Raqeeba Patel,Bark: Raqeeba Pretoria L-5757 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0812,3 months old,Cool,Unifier Quote - Call: Carsy - Sigma Africa - Managing Phoenix view estate,Private,Carsy,Call: Carsy - Sigma Africa - Managing Phoenix view estate L-5747 (1),"R6 850,00","R1 601,00","23,4%",,,FALSE
+Q-0810,3 months old,Cool,Unifier Quote - Bark: Ntodeni Buccleuch 8 Cam,Private,Ntodeni,Bark: Ntodeni Buccleuch 8 Cam L-5731 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0809,3 months old,Cool,Unifier Quote - bark: Dedre Wierdapark 4 cam + colorvu,Private,Dedre,bark: Dedre Wierdapark 4 cam + colorvu L-5730 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0808,3 months old,Cool,Unifier Quote - Bark: Lindiwe Pretoria 8 cam + colorVu,Private,Lindiwe,Bark: Lindiwe Pretoria 8 cam + colorVu L-5722 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0807,3 months old,Cool,Unifier Quote - Bark: Prince - 4 cam.,Private,Prince,Bark: Prince - 4 cam. L-5700 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0806,3 months old,Full Payment Made,Unifier Quote - Bark: Buli,Private,Buli,Bark: Buli L-5697 (1),"R18 662,00","R7 865,00","42,1%",,,Sep 2022
+Q-0805,3 months old,In Queue,Unifier Quote - ðŸ”” Sophie is looking for CCTV Installers in Soweto,Private,,ðŸ”” Sophie is looking for CCTV Installers in Soweto L-5693 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0804,3 months old,Cool,Unifier Quote - Bark: Sipho Trade and Travel 8 cam.,Private,Thabang,Bark: Sipho Trade and Travel 8 cam. L-5679 (1),"R24 425,00","R9 686,00","39,7%",,,FALSE
+Q-0803,3 months old,Cool,Unifier Quote - Liezel McClarty Colorvu,Private,Liezel McClarty,Liezel McClarty L-5676 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0802,3 months old,Cool,Unifier Quote - Bark: Liezel Mcclarty 3cam IP system with sound.,Private,Liezel McClarty,Unifier Quote - Bark: Liezel Mcclarty 4cam IP system with sound. L-5674 (1),"R17 649,00","R4 458,00","25,3%",,,FALSE
+Q-0801,3 months old,Cool,Unifier Quote - Bark: Liezel Mcclarty 4cam IP system with sound.,Private,Liezel McClarty,Bark: Liezel Mcclarty 4cam IP system with sound. L-5663 (1),"R19 499,00","R6 308,00","32,4%",,,FALSE
+Q-0800,3 months old,Cool,Unifier Quote - Bark: Cedrick (SAPS) - Telkom towers building 16 cam 8TB,Private,Cedrick (SAPS),Bark: Cedrick (SAPS) - Telkom towers building 16 cam 8TB L-5672 (1),"R28 109,00","R12 109,00","43,1%",,,FALSE
+Q-0798,3 months old,Cool,Unifier Quote - Bark: Zodwa - 8cam,Private,Zodwa,Bark: Zodwa - 8cam L-5661 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0797,3 months old,Final Invoice Sent,Unifier Quote - Bark: George's Complex,Bracken Lodge Body Corporate,George du Plooy,Bark: George's Complex L-5642 (1),"R14 194,00","R5 892,00","41,5%",,,Sep 2022
+Q-0796,3 months old,Cool,Unifier Quote - Seitlhamo - Callout,Private,Seitlhamo,Seitlhamo - Callout L-5628 (1),"R850,00","R100,00","11,8%",,,FALSE
+Q-0795,3 months old,Full Payment Made,Unifier Quote - Fuelme 4 Cam install,CGR Holdings (Pty)Ltd,Andre (Fuel Me),Fuelme 2 Cam install L-5624 (1),"R16 250,00","R5 077,00","31,2%",,,Sep 2022
+Q-0794,3 months old,Cool,Unifier Quote - Godfrey - 2 hidden in the studio. and 6 outside. AI,Private,Godfrey,Godfrey - 2 hidden in the studio. and 6 outside. AI L-5622 (1),"R26 067,00","R10 666,00","40,9%",,,FALSE
+Q-0793,3 months old,Cool,Unifier Quote - Meriam - 4cam external,Private,Meriam,Meriam - 4cam external L-5621 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0792,3 months old,Full Payment Made,Unifier Quote - Themba callout,Private,Themba,Themba callout L-5615 (1),"R850,00","R100,00","11,8%",,,Sep 2022
+Q-0789,4 months old,Cool,Unifier Quote - Unifier - Quote request - Ashley - 4 or 8 cam.,Private,Ashley,Unifier - Quote request - Ashley - 4 or 8 cam. L-5225 (1),"R31 047,00","R12 380,00","39,9%",,,FALSE
+Q-0788,4 months old,Final Invoice Sent,Unifier Quote - Callout Markus van Aardt,Private,Markus van Aardt,Bark Reminder: Call Bernard ðŸ“ž L-4957 (1),"R2 350,00","R960,00","40,9%",,,August 2022
+Q-0787,4 months old,Cool,Unifier Quote - Ndumiso - 8 cam + ai,Private,Ndumiso Mtiya,Ndumiso - 8 cam + ai L-4746 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0786,4 months old,Cool,Unifier Quote - Simon - 8 Cam,Private,Simon Zwane,Simon - 8 Cam L-4734 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0785,4 months old,Cool,Unifier Quote - Michael - Alberton 8 cam - Month Recording,Private,Michael Mogotla,Michael - Alberton 8 cam - Month Recording L-4723 (1),"R17 861,00","R7 378,00","41,3%",,,FALSE
+Q-0784,4 months old,Cool,Unifier Quote - Hilda Mountain View,Private,Hilda Skosana,Hilda Mountain View L-4709 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0783,4 months old,Cool,Unifier Quote - Bianca has been sent your details - phone number now available,Private,Bianca Strydom,Bianca has been sent your details - phone number now available L-4656 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0781,4 months old,Cool,"Unifier Quote - Paul , nigel",Private,Paul Maema,"Paul , nigel L-4288 (1)","R11 693,00","R4 533,00","38,8%",,,FALSE
+Q-0780,4 months old,Cool,Unifier Quote -Bark:Robyn,Private,Robyn,"ðŸ”” Robyn is looking for CCTV Installers in Pretoria, 0039 L-4240 (1)","R850,00","R100,00","11,8%",,,FALSE
+Q-0779,4 months old,Cool,Unifier Quote - Alva_ Rural/Agricultural,Private,Alva Björkman,Bark Reminder: Call Angelo ðŸ“ž L-3626 (1),"R11 715,00","R4 195,00","35,8%",,,FALSE
+Q-0778,4 months old,In Queue,Unifier Quote - Nico_Rand Plastics_Krost Park,Private,Nico,Bark Reminder: Call Angelo ðŸ“ž L-3629 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0777,4 months old,In Queue,Unifier Quote - Nico_Rand Plastics_Receiving Warehouse,Private,Nico,Angelo has been sent your details - phone number now available L-3632 (1),"R3 670,00","R1 075,00","29,3%",,,FALSE
+Q-0776,4 months old,In Queue,Unifier Quote - Nico_Rand Plastics_Techno Park,Private,Nico,Bark Reminder: Call Angelo ðŸ“ž L-3634 (1),"R65 925,00","R25 662,00","38,9%",,,FALSE
+Q-0775,4 months old,Cool,Unifier Quote - 2 cam quote_ Alva Björkman,Private,Alva Björkman,âš¡ Sk would like you to contact them L-3601 (1),"R10 698,00","R3 713,00","34,7%",,,FALSE
+Q-0774,4 months old,Cool,Unifier Quote - Republik_Relocate sytem,Republik,Mukesh Lakha,Bark Reminder: Call Angelo ðŸ“ž L-3573 (1),"R5 199,00","R-1 801,00","-34,6%",,,FALSE
+Q-0773,4 months old,Cool,Unifier Quote - Fuelme Conduit reroute,FuelMe (Pty) Ltd,Roger Barradas,âš¡ Sk would like you to contact them L-3590 (1),"R11 425,00","R4 375,00","38,3%",,,FALSE
+Q-0772,4 months old,Full Payment Made,Unifier Callout_Fuelme 23 August,CGR Holdings (Pty)Ltd,Roger Barradas,Fuelme Callout (1),"R1 200,00","R275,00","22,9%",,,August 2022
+Q-0771,4 months old,Final Invoice Sent,Unifier Callout_Tiaan Swanepoel,Private,Tiaan Swanepoel,Bark Reminder: Call Angelo ðŸ“ž L-3600 (1),"R850,00","R100,00","11,8%",,,August 2022
+Q-0770,4 months old,Cool,Unifier Quote - Atish,Private,Atish,âš¡ Lehlogonolo would like you to contact them L-3639 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0769,4 months old,Final Invoice Sent,Unifier Quote - Phil Hartbeespoort,Private,Phil,Bark Reminder: Call Angelo ðŸ“ž L-3640 (1),"R14 989,00","R5 307,00","35,4%",,,August 2022
+Q-0768,4 months old,Cool,Unifier Quote - Oscar - 8 cam,Private,Oscar Ditshego,âš¡ Sk would like you to contact them L-3641 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0767,4 months old,Cool,Unifier Quote - Sherley,Private,Sherley,Angelo has been sent your details - phone number now available L-3644 (1),"R18 989,00","R6 634,00","34,9%",,,FALSE
+Q-0766,4 months old,Cool,Unifier Quote - Buks via Dino (IT),Private,Dino,Bark Reminder: Call Buks ðŸ“ž L-3477 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0765,4 months old,Cool,Unifier Quote - Tebogo - Walmansthal,Private,Tebogo - Walmansthal,Tebogo - Valmansdal L-3389 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0763,4 months old,Cool,Unifier Quote - Bruce - Diepkloof,Private,Bruce (Diepkloof),Bruce - Diepkloof L-3156 (1),"R15 922,00","R5 620,00","35,3%",,,FALSE
+Q-0762,4 months old,Cool,Unifier Quote - Brian - Randburg 8 cam,Private,Brian,Brian - Randburg 8 cam L-3147 (1),"R18 989,00","R6 634,00","34,9%",,,FALSE
+Q-0761,4 months old,Full Payment Made,Unifier Quote - Chris - Callout,Private,Chris Botha,Chat log from site www.unifier.co.za L-2925 (1),"R850,00","R100,00","11,8%",,,August 2022
+Q-0760,4 months old,Cool,Unifier Quote - Sello - 8 cam. AI,Private,Sello,Sello - 8 cam. AI L-2891 (1),"R18 989,00","R6 634,00","34,9%",,,FALSE
+Q-0759,4 months old,Cool,Unifier Quote - Reginald Benoni,Private,Reginald,Reginald Benoni L-2884 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0758,4 months old,Cool,Unifier Quote - Stella Jansen - Roodepoort 8 cam + ai,Private,Stella Jansen,Stella Jansen - Roodepoort 8 cam + ai L-2867 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0757,4 months old,Warm,Unifier Quote - Kaylyn,Private,Kaylyn Thomas,RE: Website Contact from Unifier L-2696 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0756,4 months old,Cool,Unifier Quote - Sylvan Pimentel 8 cam - AI.,Private,Sylvan Pimentels,Sylvan Pimentel 8 cam - AI. L-2667 (1),"R18 989,00","R6 634,00","34,9%",,,FALSE
+Q-0755,4 months old,Cool,Unifier Quote - Gerhard Steyn 6 cam with AI,Private,Gerhard Steyn,Gerhard Steyn 6 cam with AI L-2659 (1),"R18 989,00","R6 634,00","34,9%",,,FALSE
+Q-0754,4 months old,Cool,Unifier Quote - Mohamed Adan - 2x8cam +AI,Private,Mohamed Adan,Mohamed Adan - 2x8cam +AI L-2645 (1),"R37 978,00","R13 268,00","34,9%",,,FALSE
+Q-0753,4 months old,Final Invoice Sent,Unifier Quote - Thor - Edenvale,Private,Thor,Thor - Edenvale L-2494 (1),"R5 799,00","R1 299,00","22,4%",,,FALSE
+Q-0752,4 months old,Final Invoice Sent,Unifier Quote - Dr L Oelofse - Midstream,Private,Dr L Oelofse,Dr L Oelofse - Midstream L-2444 (1),"R15 907,00","R5 335,00","33,5%",,,Oct & Nov 2022
+Q-0751,4 months old,Full Payment Made,Unifier Quote - Maesela - 8 Cam,Private,Maesela,Maesela - 8 Cam L-2429 (1),"R15 989,00","R6 307,00","39,4%",,,August 2022
+Q-0750,4 months old,Cool,Unifier Quote - 4 camera Installation,Private,Alfa,Website Contact from Unifier L-2347 (1),"R17 256,00","R5 976,00","34,6%",,,FALSE
+Q-0749,4 months old,Warm,Unifier Quote - John - Marole,Private,John / Marole,John - Marole L-2342 (1),"R32 988,00","R13 633,00","41,3%",,,FALSE
+Q-0747,4 months old,Cool,Unifier Quote - 4 Cam- Adriaan,Private,Adriaan Muller,Adriaan - Philip Nel Park 0846869401 L-2234 (1),"R6 499,00","R1 999,00","30,8%",,,FALSE
+Q-0745,4 months old,Cool,Unifier Quote - Susan - Johannesburg,Private,Susan,Susan - Johannesburg L-2230 (1),"R11 999,00","R4 999,00","41,7%",,,FALSE
+Q-0744,4 months old,Cool,Unifier Quote - Reuben - Brits,Private,Reuben,Reuben - Brits L-2229 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0742,4 months old,Cool,Unifier Quote - Jan - Hazyview,Private,Jan Svensson,Chat log from site www.unifier.co.za L-2227 (1),"R15 213,00","R7 477,00","49,1%",,,FALSE
+Q-0741,4 months old,Final Invoice Sent,Unifier Quote - Ballet Barre Callout,Private,Valerie,Chat log from site www.unifier.co.za L-2222 (1),"R3 621,00","R1 369,00","37,8%",,,August 2022
+Q-0740,4 months old,Full Payment Made,Unifier Quote - Thomas Regal_Carla,Private,Carla,RE: Carla 082 370 5972 L-2221 (1),"R14 951,00","R5 014,00","33,5%",,,August 2022
+Q-0739,4 months old,Full Payment Made,Unifier Quote - Musa callout,Private,Musa,Musa callout L-2219 (1),"R850,00","R100,00","11,8%",,,August 2022
+Q-0738,4 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Private,Phenyo,Chat log from site www.unifier.co.za L-2216 (1),"R13 923,00","R5 031,00","36,1%",,,FALSE
+Q-0737,4 months old,Full Payment Made,Unifier Quote - Rinus Callout,Private,Rinus,Rinus Callout L-2214 (1),"R850,00","R100,00","11,8%",,,August 2022
+Q-0735,4 months old,Cool,Unifier Quote - Albert - Meerlust villas equestria,Private,Albert,Albert - Meerlust villas equestria L-2212 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0734,4 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Private,Tiaan,Chat log from site www.unifier.co.za L-2211 (1),"R21 011,00","R8 643,00","41,1%",,,FALSE
+Q-0732,4 months old,Cool,Unifier Quote - Bongumusa - Tenants,Private,Bongumusa,Bongumusa - Tenants L-2208 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0731,4 months old,Full Payment Made,Unifier Quote - SPS Roodekop,Steel Plate Solutions (Pty) Ltd,Liezl Vorster,"SPS Roodekop, Productivity - FW: Quote L-2203 (1)","R13 159,00","R4 989,00","37,9%",,,August 2022
+Q-0730,4 months old,Full Payment Made,Unifier Quote - Rinus - Cameras for the bistro,Plan B Bistro,Rinus,Rinus - Cameras for the bistro L-2202 (1),"R16 429,00","R6 487,00","39,5%",,,August 2022
+Q-0729,5 months old,Cool,Unifier Quote - Moe - install only.,Private,Moe,Moe - install only. L-2197 (1),"R14 600,00","R6 000,00","41,1%",,,FALSE
+Q-0728,5 months old,Cool,Unifier Quote - Theuns - Kempton,Private,Theuns,Theuns - Kempton L-2196 (1),"R11 220,00","R4 222,00","37,6%",,,FALSE
+Q-0727,5 months old,Cool,Unifier Quote - Renai - 8 cam,Private,Renai,Renai - 8 cam L-2195 (1),"R21 011,00","R8 643,00","41,1%",,,FALSE
+Q-0726,5 months old,Full Payment Made,Unifier Quote - Callout - Riaan Joubert,Private,Riaan Joubert,Callout - Riaan Joubert L-2194 (1),"R850,00","R100,00","11,8%",,,July 2022
+Q-0725,5 months old,Cool,Unifier Quote - Warren Alhadeff,Private,Warren Alhadeff,Website Contact from Unifier L-2193 (1),"R49 898,00","R21 298,00","42,7%",,,FALSE
+Q-0724,5 months old,Full Payment Made,Unifier Quote - Callout - Vincent Coetzee 07-22,Private,Vincent Coetzee,Callout - Vincent Coetzee 07-22 L-2192 (1),"R850,00","R100,00","11,8%",,,July 2022
+Q-0723,5 months old,Cool,Unifier Quote - Peter - Kameeldoring Street 1,Private,Peter ph,Peter - Kameeldoring Street 1 L-2191 (1),"R14 926,00","R5 484,00","36,7%",,,FALSE
+Q-0721,5 months old,Cool,Unifier Quote - Gregory Mokoetla - Tladi Soweto,Private,Gregory Mokoetla,Gregory Mokoetla - Tladi Soweto L-2189 (1),"R13 773,00","R5 081,00","36,9%",,,FALSE
+Q-0720,5 months old,Cool,Unifier Quote - Elsabie & At Ruimsig,Private,Elsabe Coetsee,Elsabie & At Ruimsig L-2188 (1),"R40 138,00","R16 019,00","39,9%",,,FALSE
+Q-0719,5 months old,Cool,Unifier Quote - Ceva Animal Health,Private,Marius Viljoen,Ceva Animal Health L-2187 (1),"R42 860,00","R16 051,00","37,4%",,,FALSE
+Q-0718,5 months old,Site Survey Needed,Unifier Quote - Edenvale building - Hanlie hanlienel210857@gmail.com 083 450 9104,Private,Not Found,Edenvale building - Hanlie hanlienel210857@gmail.com 083 450 9104 L-2144 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0717,5 months old,Site Survey Needed,Unifier Quote - Pieter - CCTV for street.,Private,Not Found,Pieter - CCTV for street. L-2152 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0716,5 months old,Site Survey Needed,Unifier Quote - Chat log from site www.unifier.co.za,Private,Jordan Ford,Chat log from site www.unifier.co.za L-2163 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0715,5 months old,Site Survey Needed,Unifier Quote - Fwd: SPAM: Request for Quote -Security Camera System,Private,Not Found,Fwd: SPAM: Request for Quote -Security Camera System L-2166 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0711,5 months old,Full Payment Made,Unifier Quote - Roger Barradas Fuelme_8channel 2nd system,FuelMe (Pty) Ltd,Roger Barradas,Roger Barradas Fuelme_8channel 2nd system L-2182 (1),"R94 187,00","R33 162,00","35,2%",,,July 2022
+Q-0709,5 months old,Cool,Unifier Quote - Tsepo's Tavern,Private,Tsepo,Chat log from site www.unifier.co.za L-2179 (1),"R18 998,00","R7 498,00","39,5%",,,FALSE
+Q-0708,5 months old,Cool,Unifier Quote - Sean_Muniklani Complex,Private,Sean van Rooyen,Sean_Faerie Glen Complex 4 additional cams L-2172 (1),"R18 066,00","R5 066,00","28,0%",,,FALSE
+Q-0707,5 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Private,Ashley,Chat log from site www.unifier.co.za L-2170 (1),"R25 249,00","R10 028,00","39,7%",,,FALSE
+Q-0706,5 months old,Cool,Unifier Quote - Celtic Shop,Private,Silo,Chat log from site www.unifier.co.za L-2169 (1),"R7 351,00","R2 643,00","36,0%",,,FALSE
+Q-0703,5 months old,Cool,Unifier Quote - Jordan - Analogue,Private,Jordan Ford,Chat log from site www.unifier.co.za L-2162 (1),"R22 799,00","R9 989,00","43,8%",,,FALSE
+Q-0702,5 months old,Full Payment Made,Unifier Quote - Sean_Oscars Place,CKS Solutions,Sean van Rooyen,Sean 8 ch -Oscars Place L-2159 (1),"R12 749,00","R5 224,00","41,0%",,,July 2022
+Q-0701,5 months old,Cool,Unifier Quote - Casino CCTV,Private,Francois Botha,Chat log from site www.unifier.co.za L-2148 (1),"R277 167,00","R73 562,00","26,5%",,,FALSE
+Q-0700,5 months old,Cool,Unifier Quote - Sean's customer (Complex),Private,Sean van Rooyen,Chat log from site www.unifier.co.za L-2158 (1),"R13 548,00","R5 013,00","37,0%",,,FALSE
+Q-0699,6 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Private,pieter,Chat log from site www.unifier.co.za L-2154 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0698,6 months old,Final Invoice Sent,Unifier Callout_Pizza Perfect,Pizza Perfect,elza,Unifier Callout L-2151 (1),"R850,00","R100,00","11,8%",,,June 2022
+Q-0697,6 months old,Full Payment Made,Unifier Quote - Chat log from site www.unifier.co.za,Private,Kingston,Chat log from site www.unifier.co.za L-2150 (1),"R29 662,00","R12 968,00","43,7%",,,June 2022
+Q-0696,6 months old,Cool,Unifier Quote - Cafe Fleur 8 Cam,Private,Chantelle,Cafe Fleur 8 Cam L-2146 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0694,6 months old,Cool,"Unifier Quote - 16 cam + ai, building on farm. 0828600962",Private,Neil,"16 cam + ai, building on farm. 0828600962 L-2145 (1)","R30 989,00","R13 384,00","43,2%",,,FALSE
+Q-0693,6 months old,Cool,Unifier Quote - Website Contact from Unifier,Private,Sean Snyman,Website Contact from Unifier L-2108 (1),"R22 061,00","R8 938,00","40,5%",,,FALSE
+Q-0692,6 months old,Site Survey Needed,Unifier Quote - FW: ORCHID RIDGE - COMMON PROPERTY CAMERAS,Private,Not Found,FW: ORCHID RIDGE - COMMON PROPERTY CAMERAS L-2099 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0691,6 months old,Site Survey Needed,"Unifier Quote - Lennie, needs a vms for 1000- 2000 channels.",Private,Not Found,"Lennie, needs a vms for 1000- 2000 channels. L-2100 (1)","R0,00","R0,00",-%,,,FALSE
+Q-0690,6 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Private,Karasan Govender,Chat log from site www.unifier.co.za L-2109 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0689,6 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Private,Abdul Khan,Chat log from site www.unifier.co.za L-2124 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0688,6 months old,Cool,Unifier Quote - Acts Church Westdene - 8 Cam,Private,Otis Mcalistar,Acts Church Westdene - 8 Cam L-2135 (1),"R13 399,00","R5 699,00","42,5%",,,FALSE
+Q-0686,6 months old,Full Payment Made,Unifier Quote - Acu-Pack Callout camera relocate,Private,Peet van Vuuren,Acu-Pack Callout camera relocate L-2133 (1),"R850,00","R100,00","11,8%",,,June 2022
+Q-0685,6 months old,Full Payment Made,"Unifier Quote - 8 Camera, William_Design Textiles",Private,William Design Textiles,William design textiles L-2132 (1),"R12 329,00","R5 134,00","41,6%",,,June 2022
+Q-0684,6 months old,Full Payment Made,Unifier Quote - Robbie Robbetze_Menlyn,Invest Gold,Robbie Robbetze,Robbie Robbetze_Centurion L-2131 (1),"R8 266,00","R1 266,00","15,3%",,,August 2022
+Q-0682,6 months old,Cool,Unifier Quote - 5 house Estate,Private,Strini,Chat log from site www.unifier.co.za L-2128 (1),"R11 418,00","R4 303,00","37,7%",,,FALSE
+Q-0680,6 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Private,Thandiwe Mokwena,Chat log from site www.unifier.co.za L-2122 (1),"R7 349,00","R2 674,00","36,4%",,,FALSE
+Q-0678,6 months old,Full Payment Made,Unifier Quote - 8 cam+ Herman de Witt,Private,Herman De Witt,Chat log from site www.unifier.co.za L-2111 (1),"R22 083,00","R8 892,00","40,3%",,,June 2022
+Q-0677,6 months old,Full Payment Made,Unifier Quote - Thea,Private,Thea,Chat log from site www.unifier.co.za L-2104 (1),"R27 656,00","R10 624,00","38,4%",,,June 2022
+Q-0676,6 months old,Cool,"Unifier Quote - Johan - 1 the hook, robin park.",Private,Johann,"Johan - 1 the hook, robin park. L-2101 (1)","R30 975,00","R11 620,00","37,5%",,,FALSE
+Q-0674,6 months old,Full Payment Made,Unifier Quote -8 camera_ Henk,Private,Henk _Silvermere Body Corporate,Chat log from site www.unifier.co.za L-2085 (1),"R13 329,00","R5 089,00","38,2%",,,June 2022
+Q-0673,6 months old,Full Payment Made,Unifier Quote - Markus van Aardt - Call out - Tomorrow 12 h +-,Private,Markus van Aardt,Markus van Aardt - Call out - Tomorrow 12 h +- L-2080 (1),"R2 100,00","R475,00","22,6%",,,June 2022
+Q-0672,6 months old,Final Invoice Sent,Unifier Quote - Celesté - Benoni,Private,Celeste,Celesté - Benoni L-2079 (1),"R15 808,00","R5 265,00","33,3%",,,July 2022
+Q-0670,6 months old,Cool,Unifier Quote - Mitchmore Building,Private,Koketso Mafunisa,RE: Website Contact from Unifier L-2076 (1),"R16 859,00","R6 509,00","38,6%",,,FALSE
+Q-0669,6 months old,Cool,Unifier Quote - Barry Krugersdrop,Private,Barry,Chat log from site www.unifier.co.za L-2075 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0667,6 months old,Full Payment Made,Unifier Quote - BuffaloEX,Buffalo International Logistics Pty Ltd,manako,Chat log from site www.unifier.co.za L-2071 (1),"R21 610,00","R8 776,00","40,6%",,,June 2022
+Q-0666,7 months old,Cool,Unifier Quote - Dewald - Peters Papers,Private,Dewald van Den Berg,Dewald - Peterspapers L-2070 (1),"R11 748,00","R4 438,00","37,8%",,,FALSE
+Q-0665,7 months old,Full Payment Made,Unifier - Fuelme New Screen,FuelMe (Pty) Ltd,Roger Barradas,Fuelme New Screen L-2069 (1),"R1 960,00","R-2 958,00","-150,9%",,,May 2022
+Q-0664,7 months old,Cool,Daniel 4 Camera Promo,Private,Daniel,4 camera quote for Daniel L-2068 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0663,7 months old,Cool,Stanly_4 Camera Promo,Private,Stanly,Chat log from site www.unifier.co.za L-2066 (1),"R9 859,00","R3 359,00","34,1%",,,FALSE
+Q-0662,7 months old,Cool,Unifier Quote - Martinus Snyman,Private,Martinus,Chat log from site www.unifier.co.za L-2064 (1),"R11 198,00","R4 213,00","37,6%",,,FALSE
+Q-0661,7 months old,Cool,Unifier Quote - Cobus Minnaar - Pta Noord,Private,Cobus Minnaar,Cobus Minnaar - Pta Noord L-2062 (1),"R29 409,00","R13 047,00","44,4%",,,FALSE
+Q-0660,7 months old,Full Payment Made,Unifier Quote - Edward - Montana,Private,Edward Maluleke,Edward - Montana L-2060 (1),"R17 227,00","R7 403,00","43,0%",,,May 2022
+Q-0659,7 months old,Cool,"Unifier Quote - Kenny - for a business, 5 Cam Braamfontein",Private,Kenny,"Kenny - for a business, 5 Cam Braamfontein L-2058 (1)","R8 999,00","R3 499,00","38,9%",,,FALSE
+Q-0658,7 months old,Cool,Unifier Quote - Mike Carolis,Private,Mike Carolis,Mike - 8 Cam L-2054 (1),"R28 187,00","R8 847,00","31,4%",,,FALSE
+Q-0657,7 months old,Cool,Unifier Quote - Call - Eva Last Distributors. Muldersdrift Callout,Private,Jean,Call - Eva Last Distributors. Muldersdrift Callout L-2053 (1),"R850,00","R100,00","11,8%",,,FALSE
+Q-0656,7 months old,Cool,Unifier Quote - Call - Malcoml Chetty Upgrade,Private,Malcolm Chetty,Malcoml chetty - will send a photo L-2049 (1),"R12 555,00","R4 620,00","36,8%",,,FALSE
+Q-0655,7 months old,Cool,"Unifier Quote - Thor, 0842510071, thor@capoil.biz",Private,Thor,"Thor, 0842510071, thor@capoil.biz L-2052 (1)","R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0654,7 months old,Full Payment Made,Lianne 16 kamera Pretoria,Red Olive Estates,Lianne Testing,Chat log from site www.unifier.co.za L-2048 (1),"R24 859,00","R10 609,00","42,7%",,,June 2022
+Q-0653,7 months old,Cool,Unifier Quote - Call: Meryl Callout,Private,Meryl,Meryl. 0824671114. callout. L-2045 (1),"R850,00","R100,00","11,8%",,,FALSE
+Q-0652,7 months old,Cool,Unifier Quote - Chat: Andries de la Porte,Private,Andries de la Porte,Chat log from site www.unifier.co.za L-2044 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0651,7 months old,Full Payment Made,Unifier Quote - Phone: Quade Africa,Private,Quade Africa,Phone: Quade Africa L-2038 (1),"R11 702,00","R5 032,00","43,0%",,,June 2022
+Q-0650,7 months old,Cool,Unifier Quote - Chat log: John,Private,John,Chat log from site www.unifier.co.za L-2037 (1),"R11 253,00","R4 917,00","43,7%",,,FALSE
+Q-0649,7 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Private,Kavern,Chat log from site www.unifier.co.za L-2036 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0648,7 months old,Final Invoice Sent,Unifier Quote - Phone: Jack Schriks,Private,Jack Schriks,Phone: Jack Schriks L-2035 (1),"R23 433,00","R9 275,00","39,6%",,,May 2022
+Q-0646,7 months old,Cool,Unifier Quote - Website: Graham Vine,Private,Graham Vine,Website Contact from Unifier L-2030 (1),"R23 849,00","R9 494,00","39,8%",,,FALSE
+Q-0645,7 months old,Full Payment Made,Unifier Quote - Chat log from site www.unifier.co.za,Lenati Properties Pty Ltd,Lunga,Chat log from site www.unifier.co.za L-2031 (1),"R850,00","R100,00","11,8%",,,May 2022
+Q-0644,7 months old,Cool,Unifier Quote - Phone: Monica Mokgoko,Private,Monica Mokgoko,lead: Monica Mokgoko L-2033 (1),"R6 749,00","R1 874,00","27,8%",,,FALSE
+Q-0643,7 months old,Full Payment Made,Unifier Quote - Fuel Me (PTY) LTD,FuelMe (Pty) Ltd,Roger Barradas,roger - Fuel Me (PTY) LTD L-2023 (1),"R36 906,00","R15 690,00","42,5%",,,May 2022
+Q-0641,7 months old,Site Survey Needed,Unifier Quote - Gunter - farm.,Private,Not Found,Gunter - farm. L-2008 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0640,7 months old,Cool,Unifier Quote - Email: ThermaSpray,Private,Menett Abraham,FW: ThermaSpray FW: CCTV INSTALMENT L-2019 (1),"R43 798,00","R17 748,00","40,5%",,,FALSE
+Q-0639,7 months old,Cool,Unifier Quote - Chat Yaakov Farm Magalies,Private,Yaakov,Chat log from site www.unifier.co.za L-2015 (1),"R37 074,00","R15 262,00","41,2%",,,FALSE
+Q-0638,7 months old,Full Payment Made,Unifier Quote - Mike Rodgers screen,Private,Mike Rogers,mike rodgers screen L-2013 (1),"R2 860,00","R860,00","30,1%",,,May 2022
+Q-0637,7 months old,Cool,Unifier Quote - Chat Nobethu Northcliff,Private,Nobethu,Chat log from site www.unifier.co.za L-2011 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0636,7 months old,Cool,Unifier Quote - Chat: Thendo,Private,Thendo,Chat log from site www.unifier.co.za L-2007 (1),"R11 999,00","R4 999,00","41,7%",,,FALSE
+Q-0634,7 months old,Cool,Unifier Quote - Chat: Moloko,Private,Moloko,Chat log from site www.unifier.co.za L-2000 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0633,7 months old,Cool,"Unifier Quote - Gerrit, Protect a car - Add 4 cam dvr",Private,Gerrit (Protect a Car),"Gerrit, Protect a car - Add 4 cam dvr L-1998 (1)","R9 859,00","R3 359,00","34,1%",,,FALSE
+Q-0632,7 months old,Full Payment Made,Unifier Quote - Themba - Mamelodi east,Private,Themba,Themba - Mamelodi east L-1997 (1),"R6 999,00","R2 499,00","35,7%",,,May 2022
+Q-0631,7 months old,Cool,Unifier Quote - Ishe follow up for cameras with sound.,Private,Ishe Mudzamiri,Ishe follow up for cameras with sound. L-1765 (1),"R16 115,00","R6 453,00","40,0%",,,FALSE
+Q-0630,7 months old,Cool,Unifier Quote - Wayne new quote,Private,wayne,Wayne new quote L-1993 (1),"R13 744,00","R9 034,00","65,7%",,,FALSE
+Q-0629,7 months old,Site Survey Needed,Unifier Quote - Chat log from site www.unifier.co.za,Private,Suran,Chat log from site www.unifier.co.za L-1648 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0628,7 months old,Site Survey Needed,Unifier Quote - Chat log from site www.unifier.co.za,Private,Client 1536,Chat log from site www.unifier.co.za L-1702 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0627,7 months old,Site Survey Needed,Unifier Quote - RE: Security Camera System | Apple Tree Lane Body Corporate,Private,Not Found,RE: Security Camera System | Apple Tree Lane Body Corporate L-1788 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0626,7 months old,Site Survey Needed,Unifier Quote - Chat log from site www.unifier.co.za,Private,Prashant,Chat log from site www.unifier.co.za L-1812 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0624,7 months old,Site Survey Needed,Unifier Quote - Additional IP Cameras for Lynette,Private,Not Found,Additional IP Cameras for Lynette L-1730 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0623,7 months old,Cool,Unifier Quote - facebook: Shamreeth Dookie,Private,Shamreeth Dookie,facebook: Shamreeth Dookie L-1914 (1),"R11 999,00","R4 999,00","41,7%",,,FALSE
+Q-0622,7 months old,Site Survey Needed,Unifier Quote - Facebook: Vinny Manicum - 2x PTZ,Private,Not Found,Facebook: Vinny Manicum - 2x PTZ L-1916 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0621,7 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Wayne-CederSquare Restaurant,wayne,Chat log from site www.unifier.co.za L-1991 (1),"R9 859,00","R3 359,00","34,1%",,,FALSE
+Q-0620,7 months old,Cool,Unifier Quote - Facebook: Happy Rakgwadi,Private,Happy Rakgwadi,Facebook: Happy Rakgwadi L-1918 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0619,7 months old,In Queue,Unifier Quote - Facebook: Ezra Ferreira - Farm Upgrade,Private,Ezra Ferreira,Facebook: Ezra Ferreira L-1920 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0618,7 months old,Cool,Unifier Quote - FB: Moshe Mqobo,Private,Moshe Mqobo,FB: Moshe Mqobo L-1930 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0616,7 months old,Cool,Unifier Quote - FB: Molokomme Mathekgana,Private,Molokomme Mathekgana,FB: Molokomme Mathekgana L-1950 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0615,7 months old,Cool,Unifier Quote - FB: Tebogo Segolela,Private,Tebogo Segolela,FB: Tebogo Segolela L-1952 (1),"R14 058,00","R5 073,00","36,1%",,,FALSE
+Q-0614,7 months old,Cool,Unifier Quote - FB: Emmanuel Bongwe,Private,Emmanuel Bongwe,FB: Emmanuel Bongwe L-1953 (1),"R21 999,00","R9 749,00","44,3%",,,FALSE
+Q-0613,7 months old,Site Survey Needed,Unifier Quote - Website Contact from Unifier,Private,Not Found,Website Contact from Unifier L-1966 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0612,7 months old,Site Survey Needed,Unifier Quote - Chat log from site www.unifier.co.za,Private,Rotenda,Chat log from site www.unifier.co.za L-1967 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0611,7 months old,Site Survey Needed,Unifier Quote - Chat log from site www.unifier.co.za,Private,janusz,Chat log from site www.unifier.co.za L-1979 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0610,7 months old,Full Payment Made,Unifier Quote - Website: Olivia,Private,Olivia Ngobeni,FW: Website Contact from Unifier L-1987 (1),"R6 999,00","R2 499,00","35,7%",,,May 2022
+Q-0609,7 months old,Full Payment Made,Unifier Quote - Callout to bedroom storage solutions - DVR down,Private,Attie Schutte,Callout to bedroom storage solutions - DVR down L-1986 (1),"R850,00","R100,00","11,8%",,,May 2022
+Q-0608,7 months old,Final Invoice Sent,Unifier Quote - quote for tiaan - upgrade,Private,Tiaan Swanepoel,quote for tiaan - upgrade L-1983 (1),"R14 789,00","R5 107,00","34,5%",,,May 2022
+Q-0607,7 months old,Cool,Unifier Quote - Phone - Angelique,Private,Angelique,Phone - Angelique L-1984 (1),"R14 069,00","R5 759,00","40,9%",,,FALSE
+Q-0606,8 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Private,Barry Stander,Chat log from site www.unifier.co.za L-1980 (1),"R21 999,00","R9 749,00","44,3%",,,FALSE
+Q-0605,8 months old,Full Payment Made,Unifier Quote - PJ Wolmarans,Private,PJ Wolmarans,PJ Wolmarans L-1978 (1),"R366,00","R188,00","51,4%",,,Apr 2022
+Q-0604,8 months old,Cool,Unifier Quote - Etienne - 40m vari focal,Private,Etienne Brits,Etienne - 40m vari focal L-1977 (1),"R1 750,00","R930,00","53,1%",,,FALSE
+Q-0603,8 months old,Full Payment Made,Unifier Quote - callout - HDMI fix after Setting Change,Private,Etienne Brits,callout ettiene six fountains L-1975 (1),"R967,00","R147,00","15,2%",,,Apr 2022
+Q-0602,8 months old,Full Payment Made,Unifier Quote - Jivo: Attie Schutte,Private,Attie Schutte,Jivo: Attie Schutte L-1972 (1),"R12 759,00","R5 209,00","40,8%",,,Apr 2022
+Q-0601,8 months old,Cool,Unifier Quote - FB: Aubrey Thebe Molebaloa,Private,Aubrey Thebe Molebaloa,FB: Aubrey Thebe Molebaloa L-1971 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0600,8 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Private,Daniel,Chat log from site www.unifier.co.za L-1963 (1),"R21 071,00","R8 171,00","38,8%",,,FALSE
+Q-0599,8 months old,Cool,Unifier Quote - Chat log from site www.unifier.co.za,Private,Zanda Mthimunye,Chat log from site www.unifier.co.za L-1962 (1),"R14 058,00","R5 073,00","36,1%",,,FALSE
+Q-0598,8 months old,Full Payment Made,Unifier Quote - call: Jan (Alberton),Private,Jan Botha,call: Jan L-1959 (1),"R17 427,00","R6 946,00","39,9%",,,Apr 2022
+Q-0597,8 months old,Cool,"Graham, 4 camera nightvision Alberton",Private,Graham,Chat log from site www.unifier.co.za L-1958 (1),"R10 989,00","R4 809,00","43,8%",,,FALSE
+Q-0595,8 months old,Cool,Unifier Quote - FB: Arshaad Gangat,Private,Arshaad Gangat,FB: Arshaad Gangat L-1932 (1),"R11 999,00","R4 999,00","41,7%",,,FALSE
+Q-0591,8 months old,Site Survey Needed,Unifier Quote - Chat log from site www.unifier.co.za,Private,modise,Chat log from site www.unifier.co.za L-1944 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0590,8 months old,Phone Call Needed,Unifier Quote - Chat log from site www.unifier.co.za,Private,Jan-Adam Watkins,Chat log from site www.unifier.co.za L-1945 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0587,8 months old,Cool,Unifier Quote - FB: Peter Fhumulani Netshipale,Private,Peter Fhumulani Netshipale,FB: Peter Fhumulani Netshipale L-1943 (1),"R23 849,00","R9 494,00","39,8%",,,FALSE
+Q-0586,8 months old,Cool,Unifier Quote - FB: Cylus Cyla Promise,Private,Cylus Cyla Promise,FB: Cylus Cyla Promise L-1942 (1),"R14 058,00","R5 073,00","36,1%",,,FALSE
+Q-0584,8 months old,Cool,Unifier Quote - FB: mbhoni witness,Private,Mbhoni Witness,FB: mbhoni witness L-1938 (1),"R14 859,00","R5 859,00","39,4%",,,FALSE
+Q-0583,8 months old,Cool,Unifier Quote - FB: Christo Neeb (Staff productivity),Private,Christo Neeb,FB: Christo Neeb (Staff productivity) L-1937 (1),"R21 449,00","R8 924,00","41,6%",,,FALSE
+Q-0582,8 months old,Cool,Unifier Quote - FB: JNelson Nkambule,Private,JNelson Nkambule,FB: JNelson Nkambule L-1935 (1),"R21 979,00","R9 274,00","42,2%",,,FALSE
+Q-0581,8 months old,Full Payment Made,Unifier Quote - RE: FB: Dumisani,Private,Dumisani,RE: FB: Dumisani L-1929 (1),"R6 999,00","R2 499,00","35,7%",,,Apr 2022
+Q-0580,8 months old,Cool,Unifier Quote - FB: Andre Theunissen (Poultry),Private,Andre Theunissen,Facebook: Andre Theunissen (Poultry) L-1927 (1),"R12 849,00","R4 414,00","34,4%",,,FALSE
+Q-0579,8 months old,Cool,Unifier Quote - FB: Terry Vuma Moyo (Shop),Private,Terry Vuma Moyo,Facebook: Terry Vuma Moyo (Shop) L-1926 (1),"R6 499,00","R1 999,00","30,8%",,,FALSE
+Q-0578,8 months old,Cool,Unifier Quote - FB: John Berrington,Private,John Berrington,Facebook: John Berrington L-1925 (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0576,8 months old,Full Payment Made,Unifier Quote - Jivo + Call: Lester Chadwick,Private,Lester Chadwick,Jivo + Call: Lester Chadwick L-1922 (1),"R45 346,00","R14 278,00","31,5%",,,May 2022
+Q-0574,8 months old,Cool,Unifier Quote - FB: Gabela Nomfundo Antoinette,Private,Gabela Nomfundo Antoinette,FW: Facebook: Gabela Nomfundo Antoinette L-1919 (1),"R13 849,00","R5 669,00","40,9%",,,FALSE
+Q-0573,8 months old,Cool,Unifier Quote - FB: Amos Tatu Mafisa,Private,Amos Tatu Mafisa,Facebook: Amos Tatu Mafisa L-1915 (1),"R14 553,00","R5 393,00","37,1%",,,FALSE
+Q-0572,8 months old,Cool,Unifier Quote - FB Mustak shop,Private,Mustak,Mustak shop - under the slab. L-1911 (1),"R7 439,00","R2 679,00","36,0%",,,FALSE
+Q-0571,8 months old,Cool,Unifier Quote - FB - Letita Hilton,Private,Letita Hilton,Facebook - Letita Hilton L-1910 (1),"R11 999,00","R4 999,00","41,7%",,,FALSE
+Q-0570,8 months old,Site Survey Needed,Unifier Quote - Chat log from site www.unifier.co.za,Private,Jan-Adam Watkins,Chat log from site www.unifier.co.za L-1899 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0569,8 months old,Cool,Unifier Quote - Sonwabo Bolani,Private,Sonwabo Bolani,Sonwabo Bolani L-1902 (1),"R11 999,00","R4 999,00","41,7%",,,FALSE
+Q-0566,8 months old,Full Payment Made,Unifier Quote - Website Contact 8 cam Norbert,Private,Norbert Fuhr,Website Contact from Unifier L-1891 (1),"R18 644,00","R7 929,00","42,5%",,,Apr 2022
+Q-0564,8 months old,Full Payment Made,Unifier Quote - Website Contact - ORDER - CCTV 8 Channel - Musa,Private,Musa,Website Contact from Unifier L-1895 (1),"R11 999,00","R4 999,00","41,7%",,,Apr 2022
+Q-0563,8 months old,In Queue,Unifier Quote - Website Contact from Unifier,Private,Not Found,Website Contact from Unifier L-1896 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0555,9 months old,Final Invoice Sent,Unifier Quote - Callout: Vincent Coetzee Northcliff,Private,Vincent Coetzee,Re: Unifier Install: Vincent Coetzee Northcliff L-1873 (1),"R1 200,00","R275,00","22,9%",,,May 2022
+Q-0554,9 months old,Full Payment Made,Unifier Quote - Ettiene Upgrade,Private,Etienne Brits,Fw: Quote-467-0504-03 from Unifier L-1870 (1),"R5 215,00","R2 338,00","44,8%",,,Mar 2022
+Q-0553,9 months old,Full Payment Made,Unifier Quote - WhatsApp Mukesh +27 84 377 5544,Republik,Mukesh Lakha,WhatsApp Mukesh +27 84 377 5544 L-1869 (1),"R2 971,00","R488,00","16,4%",,,Mar 2022
+Q-0551,9 months old,Full Payment Made,Unifier Quote - Pizza perfect call out,Pizza Perfect,elza,Pizza perfect call out L-1866 (1),"R1 250,00","R5,00","0,4%",,,Mar 2022
+Q-0550,9 months old,Full Payment Made,Unifier Quote - WhatsApp Tiaan Swanepoel +27 71 333 5495,Private,Tiaan Swanepoel,WhatsApp Tiaan Swanepoel +27 71 333 5495 L-1865 (1),"R20 658,00","R8 447,00","40,9%",,,Apr 2022
+Q-0549,9 months old,Cool,Unifier Quote - Ecic.co.za,Private,mmofokeng@ecic.co.za,WhatsApp Chat with +27 73 260 9785 L-1859 (1),"R16 678,00","R4 848,00","29,1%",,,FALSE
+Q-0547,9 months old,Full Payment Made,Unifier Quote - Teak Place Callout,Private,Nicola Dittmer,Fw: Quote-476-0513-03 from Unifier L-1856 (1),"R850,00","R100,00","11,8%",,,Mar 2022
+Q-0546,9 months old,Full Payment Made,"Unifier Quote - Gerhard Koen 8 cam dvr, + human form",Private,Gerhard Koen,"8 cam dvr, + human form, intercom L-1855 (1)","R20 184,00","R8 403,00","41,6%",,,Apr 2022
+Q-0545,9 months old,Full Payment Made,Unifier Quote - Callout +27 83 667 3195,Private,Carlton,WhatsApp Chat with +27 83 667 3195 L-1854 (1),"R1 600,00","R690,00","43,1%",,,Mar 2022
+Q-0544,9 months old,Full Payment Made,Unifier Quote - Chat log from site www.unifier.co.za,Private,Paulo Cardoso,Chat log from site www.unifier.co.za L-1853 (1),"R13 084,00","R5 384,00","41,1%",,,Apr 2022
+Q-0543,9 months old,Cool,Unifier Quote - Ndibulele Centurion,Private,Ndibulele,Re: Website Contact from Unifier L-1852 (1),"R20 989,00","R8 634,00","41,1%",,,FALSE
+Q-0538,9 months old,Full Payment Made,Unifier Quote - Abrie Agenbag,Private,Abrie Agenbag,Abrie Agenbag L-1835 (1),"R16 989,00","R7 307,00","43,0%",,,Mar 2022
+Q-0537,9 months old,Full Payment Made,Unifier Quote - Chat log from site www.unifier.co.za - Percy,Private,Percy,Chat log from site www.unifier.co.za L-1831 (1),"R29 094,00","R13 996,00","48,1%",,,Apr 2022
+Q-0536,9 months old,Full Payment Made,Unifier Quote - Sean Roodepoort,Private,Sean,Chat log from site www.unifier.co.za L-1828 (1),"R7 253,00","R-2 831,00","-39,0%",,,Oct & Nov 2022
+Q-0535,9 months old,Full Payment Made,Unifier Quote - Ashley Pretoria gardens,Private,Ashley Truscott,Ashley Pretoria gardens L-1825 (1),"R6 999,00","R2 499,00","35,7%",,,Mar 2022
+Q-0532,9 months old,Full Payment Made,Unifier Quote - David,Private,David,Chat log from site www.unifier.co.za L-1815 (1),"R6 999,00","R2 499,00","35,7%",,,Mar 2022
+Q-0530,9 months old,Full Payment Made,Unifier Quote - Mike Rogers,Private,Mike Rogers,Website Contact from Unifier L-1782 (1),"R9 439,00","R3 814,00","40,4%",,,Mar 2022
+Q-0522,9 months old,Cool,"Unifier Quote - William , Montana",Private,William,"William , Montana L-1789 (1)","R27 489,00","R13 134,00","47,8%",,,FALSE
+Q-0519,9 months old,Full Payment Made,Unifier Quote - Small School Chartwell North Estate,Private,Adonnalee,Chat log from site www.unifier.co.za L-1784 (1),"R7 288,00","R2 699,00","37,0%",,,Apr 2022
+Q-0516,9 months old,Full Payment Made,Unifier Quote - Acu-Pack,Private,Peet van Vuuren,Acu-Pack L-1775 (1),"R7 950,00","R2 917,00","36,7%",,,Mar 2022
+Q-0513,9 months old,Full Payment Made,Unifier Quote - Callout nicola@teakplace.co.za,Teak Place (pty.) ltd,Nicola Dittmer,FW: CCTV Enquiry L-1770 (1),"R7 418,00","R2 547,00","34,3%",,,Mar 2022
+Q-0512,10 months old,In Queue,Unifier Quote - Chat log from site www.unifier.co.za,Private,Francois Marais,Chat log from site www.unifier.co.za L-1766 (1),"R0,00","R0,00",-%,,,FALSE
+Q-0507,10 months old,Full Payment Made,Unifier Quote - hdmi extender and cable for Etienne,Private,Etienne Brits,hdmi extender and cable for Etienne L-1759 (1),"R1 500,00","R400,00","26,7%",,,Mar 2022
+Q-0502,10 months old,Full Payment Made,Unifier Quote - Skycorp,SkyCorp Distributions,Gerrit van Rensburg,"Gerrit van Rensburg, Vanderbijlpark L-1741 (1)","R12 844,00","R5 494,00","42,8%",,,Feb 2022
+Q-0498,10 months old,Full Payment Made,"Unifier Quote - Etienne, Six fountains",Private,Etienne Brits,"Etienne, Six fountains L-1732 (1)","R14 841,00","R6 281,00","42,3%",,,Feb 2022
+Q-0496,10 months old,Full Payment Made,Unifier Quote - YourPal Mens boutique - brooklyn mall,Your Pal,Devon Avaouthabki,YourPal Mens boutique - brooklyn mall L-1731 (1),"R11 999,00","R4 999,00","41,7%",,,Mar 2022
+Q-0494,10 months old,Full Payment Made,"Unifier Quote - Ecohygiene, Office and House",Private,Ecohygiene,"Ecohygiene, email info@ecohygiene.co.za L-1724 (1)","R25 316,00","R11 659,00","46,1%",,,Feb 2022
+Q-0493,10 months old,Full Payment Made,Unifier Quote - New shop Yummilicious,Private,Mahesh Kanjee,New shop / stand yummilicous L-1718 (1),"R10 699,00","R4 399,00","41,1%",,,Apr 2022
+Q-0492,10 months old,Final Invoice Sent,Johann Prinsloo 8 camera,Private,Johann Prinsloo,Chat log from site www.unifier.co.za L-1720 (1),"R20 226,00","R8 544,00","42,2%",,,June 2022
+Q-0491,10 months old,In Queue,"Unifier Quote - MegChem, replace existing",Private,Celest Luther,RE: Quote Request - HIKVISON L-1716 (1),"R11 999,00","R4 999,00","41,7%",,,FALSE
+Q-0488,10 months old,Full Payment Made,Unifier Quote - Erik 8 Cam,Private,Erik,Erik 8 Cam L-1706 (1),"R850,00","R100,00","11,8%",,,Feb 2022
+Q-0481,11 months old,Full Payment Made,Unifier Quote - Melville Spar - Washbay,Private,Juan-Dre (Mellville Spar),Website Contact from Unifier L-1683 (1),"R13 249,00","R5 499,00","41,5%",,,Feb 2022
+Q-0480,11 months old,Full Payment Made,Unifier Quote - Moloke's Sister,Private,moloke,Chat log from site www.unifier.co.za L-1680 (1),"R9 859,00","R3 359,00","34,1%",,,Feb 2022
+Q-0478,11 months old,Full Payment Made,"Unifier Quote, Melanie, Dr Spies",Private,Susan (Dr BA Spies),"Lead , Melanie, Dr Spies L-1679 (1)","R22 959,00","R9 336,00","40,7%",,,Feb 2022
+Q-0474,11 months old,Full Payment Made,Unifier Quote - Attie's office,Private,Attie,Attie's office L-1675 (1),"R8 107,00","R4 432,00","54,7%",,,Feb 2022
+Q-0473,11 months old,Full Payment Made,Unifier Quote - Bez -> Gero Dad,Private,Bez,Gero pa L-1673 (1),"R14 622,00","R4 802,00","32,8%",,,Mar 2022
+Q-0469,11 months old,Full Payment Made,"Unifier Quote - Ntombi, Tammy Taylor",Private,Ntombi Mason,"Ntombi, salon, moreletta park, Tammy Taylor L-1662 (1)","R10 249,00","R4 124,00","40,2%",,,Mar 2022
+Q-0468,11 months old,Full Payment Made,Unifier Quote - Gero,Private,Gero,gero pta noord. L-1659 (1),"R9 574,00","R3 724,00","38,9%",,,Jan 2022
+Q-0467,11 months old,Full Payment Made,Unifier Quote - Vincent Coetzee Northcliff,Private,Vincent Coetzee,Website Contact from Unifier L-1660 (1),"R7 693,00","R273,00","3,5%",,,Feb 2022
+Q-0465,11 months old,Special Project,Unifier Quote - Rams 140sqm shop,Private,Rams,Website Contact from Unifier L-1650 (1),"R22 749,00","R10 499,00","46,2%",,,FALSE
+Q-0464,11 months old,Special Project,Unifier Quote - SABELCO Group,Private,Thea,Chat log from site www.unifier.co.za L-1643 (1),"R85 812,00","R38 642,00","45,0%",,,FALSE
+Q-0462,11 months old,Full Payment Made,CCTV Kwotasie. Attie,Private,Attie,Chat log from site www.unifier.co.za L-1644 (1),"R14 509,00","R5 279,00","36,4%",,,Jan 2022
+Q-0458,11 months old,Full Payment Made,Unifier Quote - Prashanth Business 4 Cam Midrand,Private,Prashanth,Chat log from site www.unifier.co.za L-1635 (1),"R6 979,00","R2 087,00","29,9%",,,Jan 2022
+Q-0457,11 months old,Full Payment Made,CCTV System Upgrades,Majohnys Place,Happy,CCTV System Upgrades (1),"R5 700,00","R2 880,00","50,5%",,,Dec 2021
+Q-0454,11 months old,Full Payment Made,Unifier Quote - Faan Jooste - Harties,Private,Faan Jooste,Faan Jooste - harties L-1625 (1),"R12 979,00","R5 564,00","42,9%",,,Feb 2022
+Q-0451,11 months old,Site Survey Needed,Unifier Quote - Karin - 8x Cameras - Home in Hurlingham,Private,Karin,Karin - 8x Cameras - Home in Hurlingham L-1612 (1),"R11 999,00","R4 999,00","41,7%",,,FALSE
+Q-0449,11 months old,Full Payment Made,Unifier Quote - 6x Camera Promo - Happy - Hammanskraal Business,Majohnys Place,Happy,6x Camera Promo - Happy - Hammanskraal Business L-1609 (1),"R9 999,00","R5 499,00","55,0%",,,Dec 2021
+Q-0447,11 months old,Full Payment Made,Unifier Quote - Salomane - Centurion - Car Port Cameras - 2x Camera Promo,Private,Salomane,Salomane - Centurion - Car Port Cameras - 2x Camera Promo L-1605 (1),"R6 499,00","R1 999,00","30,8%",,,Feb 2022
+Q-0443,11 months old,Full Payment Made,Whatsapp 5 cam,Private,Karl,Chat log from site www.unifier.co.za L-1591 (1),"R8 999,00","R3 499,00","38,9%",,,Apr 2022
+Q-0441,11 months old,Frozen,Unifier Quote - 4 Outdoor Cameras,Private,Cindy,4 X outdoor camera (1),"R6 999,00","R2 499,00","35,7%",,,FALSE
+Q-0439,1 year old,Full Payment Made,4 Camera CCTV Promo in Boksburg - Klipportjie AL,Private,Dumisani,Chat log from site www.unifier.co.za L-1597 (1),"R6 999,00","R2 499,00","35,7%",,,Feb 2022
+Q-0432,1 year old,Full Payment Made,Unifier Quote - John Walland - 4 Camera Promo - Lonehill - URGENT,Private,John Walland,John Walland - 4 Camera Promo - Lonehill - URGENT L-1569 (1),"R6 499,00","R1 999,00","30,8%",,,Dec 2021
+Q-0422,1 year old,Full Payment Made,Unifier Quote - Beula - Fourways - 8 Camera,Private,Beula,Beula - Fourways - 8 Camera L-1547 (1),"R15 550,00","R7 401,00","47,6%",,,Dec 2021
+Q-0414,1 year old,Full Payment Made,Ishe House,Private,Ishe Mudzamiri,Ishe 2500sqm house 8cameras (1),"R16 000,00","R1 503,00","9,4%",,,Dec 2021
