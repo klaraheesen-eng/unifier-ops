@@ -1,0 +1,771 @@
+HikCentral Professional V2.6.1
+
+HikCentral Professional is a software platform provided by Hikvision
+for integrating and managing security systems. It is designed to meet
+a variety of security challenges on a single platform. With HikCentral
+Professional, you can manage multiple individual systems with ease,
+such as video security, access control, security alarms, and more, as
+well as explore cross-system functionalities.
+Daily operations become more efficient while protection of people
+and property improve all around. Users of all kinds are making
+smarter decisions.
+
+Key Feature
+Light and Efficient
+● Lightweight architecture features reduce consumption of system resources
+● Capable of managing multiple systems of varying sizes with consistent efficiency
+
+Unified and Flexible
+● Supports combining various application plug-ins under a unified, on-demand architecture for collaboration across business
+segments
+● New plug-ins can be continuously developed to meet new business needs
+
+Integrated and Open
+● Compatible with virtually all Hikvision products and their abundance of applications, including deep-learning-based
+analytics and statistics
+● Open architecture permits easy integration with third-party systems and hardware
+
+● Features of Main Modules
+Module
+
+Video
+
+Access Control
+
+Visitor
+
+Vehicle
+
+On-Board Monitoring
+
+Alarm Detection
+
+Intelligent Analysis
+
+Commercial Display
+
+Time & Attendance
+
+Portable Enforcement
+
+Smart Wall
+Parking Lot
+Management
+
+Features
+ Efficient and comprehensive video security
+ Quick incident search and location, convenient event search, and quick run-through of video
+ Video export as evidence
+ Low bandwidth network adaptability
+ Reliable and flexible storage
+ Comprehensive and flexible access management methods
+ Advanced access strategies for sensitive areas
+ Convenient employee badge design and printing
+ Clear step-by-step guidance
+ Remote personnel registration
+ Automatically lock or unlock doors
+ Keep doors in a remain unlocked status during an emergency
+ Easily count and verify everyone’s safety
+ Opening door via Bluetooth and NFC
+ Digitalized visitor management
+ Visitor registration in advance
+ Pre-defined access permissions and traceable records
+ A Watchlist function along with personalized design and printing of badges
+ Flexible and efficient entrance & exit management
+ Improved parking experience for drivers
+ Self-service parking query
+ Flexible billing
+ Intuitive and efficient parking operation analysis and transaction analysis reports
+ Efficient vehicle monitoring for quick response
+ Reliable archive management
+ Customized reports for enhanced operational efficiency
+ Centrally manage various alarm sources
+ Real-time display of all kinds of alarms
+ Flexible linkage
+ Automatic audio alarms
+ The video-based intelligent analysis dashboard enables flexible and extensible digital
+applications
+ Smart commercial analyses
+ Manage and configure content for digital signage in an intuitive manner
+ Pre-installed program templates
+ All programs are created visually
+ Flexible attendance rule-setting
+ Diverse attendance reports and customizable templates
+ Easy integration with third-party payroll systems
+ Supports employees searching for attendance results and submitting applications for
+correction
+ Quick retrieval of important recordings, long-term backups, and file-level permission
+management
+ Automatic detection and addition of portable devices through dock stations, and detailed
+statistical logs for personnel and equipment use
+ Display videos on the wall
+ Video auto-switch and scheduled playback
+ Alarm pop-up on smart wall. The alarm video will be automatically played in a pop-up
+window on the video wall to notify the operator
+ Efficient entrance & exit management with access rules for vehicles, integration with ANPR
+cameras, and touch-free, non-stop vehicle authentication to help reduce rush hour
+
+Evidence Management
+
+AR
+
+Patrol Management
+
+Security Inspection
+
+Emergency Mustering
+
+Remote Site
+Management (RSM)
+
+Maintenance
+
+Parcel Tracking
+
+Dock Management
+
+Canteen Consumption
+Intelligent Inspection
+
+congestion
+ Improved parking experience with guidance screens and displays to find vacant spaces
+ Flexible charging options including manual charge and prepayment
+ Convenient information collection with multi-clients (Mobile Client, Web Client, Control
+Client) for uploading files
+ Unified management of cross-service evidence files, including videos, pictures, audios, and
+documents uploading in the daily operation
+ Long-term backup, efficient retrieval: evidence classification, archiving, retrieval, export,
+one-stop management
+ Easily access key cameras without losing the global view
+ Quick resource location through simple "Click" and "Filter" actions
+ Efficient process for quick event handling from notification to acknowledgment
+ Design patrol schedules and routes effortlessly using an intuitive e-map interface
+ Security staff check in using access control devices with all data automatically uploaded to
+the software
+ Report anomalies during the patrol to the center via the Mobile Client
+ Trigger alarms instantly if unauthorized individuals attempt to conduct patrol
+ Comprehensive patrol reports enable managers to assess performance effectively
+ Identify a wide range of prohibited items timely and accurately, reducing labor costs and
+security threats
+ Simplify centralized management with real-time detection results, alarm information, and
+live view
+ Instant response to emergencies with a click to trigger the emergency automatically or
+manually
+ Enhanced evacuation experience with cycled broadcast of evacuation messages through IP
+speakers and remaining doors open along the escape route for quick assembly at muster
+points
+ Efficient confirmation of personnel safety status at muster points, including counting and
+verification of everyone’s presence and checking the most recent locations of missing
+individuals
+ Manage multi-site systems in one place, providing a unified view of different resources, and
+all related events and alarms across sites.
+ Multi-site solutions in terms of the number of devices, remote sites and concurrent events
+to be handled by the system
+ Visualized network and device topology and alarm notifications
+ Logs are available for event trackback and evidence
+ Check all health status with one click or according to a preset schedule
+ Clearly see the risks and exceptions
+ Easy Identification & Tracking of Parcels by linking the data from barcode systems and video
+systems
+ Tracking through the Conveyor belt systems with smart code reader and conventional
+cameras
+ Video Evidence Management: support Video Record Export（MP4/AVI), support Scanning
+Record Export by Check Point/Parcel ID/timestamp)
+ Real-time analysis loading and unloading rate, quickly locate and playback the processes
+ Vehicle dispatch process: dock reservation, ANPR, LED screen displaying queuing info,
+speaker for audio broadcast
+ Real-time and visualized display of dock status on the Dock Map
+ Statistics of vehicle operation time, waiting time, etc. by the dashboard
+ Non-contact payment, improve efficiency and upgrade experience
+ Diverse consumption mode applicable to different scenarios
+ Unified management enables high efficiency on management of large plant canteens
+ Scheduled or random video inspection about operation and production for finding
+
+and rectifying issues in time, ensuring the production safety and security
+ Multiple inspection methods available on demand: on-site inspection, scheduled
+inspection, and event review
+ Unified inspection templates for formulating and managing SOP, improving the
+inspection efficiency
+
+Software Specification
+The following table shows the maximum performance of the SYS (System Management Server). For other detailed data and
+performance, refer to Software Requirements and Performance.
+Features
+
+Maximum Performance
+
+General
+
+Manageable Resource
+
+Encoding Devices
+Encoding Devices Supporting ONVIF Protocol
+Access Control Devices
+Elevator Control Devices
+Video Intercom Devices
+Visitor Terminals
+Security Control Panels and Panic Alarm Devices
+IP Speakers
+Query Terminals
+Guidance Terminals
+Parking Lot Screens
+Entrance/Exit Stations
+On-Board Devices
+Security Inspection Devices
+UVSSs
+Body Cameras
+Dock Stations
+Network Transmission Devices
+Digital Signage Terminals
+Interactive Flat Panels
+Fire Protection Devices
+Decoding Devices
+BACnet Devices
+Modbus Devices
+Payment Terminals
+Portable Code Scanners
+Scanning Devices (including Hikvision smart code
+readers, Hikvision barcode readers, and third-party
+scanning devices)
+Intelligent Analysis Servers
+Recording Servers
+Streaming Servers
+Cameras
+Alarm Inputs (excluding security control panels and
+panic alarm devices)
+Alarm Inputs of Security Control Devices
+Security Control Partitions (Areas)
+Alarm Outputs
+Radar PTZ Cameras
+DS-5600 Series Face Recognition Terminals When
+Applied with Hikvision Turnstiles
+ANPR Cameras
+People Counting Cameras
+Heat Map Cameras
+Queue Management Cameras
+Thermal Cameras
+Cameras per Area
+Alarm Inputs per Area
+
+5,000
+Note: For some device types, no
+more than 5,000 are supported. Up
+to 2,048 encoding devices added by
+ONVIF protocol, 30 security radars,
+32 visitor terminals, 2,048 alarm
+devices (security control panels and
+panic alarm devices), 1,000 dock
+stations, 128 network transmission
+devices,
+40 entrances&exits,
+2,048 guidance terminals, 4 UVSSs,
+2,048 commercial display devices
+(including
+digital
+signages,
+interactive flat panels, and LED
+controllers), 128 IP speakers, 2,048
+fire protection devices, 1,000
+scanning devices, 256 portable code
+scanners, and 100 payment
+terminals are allowed.
+
+64
+64
+64
+Central System: 10,000
+With RSM: 100,000
+5,000
+10,000
+2,048
+3,000
+30
+32
+3,000
+Recommended: 3,000
+Recommended: 1,024
+Recommended: 3,000
+Recommended: 20①
+256
+256
+
+Alarm Outputs per Area
+Events
+Event Receiving Without Pictures
+
+Event
+Event Receiving with Pictures
+
+User and Role
+
+Person
+
+Events Sent to Clients
+Combined Alarm
+User-Defined Events
+Total Online Users and Persons
+*The persons refers to employees who are allowed to
+login to Self-Service, searching for attendance results,
+check in&out via the Mobile Client, and opening door
+via bluetooth.
+Users
+Roles
+Persons
+(The persons include persons for Access Control and
+Time&Attendance.)
+Cards
+Fingerprints
+Irises
+Profile Pictures
+Departments
+Department Hierarchies
+Size of a Profile Picture
+Total Size of Profile Pictures
+Resigned Persons
+Resignation Types
+
+Data Retention Period
+Data Storage
+
+People Counting
+Heat Map
+ANPR Records
+Events
+Alarms
+
+256
+10,000
+ Average Value: 100/s
+ Peak Value: 1,000/s (This value
+last for no more than 10
+minutes.)
+ When pictures are directly
+transmitted from devices to
+Recording Servers or NVRs:
+ Average Value: 100/s
+ Peak Value: 1,000/s (This
+value last for no more
+than 10 minutes.)
+ When devices send pictures to
+SYS, and then SYS transmits
+them to Recording Servers:
+ Peak Value: 100/s (This
+value last for no more
+than 10 minutes.)
+ When devices send pictures to
+SYS for storage:
+ Peak Value: 20/s (This
+value last for no more
+than 10 minutes.)
+100 clients * 100 events/s
+10/s
+10,000
+
+5,000
+
+10,000
+3,000
+100,000
+500,000
+400,000
+200,000
+100,000
+3,000
+10
+300 KB
+300 GB
+100,000
+100
+Stored for 3 Years
+Note: The value may vary by
+different modules. See System
+Requirements and Performance for
+details.
+5 million each year
+0.25 million each year
+60 million each year
+
+Report
+
+Access Records
+Attendance Records
+Visitor Records
+Operation Logs
+Service Information Logs
+Service Error Logs
+Recording Tags
+Total Scheduled Reports
+Total Data in One Scheduled Report
+Custom Reports in Time and Attendance Module
+GPS Report
+
+1.4 billion each year
+55 million each year
+10 million each year
+
+Recording Schedule
+Recording Schedule Template
+Users for Double Authentications
+
+30,000
+200
+50
+ Average Value: 100/s
+ Peak Value: 1,000/s (This value
+last for no more than 10
+minutes.)
+ Average Value: 20/s
+ Peak Value: 100/s (This value last
+for no more than 10 minutes.)
+1000,000
+64
+1,000
+1,000
+1,000
+100
+512
+200
+100
+100,000
+100,000
+32
+32
+1,000
+100
+10
+256
+20
+16
+1
+300 × 2 Mbps
+300 × 2 Mbps
+
+5 million each year
+60 million each year
+100
+32,000
+128
+250/s
+
+Video & Intelligent Analysis
+
+Video Security
+
+Capture Triggered by Event (Directly Stored in
+Recording Servers)
+Capture Triggered by Event (Stored in SYS, or
+transmitted to recording servers from SYS)
+
+Face Pictures for Intelligent Recognition
+Face Picture Libraries
+Intelligent Analysis Groups
+Total Stores
+Intelligent Analysis
+Total Analysis Group
+AR Scenes
+Plans
+AR Monitoring
+Tags for Each Scene
+Tag Groups for Each Scene
+Cases
+Evidence Management
+Files
+Smart Walls
+Network Keyboard
+Views
+View Groups
+Smart Wall
+Views in One View Group
+Cameras in One View
+Cameras in One Window of Auto-Switch
+Windows of an Auto-Switch
+View Group of an Auto-Switch
+Video Input Bandwidth per Streaming Server
+Streaming Server②
+Video Output Bandwidth per Streaming Server
+Access Control & Time and Attendance & Visitor
+Intelligent Recognition
+
+Access Points (Doors + Floors)
+Access Control
+
+Time and Attendance
+
+Access Levels
+Access Group
+Access Schedules
+Templates for Card Printing
+Schedules
+Break Timetable
+Pay Code (including overtime types and leave types)
+Approval Roles
+Approval Flows
+
+Central System: 5,000
+RSM: 10,000
+1,024
+1,024
+32
+32
+128
+128
+128
+100
+1,000
+
+Visitors
+Visitor Registration or Reservation Records
+Visitor Email Templates
+Visitor Management
+Entities in Watch List
+Card Template
+WhatsApp Template
+Vehicle and Parking Management
+Vehicles per List
+Vehicles
+Custom Vehicle Types
+Vehicle Undercarriage Pictures
+Parking Lots
+Lanes
+Parking Spaces
+Floors in All Parking Lots
+Cards Linked with Vehicles
+Temporary Cards in One Parking Lot
+On-Board Monitoring
+GPS Information Report
+Fence Rules for One Vehicle
+Deviation Rules for One Vehicle
+Vehicles Can Be Located in One Client
+Maximum Number of Drivers
+Maximum Number of Driving Routes
+Portable Enforcement
+Intercom Groups
+Persons in One Intercom Group
+Commercial Display
+Materials
+Programs
+Schedules
+Quickly Released Contents
+Security Inspection
+Analyzers
+Walk-Through Metal Detectors
+Broadcast
+Speaker Unit
+Broadcast Group
+Media Libraries
+Patrol
+Maximum Number of Shifts of a Single Route
+Dock Management
+Docks
+Parcel Tracking
+Check Points
+Canteen Consumption
+Number of Merchants
+Payment Groups
+Payment Rules
+Meal Types
+Intelligent Inspection
+
+100,000
+100,000
+20
+10,000
+20
+20
+5,000
+500,000
+10
+3,000
+10
+Total: 40
+In One Parking Lot: 32
+Total: 5,000
+In One Floor: 1,500
+128
+250,000
+10,000
+Report a GPS information to the
+platform every 5s, totally 200 GPS
+information can be sent to the
+platform per second.
+4
+4
+64
+10,000
+1,000
+128
+100
+10,000
+2,000
+1,000
+64
+8
+64
+128
+128
+100
+8
+500
+1,000
+100
+512
+128
+8
+
+Inspection Templates
+Response Types
+Inspection Items of One Category
+Inspection Schedules
+Attributes of One Asset
+Asset Types
+Linked Devices of One Asset Type
+Linked Parts of One Asset Type
+Linked Cameras of One Asset Part
+
+100
+20
+50
+100
+10
+50
+50
+10
+4
+
+①: This recommended value refers to the number of thermal cameras connected to the system directly. It depends on the
+
+maximum performance (data processing and storage) in the situation when the managed thermal cameras uploading
+temperature data to the system. For thermal cameras connected to the system via NVR, there is no such limit.
+②：In the Portable Enforcement module, persons performing group intercom via the streaming server of HikCentral
+
+Professional simultaneously is 400.
+
+System Requirement
+* For high stability and good performance, the following system requirements must be met.
+
+OS for HikCentral Professional
+Server
+
+OS for Control Client
+
+Browser Version
+
+Database
+OS for Mobile Client
+
+Virtual Machine
+
+Microsoft® Windows 11 64-bit
+Microsoft® Windows 10 64-bit
+Microsoft® Windows Server 2019 64-bit
+Microsoft® Windows Server 2016 64-bit
+Microsoft® Windows Server 2012 R2 64-bit
+Microsoft® Windows Server 2012 64-bit
+Microsoft® Windows Server 2022
+*For Windows Server 2012 R2, make sure it is installed with the rollup (KB2919355) updated in April,
+2014.
+Microsoft® Windows 11 64-bit
+Microsoft® Windows 10 64-bit
+Microsoft® Windows Server 2019 64-bit
+Microsoft® Windows Server 2016 64-bit
+Microsoft® Windows Server 2012 R2 64-bit
+Microsoft® Windows Server 2012 64-bit
+Microsoft® Windows Server 2022
+*For Windows Server 2012 R2, make sure it is installed with the rollup (KB2919355) updated in April,
+2014.
+Google Chrome® 114 and later
+Firefox® 114 and later
+Safari® 16.6 and later
+Microsoft® Edge 114 and later
+Internet Explorer® 11 and later
+PostgreSQL V16.1
+iOS 12.0 and later
+Android 6.0 and later
+VMware® ESXi™ 6.x, ESXi™ 7.x
+Microsoft® Hyper-V with Windows Server 2012/2012 R2/2016 (64-bit)
+*The Control Client cannot run on the virtual machine.
+*Refer to the Deployment Guide of HikCentral Professional on VMware Virtual Machines for how the
+streaming server running on the virtual machine.
+*Virtual server migration is not supported.
+
+Recommended Hardware Specification
+
+Processor
+
+E-2324G(4Cores/8MB/4T/ 3.1-4.6GHz/65W)
+
+Memory
+
+1 × 16GB up to 2666 MT/s DDR4 UDIMM
+
+Storage Controllers
+
+Internal Controllers: SAS_H355
+
+Drive Bays
+
+1T 7.2K SATA×2
+
+Power Supplies
+
+Single 450W (Bronze) power supply
+
+(W × D × H)
+
+Form Factor: Rack (1U)
+Chassis Width: 434.00mm (17.08 in)
+Chassis Depth: 595.63mm (23.45 in) (3.5”HHD)
+Note: These dimensions do not include: bezel, redundant PSU
+750 mm × 614 mm × 259 mm
+(29.53" × 24.17" × 10.2")
+
+Net Weight
+
+12.2 kg
+
+Weight with Package
+
+18.5 kg
+
+Embedded NIC
+
+2 x 1GbE LOM Network Interface Controller (NIC) ports
+
+Dimensions
+
+Dimensions with Package
+
+Device Access
+
+Embedded Management
+
+Integrations and Connections
+
+Operating Systems
+
+Front Ports: 1x USB 2.0, 1 x IDRAC micro USB 2.0 management port
+Rear Ports: 2 x USB 3.0, VGA, serial connector
+iDRAC9 with Lifecycle Controller
+iDRAC Direct
+DRAC RESTful API with Redfish
+Integrations:
+Connections:
+Microsoft® System Center
+Nagios Core & Nagios XI
+VMware® vCenter™
+Micro Focus Operations Manager i (OMi)
+BMC Truesight (available from BMC)
+IBM Tivoli Netcool/OMNIbus
+Red Hat Ansible
+Certify XenServer
+Citrix® XenServer®
+Microsoft Windows Server® with Hyper-V
+Red Hat® Enterprise Linux
+SUSE® Linux Enterprise Server
+Ubuntu Server
+VMware® ESXi
+This model is installed with Microsoft
+Windows Server® 2019 multilingual
+operating system.
+
+

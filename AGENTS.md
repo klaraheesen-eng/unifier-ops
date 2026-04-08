@@ -53,6 +53,14 @@ Read [`docs/internal/repo-map.md`](docs/internal/repo-map.md) first for navigati
 - `docs/reference/lead-channel-taxonomy.md` — Bark, Leads, web, etc.  
 - `docs/reference/claims-export-columns.md` — CSV column meanings  
 
+### Knowledge Management & Hardware Datasheets
+
+When new hardware datasheets, manuals, or technical specifications are provided (via upload or shared Google Drive links), you must maintain the indexing system:
+1. **Save raw PDFs:** Place the original PDF documents in `datasheets/raw/`.
+2. **Extract text:** Use `pdftotext` to extract the content and save the output in `datasheets/text/`.
+3. **Index specifications:** Extract key metrics (ranges, power, dimensions, integrations) and save as `hardware-index/<model>-specs.txt`.
+4. **Update Master Index:** Always update `hardware-index/MASTER_INDEX.md` with a summary of the new equipment, its primary use case, and file paths. This ensures future agents can easily query and allocate the correct hardware for client needs and quoting.
+
 ### Customers and finance
 
 - `docs/customers/cgr-holdings-fuelme.md` — CGR / Fuel Me context  

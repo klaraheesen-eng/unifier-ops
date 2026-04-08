@@ -1,0 +1,98 @@
+HARDWARE SPECIFICATION REFERENCE
+================================
+
+Product: Hikvision DS-2TD2628-3/QA Thermal & Optical Bi-spectrum Network Bullet Camera
+Document: DS-2TD2628-3_QA_Datasheet_en-US_20231007
+Extracted: 2026-04-08 11:34 GMT+2
+
+THERMAL MODULE:
+- Image Sensor: Vanadium Oxide Uncooled Focal Plane Arrays (VOx UFPA)
+- Resolution: 256 × 192 pixels
+- Pixel Pitch: 12 μm
+- Spectral Range: 8 μm to 14 μm
+- NETD: <40 mK (25°C, F1.0)
+- Focal Length: 3.6 mm
+- IFOV: 3.33 mrad
+- Field of View: 50.0° × 37.3° (H × V)
+- Min. Focusing Distance: 0.5 m
+- Aperture: F1.0
+- Digital Zoom: ×2, ×4
+
+OPTICAL MODULE:
+- Image Sensor: 1/2.7" Progressive Scan CMOS
+- Resolution: 2688 × 1520 pixels
+- Min. Illumination: 0.0089 Lux @(F1.6, AGC ON), 0 Lux with IR
+- Shutter Speed: 1 s to 1/100,000 s
+- Focal Length: 4.3 mm
+- Field of View: 84.0° × 43.1° (H × V)
+- Aperture Range: F1.6
+- WDR: 120 dB
+
+VIDEO & AUDIO:
+- Main Stream Thermal: 25 fps (multiple resolutions)
+- Main Stream Optical: 50 Hz: 25 fps / 60Hz: 30 fps (multiple resolutions)
+- Sub-stream Thermal: 25 fps (multiple resolutions)
+- Sub-stream Optical: 50 Hz: 25 fps / 60 Hz: 30 fps (multiple resolutions)
+- Video Compression: H.265/H.264 (Main), H.265/H.264/MJPEG (Sub-stream)
+- Audio Compression: G.722.1/G.711ulaw/G.711alaw/MP2L2/G.726/PCM
+
+SMART FUNCTIONS:
+- VCA: 4 rule types (line crossing, intrusion, region entrance, region exiting), up to 8 rules total
+- Temperature Measurement: 3 rule types, 21 rules total (10 points, 10 areas, 1 line)
+- Temperature Range: -20°C to 150°C (-4°F to 302°F)
+- Temperature Accuracy: ± 8°C (± 14.4°F)
+- Special Features: Fire detection, smoking detection, sun-reflection filter
+
+NETWORK & STORAGE:
+- Network Protocols: IPv4/IPv6, HTTP, HTTPS, 802.1x, QoS, FTP, SMTP, UPnP, SNMP, DNS, DDNS, NTP, RTSP, RTCP, RTP, TCP, UDP, IGMP, ICMP, DHCP, PPPoE, Bonjour, SFTP, SRTP, TLS
+- Network Storage: MicroSD/SDHC/SDXC card (up to 256 GB), NAS (NFS, SMB/CIFS), Auto Network Replenishment (ANR)
+- API: ISAPI, HIKVISION SDK, ISUP, third-party management platform, ONVIF (Profile S, Profile G)
+- Simultaneous Live View: Up to 20 channels
+- User/Host level: Up to 32 users, 3 levels (Administrator, Operator, User)
+
+ALARMS & I/O:
+- Alarm Input: 2 channels (0-5 VDC)
+- Alarm Output: 2 channels (configurable alarm response actions)
+- Audio Input: 1 channel, 3.5 mm Mic in/Line in (Line input: 2-2.4 V [p-p], output impedance: 1 KΩ ± 10%)
+- Audio Output: Linear level, impedance: 600 Ω
+- Communication Interface: 1 × RJ45 10M/100M Self-adaptive Ethernet, 1 × RS-485 (half duplex)
+- Analog Output: 1.0V [p-p]/75Ω, PAL/NTSC/BNC
+
+GENERAL:
+- Web Client Language: 32 languages supported
+- Power Supply: 24 VAC ± 25%, 12 VDC ± 25%, PoE (802.3af, class 3)
+- Power Consumption:
+  * 24 VAC ± 25%: 0.8 A, Max 8.5 W
+  * 12 VDC ± 25%: 0.7 A, Max 8.5 W
+  * PoE (802.3af, class 3): 36V-57V, 0.24A-0.15A, Max 8.5 W
+- Working Temperature/Humidity: Temperature: -40°C to 65°C (-40°F to 149°F), Humidity: 95% or less
+- Protection Level: IP67
+- Standard: TVS 4000V lightning protection, surge protection, voltage transient protection
+- Housing: IK10-rated
+- Dimensions: 321.3 mm × 106.1 mm × 107.0 mm (12.65" × 4.18" × 4.21")
+- Weight: 1550 g (3.41 lb)
+
+DETECTION RANGES (per Johnson's Criteria):
+- Detection Range (Humans: 1.8 × 0.5 m): 150 m
+- Detection Range (Vehicles: 1.4 × 4.0 m): 460 m
+- Recognition Range (Humans: 1.8 × 0.5 m): 38 m
+- Recognition Range (Vehicles: 1.4 × 4.0 m): 112 m
+- Identification Range (Humans: 1.8 × 0.5 m): 19 m
+- Identification Range (Vehicles: 1.4 × 4.0 m): 56 m
+- Temperature Measurement (Object: 1 × 1 m): 58.3 m
+- Temperature Measurement (Object: 0.2 × 0.2 m): 11.7 m
+- Fire Detection (Object: 0.2 × 0.2 m): 43.2 m
+- Smoking Detection (Object: 0.2 × 0.2 m): 5.4 m
+
+APPLICATIONS:
+Villas, communities, parking lots, warehouses, construction sites, waste incineration plants, manufacturing workshops, etc.
+
+NOTES:
+- Deep learning algorithm enables high precision VCA detection and real-time alarm
+- Supports vehicle/human classification via video content analysis
+- Temperature exception alarm for early fire prevention
+- Image processing: linear, histogram, self-adaptive thermal AGC mode, DDE, 3D DNR
+- High quality detector with 10 years guarantee
+
+SOURCE FILE: /home/klara/dev/unifier-ops/datasheets/DS-2TD2628-3_QA_Datasheet_en-US_20231007---3ef9c617-b2df-43ce-a140-ee109fc3ed32.pdf
+TEXT EXTRACT: /home/klara/dev/unifier-ops/datasheets/DS-2TD2628-3_QA_Datasheet_en-US_20231007.txt

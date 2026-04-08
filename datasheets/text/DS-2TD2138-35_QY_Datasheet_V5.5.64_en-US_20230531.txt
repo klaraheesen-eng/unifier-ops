@@ -1,0 +1,329 @@
+DS-2TD2138-35/QY
+Anti-corrosion Thermal Network Bullet Camera
+
+Hikvision DS-2TD2138-35/QY Anti-corrosion Thermal Network Bullet Camera is applied to perimeter protection and fire-prevention
+purposes in critical infrastructures such as airport, railway, prison, power station, and 4S stores. With the vanadium oxide uncooled
+focal plane sensor, it enhances the thermal image quality. It adopts anti-corrosion coating to meet the requirements of used in
+anti-corrosion environment.
+
+Key Feature
+● 384 × 288 resolution, 12 μm, VOx UFPA, NETD < 35 mK (25°C, F1.0)
+● Temperature exception alarm for fire prevention, -20°C to 150°C (-4°F to 302°F), ± 8°C (± 14.4°F)
+● Image processing technology: linear, histogram, self-adaptive thermal AGC mode, DDE, 3D DNR
+● High quality detector with 10 years guarantee
+
+
+
+Specification
+
+Thermal Module
+Image Sensor
+
+Vanadium Oxide Uncooled Focal Plane Arrays
+
+Resolution
+
+384 × 288
+
+Pixel Pitch
+
+12 μm
+
+Spectral Range
+
+8 μm to 14 μm
+
+NETD
+
+< 35 mK (25°C, F1.0)
+
+Focal Length
+
+35 mm
+
+IFOV
+
+0.34 mrad
+
+Field of View
+
+7.5° × 5.6° (H × V)
+
+Min. Focusing Distance
+
+34 m
+
+Aperture
+
+F1.0
+
+Digital Zoom
+
+2×, 4×, 8×
+
+Image Effect
+Target Coloration
+
+Yes. Supported in white hot and black hot mode.
+
+Smart Function
+VCA
+Temperature Measurement
+
+4 VCA rule types (line crossing, intrusion, region entrance, and region exiting), up to 8
+VCA rules in total
+3 temperature measurement rule types, 21 rules in total (10 points, 10 areas, and 1
+line)
+
+Temperature Range
+
+-20°C to 150°C (-4°F to 302°F)
+
+Temperature Accuracy
+
+± 8°C (± 14.4°F)
+
+Video and Audio
+Main Stream
+
+25 fps (1280 × 720, 704 × 576, 640 × 512, 352 × 288)
+
+Sub-stream
+
+25 fps (704 × 576, 640 × 512, 352 × 288)
+
+Third Stream
+
+25 fps (1280 × 720, 704 × 576, 640 × 512, 352 × 288)
+Main Stream: H.265/H.264
+
+Video Compression
+
+Sub-Stream: H.265/H.264/MJPEG
+Third Stream: H.265/H.264/MJPEG
+
+Audio Compression
+
+G.722.1/G.711ulaw/G.711alaw/MP2L2/G.726/PCM
+
+Network
+Protocols
+API
+Security
+
+IPv4/IPv6, HTTP, HTTPS, 802.1x, QoS, FTP, SMTP, UPnP, SNMP, DNS, DDNS, NTP, RTSP,
+RTCP, RTP, TCP, UDP, IGMP, ICMP, DHCP, PPPoE, SRTP, SFTP, SSL
+ISAPI, HIKVISION SDK, and third-party management platform, Open Network Video
+Interface, ONVIF (Profile S, Profile G)
+User authentication (ID and password), MAC address binding, HTTPS encryption, IEEE
+802.1x (EAP-MD5, EAP-TLS), access control, IP address filtering
+
+Simultaneous Live View
+
+Up to 20 channels
+
+Client
+
+iVMS-4200, Hik-Connect
+Live view (plug-in allowed): Internet Explorer 11
+
+Web Browser
+
+Live view (plug-in free): Chrome 57.0+, Firefox 52.0+
+Local service: Chrome 57.0+, Firefox 52.0+
+
+Network Storage
+User/Host level
+
+MicroSD/SDHC/SDXC card (up to 256 GB) local storage, and NAS (NFS, SMB/CIFS), auto
+network replenishment (ANR)
+Up to 32 users, 3 levels: Administrator, Operator, User
+
+Interface
+Analog Output
+
+1.0 V [p-p]/75Ω, PAL/NTSC/BNC
+
+Alarm Input
+
+2, alarm input (0 to 5 VDC)
+
+Alarm Output
+
+2, alarm output (alarm response actions configurable)
+
+Alarm Action
+
+SD recording/Relay output/Smart capture/FTP upload/Email linkage
+
+Audio Input
+Audio Output
+Communication Interface
+
+1, 3.5 mm Mic in/Line in interface
+Line input: 2 to 2.4 V [p-p], output impedance: 1 KΩ ± 10%
+Linear level, impedance: 600 Ω
+1, RJ45 10 M/100 M self-adaptive Ethernet interface
+1, RS-485 interface (half duplex)
+
+General
+32 languages
+English, Russian, Estonian, Bulgarian, Hungarian, Greek, German, Italian, Czech, Slovak,
+Web Client Language
+
+French, Polish, Dutch, Portuguese, Spanish, Romanian, Danish, Swedish, Norwegian,
+Finnish, Croatian, Slovenian, Serbian, Turkish, Korean, Traditional Chinese, Thai,
+Vietnamese, Japanese, Latvian, Lithuanian, Portuguese (Brazil)
+
+Power Supply
+
+24 VAC ± 25%, 12 VDC ± 25%, two-core terminal block
+PoE (802.3af, class 3)
+24 VAC ± 25%: 0.13 A to 0.22 A, Max. 5 W
+
+Power Consumption
+
+12 VDC ± 25%: 0.37 A to 0.61 A, Max. 5 W
+PoE (802.3af, class 3): 44 V to 57 V: 0.1 A to 0.13 A, Max. 5.5 W
+
+Working Temperature/Humidity
+
+Temperature: -40°C to 65°C (-40°F to 149°F)
+Humidity: 90% or less
+IP67 Standard
+
+Protection Level
+
+TVS 6000V lightning protection, surge protection, voltage transient protection, IK10rated housing
+
+Dimensions
+
+351.3 mm × 113.5 mm × 115.2 mm (13.83" × 4.47" × 4.53")
+
+Weight
+
+Approx. 1.77 kg (3.90 lb)
+
+DRI Range Table
+* The table is only for reference and the performance may vary according to different environment.
+* The optimal detection, recognition, and identification distances are calculated according to Johnson’s Criteria.
+Detection Range: In order to distinguish an object from the background, the object must be covered by 1.5 or more pixels.
+Recognition Range: In order to classify the object (animal, human, vehicle, etc.), the object must be covered by 6 or more
+pixels.
+Identification Range: In order to identify the object and describe it in details, the object must be covered by 12 or more
+pixels.
+
+.
+Detection Range
+
+Detection Range
+
+Recognition
+
+Recognition
+
+Identification
+
+Identification
+
+(Vehicles: 1.4 ×
+
+(Humans: 1.8 ×
+
+Range (Vehicles:
+
+Range (Humans:
+
+Range (Vehicles:
+
+Range (Humans:
+
+4.0 m)
+
+0.5 m)
+
+1.4 × 4.0 m)
+
+1.8 × 0.5 m)
+
+1.4 × 4.0 m)
+
+1.8 × 0.5 m)
+
+4472 m
+
+1458 m
+
+1118 m
+
+365 m
+
+559 m
+
+182 m
+
+Smart Function Table
+* The table is only for reference and the performance may vary according to different environment.
+VCA Range
+(Vehicles: 1.4 × 4.0
+m)
+1050 m
+
+
+
+Available Model
+
+DS-2TD2138-35/QY
+
+VCA Range
+(Humans: 1.8 × 0.5
+m)
+350 m
+
+Temperature
+Measurement
+(Object: 1 × 1 m)
+525 m
+
+Temperature
+Measurement
+(Object: 0.2 × 0.2 m)
+105 m
+
+Fire Detection (Object:
+0.2 × 0.2 m)
+420 m
+
+
+
+Dimension
+
+
+
+Accessory
+
+
+
+Included
+
+DS-1260ZJ-AC#SA
+Junction box
+
+
+
+Optional
+
+DS-1276ZJ-SUS
+
+DS-1275ZJ-S-SUS
+
+Corner Mount
+
+Vertical Pole Mount
+
+COMPLIANCE NOTICE: The thermal series products might be subject to export controls in various countries or regions, including
+without limitation, the United States, European Union, United Kingdom and/or other member countries of the Wassenaar
+Arrangement. Please consult your professional legal or compliance expert or local government authorities for any necessary
+export license requirements if you intend to transfer, export, re-export the thermal series products between different countries.
+
+

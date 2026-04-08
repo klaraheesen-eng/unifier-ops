@@ -1,0 +1,187 @@
+HikCentral-P-VSS-Base/HW/64Ch(B)
+VMS Server
+
+
+
+HikCentral VMS servers combine hardware and software products to give customers a cost-effective and comprehensive
+solution
+1) Plug and play: No additional activation is required, and it is ready to use right out of the box
+2) Easy to use: Pre-installed operating system, easy to operate and deploy
+
+
+
+All-in-one software and hardware, no activation required, easy delivery and reliable service
+1) Guaranteed compatibility: Tested by professional testing team to ensure stable operation
+2) Reliable after-sales service: 24/7 platinum after-sales service
+
+
+
+Specification
+
+Software Specification
+Video Management
+
+64ch by default; can be expanded into 3000ch (Including ANPR Cameras and Cameras
+with Face Capture Function)
+
+Access Controls
+
+Not included; can be expanded into 1024 (Including Doors and Outdoor Station)
+
+Indoor Station
+
+Not included; can be expanded into 5000
+
+ANPR Cameras
+
+Not included; can be expanded into 1024
+
+Lanes of Entrance & Exit
+
+Not included; can be expanded into 40
+
+Cameras with Face Capture
+Function
+Alarm Panel
+
+Not included; can be expanded into 3000
+Not included; can be expanded into 1024
+Not included;
+
+Smart Walls
+
+can be expanded, best performance：Smart Walls：32；Decoding devices：32
+
+Attendance
+
+Not included, can be expanded by extra license
+
+Other Functions
+
+Please refer to Hikcentral Professional related document
+
+Hardware Specifications
+CPU
+
+E-2324G×1， 3.1 GHz, 8 MB Cache， 4 Cores, 4 Threads
+Standard Config：1 × 16GB UDIMM，3200MT/s
+
+Memory
+
+Scalability：4 × 128GB UDIMM
+Standard Config：2×1TB 3.5 inch SATA HDD
+
+Hard Disks
+Scalability：2×22TB 3.5 inch SATA/SAS HDD
+Standard Config：PERC H355 adaptor LP (support RAID 0/1)
+Storage Controller
+
+Compatibility：Independent SAS hardware RAID card ( support RAID 5/10 ), ≥ 8GB
+cache
+
+Supported Operating Systems
+PCIe Slots
+
+WinSvr2019 multilingual version pre-installed
+Two Slots Capability： 1 x X8 Semi-high Gen 4 PCle slots； 1 x X8 Semi-high Gen 4 PCle
+slots
+
+Management
+Remote Manage
+OpenManage™ Software
+
+iDrac9 Enterprise
+Support OpenManage Enterprise and Plugins (PowerManager, SupportAssist, and
+Update Manager)
+Integrations: Microsoft® System Center, VMware® vCenter™, BMC Truesight (available
+
+Integrations and Connections
+
+from BMC), Red Hat Ansible;
+Connections: Nagios Core & Nagios XI, Micro Focus Operations Manager i (OMi), IBM
+Tivoli Netcool / OMNIbus
+
+Security
+
+Support Cryptographically signed firmware; Secure Boot; Secure Erase; Silicon Root of
+Trust; System Lockdown (requires iDRAC9 Enterprise or Datacenter)
+
+Ports
+USB 3.0
+
+0（Front）+1（Rear）
+
+USB 2.0
+
+1（Front）+1（Rear）
+
+Ethernet Port
+
+2 x LAN 10/100/1000
+
+VGA
+
+1
+
+iDRAC Direct (Micro-AB USB)
+Port
+
+1
+
+iDRAC Ethernet Port
+
+1
+
+Manager Port
+
+1
+
+General
+
+
+
+Net Weight
+
+12.2 kg (26.9 lb)
+
+Gross Weight
+
+18.5 kg (40.79 lb)
+
+Dimension (W × H × D)
+
+482.00 mm × 42.8 mm × 598.64 mm (18.97'' × 1.68'' × 23.56'')
+
+Package Dimensions (W × H × D)
+
+595.00 mm × 251.00 mm × 923.00 mm (23.43'' × 9.88'' × 36.34'')
+
+Operating Temperature
+
+10 °C to 35 °C (50 °F to 95 °F)
+
+Storage Temperature
+
+-40 °C to 65 °C (-40 °F to 149 °F)
+
+Operating Humidity
+
+8% to 80% (no condensation)
+
+Storage Humidity
+
+5% to 95% (no condensation)
+
+Power Supply
+
+450 W，50/60 Hz，100-240 VAC (Auto adjustment)，6.5-3.5 A
+
+Form Factor
+
+1U Rack
+
+Available Model
+
+HikCentral-P-VSS-Base/HW/64Ch(B)
+
+

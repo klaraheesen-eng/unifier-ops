@@ -1,0 +1,320 @@
+DS-96000NI-I16 SERIES NVR
+
+Features and Functions
+Professional and Reliable
+
+New logical and visualized GUI design.
+
+Adopts professional embedded hardware and software, and pioneering dual-OS design to ensure the reliability of system running.
+
+Supports redundant power supply to improve the system stability.
+
+Supports HDD hot swap with RAID0, RAID1, RAID5, RAID 6, and RAID10 storage scheme configurable.
+
+Either normal or hot spare working mode is configurable to constitute an N+1 hot spare system.
+Video Input and Transmission
+
+Up to 128/256 IP cameras can be connected.
+
+Support live view, storage, and playback of the connected camera at up to 12 megapixels resolution.
+
+H.265+ compression effectively reduces the storage space by up to 75%.
+
+4 self-adaptive 10M/100M/1000M network interfaces.
+
+Adopt stream over TLS encryption technology (enhanced SDK service and RTP over HTTPS protocol)
+
+Connectable to the third-party network cameras like ACTI, Arecont, AXIS, Bosch, Brickcom, Canon, ONVIF, PANASONIC, Pelco,
+SAMSUNG, SANYO, SONY, Vivotek and ZAVIO.
+HD Output
+
+Simultaneous HDMI 1/VGA output as the main output and the HDMI 2 works as the auxiliary output.
+
+HDMI and VGA1 simultaneous outputs by default. Asynchronous outputs configurable.
+
+Video outputs at up to 4K (4096×2160) resolution.
+
+Supports decoding up to 20 channels at 1080p resolution.
+Storage and Playback
+
+Up to 16 SATA interfaces and 1 eSATA interface provided for HDD connection
+
+10 TB capacity for each HDD.
+
+HDD health monitoring.
+
+Supports HDD quota and group modes; different capacity can be assigned to different channels.
+
+Normal/Important/Custom video playback.
+Various Applications
+
+Centralized management of IP cameras is supported, including configuration, information import/export, real-time information
+display, two-way audio, upgrade, etc.
+
+Connectable to smart IP cameras from Hikvision and the recording, playing back, and backing up of VCA alarms can be realized.
+
+VCA detection alarm is supported.
+
+VCA search for facial detection, people counting, heat map, etc.
+
+Supports starting record with one key.
+
+Realizes instant playback for assigned channel during multi-channel display mode.
+
+Smart search for the selected area in the video; and smart playback to improve the playback efficiency.
+
+Specifications
+Model
+
+DS-96064NI-I16
+
+DS-96128NI-I16
+
+DS-96256NI-I16
+
+Video & Audio
+
+IP video input
+
+64-ch
+
+128-ch
+
+256-ch
+
+input
+
+Incoming/outgoing
+
+512 Mbps/512 Mbps
+
+576 Mbps/512 Mbps
+
+768 Mbps/768 Mbps
+
+512 Mbps/400 Mbps
+
+576 Mbps/512 Mbps
+
+768 Mbps/768 Mbps
+
+bandwidth
+Incoming/outgoing
+bandwidth (RAID mode)
+TLS outgoing bandwidth
+
+128 Mbps, or 64 Mbps (when RAID is enabled)
+
+Protocol
+
+HIKVISION, ACTi, ARECONT, AXIS, BOSCH, BRICKCOM, CANON, HUNT, ONVIF (Version 2.5),
+PANASONIC, PELCO, RTSP, SAMSUNG, SONY, VIVOTEK, ZAVIO
+
+Video & Audio
+
+HDMI output
+
+output
+
+Two independent HDMI outputs of 4K resolution. Resolution: 4K (4096 × 2160), 4K (3840 ×
+2160)/30Hz, 2K (2560 × 1440)/60Hz, 1080p (1920 × 1080)/60Hz, UXGA (1600 × 1200)/60Hz,
+SXGA (1280 × 1024)/60Hz, 720p (1280 × 720)/60Hz, XGA (1024 × 768)/60Hz
+
+VGA output
+
+1-ch. Resolution: 1080p (1920 × 1080)/60Hz, UXGA (1600 × 1200)/60Hz, SXGA (1280 ×
+1024)/60Hz, 720p (1280 × 720)/60Hz, XGA (1024 × 768)/60Hz
+
+LCD output (optional)
+
+One 7 inch LCD
+
+Audio output
+
+1-ch. RCA (2.0 Vp-p, 1 KΩ)
+
+Video & Audio
+
+Decoding format
+
+H.265, H.265+, H.264, H.264+, MPEG4, MJPEG (for Hikvision IP camera only)
+
+decoding
+
+Video resolution
+
+32 MP/24 MP/12 MP/8 MP/7 MP/6 MP/5 MP/4 MP/3 MP/1080p/UXGA/720p
+/VGA/4CIF/DCIF/2CIF/CIF/QCIF
+*: 32 MP and 24 MP is only available for channel 1 to 4 when ultra HD resolution mode is
+enabled.
+
+Synchronous playback
+
+Up to 16 channels
+
+Capability
+
+1-ch@32 MP (8160 × 3616, 30 fps)/5-ch@8 MP(30 fps)/10-ch@4 MP(30
+fps)/20-ch@1080p(30 fps)/40-ch@720p(30 fps)
+*: The length or width of camera resolution (each track) cannot exceed 4096 pixels.
+
+Interface
+
+16 SATA interfaces supporting hot-plug
+
+Capacity
+
+Up to 10 TB for each HDD
+
+Storage extension
+
+1 × eSATA interface, 2 × mini SAS interface (optional)
+
+RAID
+
+RAID Type
+
+RAID0, RAID1, RAID5, RAID 6, and RAID10
+
+Network
+
+Protocol
+
+IPv6, HTTPS, UPnP, SNMP, NTP, SADP, SMTP, NFS, iSCSI, PPPoE, DDNS
+
+management
+
+Network interface
+
+4, RJ45 10M/100M/1000M self-adaptive Ethernet interface
+
+Two-way audio input
+
+1-ch, RCA (2.0 Vp-p, 1 KΩ)
+
+Serial port
+
+RS-232; RS-485; Keyboard
+
+USB interface
+
+Front Panel: 2 × USB 2.0; Rear Panel: 2 × USB 3.0
+
+Alarm input/output
+
+16/8
+
+Extension board
+(optional)
+
+One extension board is supported with four 10M/100M/1000M optical interfaces (1.25 Gbps
+SFP module), eight RS-485 interfaces, and alarm interface of 32 alarm inputs and 16 alarm
+outputs.
+Note: The optional extension board should be purchased with your device in advance.
+
+Power supply
+
+100 to 240 VAC, 50 to 60Hz, 5 A
+
+Fan
+
+Redundant dual ball bearing fan; Speed adjustable
+
+Consumption (without
+
+≤ 140W
+
+HDD
+
+External
+interface
+
+General
+
+HDD)
+Working temperature
+
+0 °C to + 50 °C (32 °F to 122 °F)
+
+Working humidity
+
+10% to 90%
+
+Dimension (W × D × H)
+
+442 × 494 × 146 mm (17.4 × 19.4 × 5.7 inch)
+
+Weight (without HDD)
+
+≤ 16 kg (35.3 lb)
+
+Physical Interfaces
+
+No.
+
+Name
+
+No.
+
+Name
+
+1
+
+HDMI 1/2 Video Output
+
+8
+
+Reset Button
+
+Audio Input
+
+9
+
+RS-232 Interface
+
+2
+
+Audio Output
+
+Alarm Input
+
+3
+
+USB 3.0
+
+4
+
+LAN
+
+5
+
+eSATA Interface
+
+6
+
+VGA Video Output
+
+11
+
+Ground
+
+7
+
+Mini SAS Interface (Optional)
+
+12
+
+Power Supplies
+
+10
+
+Alarm Output
+RS-485 Interface
+Keyboard Interface
+
+Available Models
+DS-96064NI-I16, DS-96128NI-I16; DS-96256NI-I16
+
+0401702010914
+
+
