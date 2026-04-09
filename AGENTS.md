@@ -1,4 +1,4 @@
-# AGENTS.md — Unifier Ops Repo
+# AGENTS.md - Unifier Ops Repo
 
 This repo is the home base for **Unifier operations** work: CRM-related flows, Unity deployment and operations, runbooks, and coordination between marketing and technical systems.
 
@@ -18,40 +18,43 @@ Centralize:
 - How Unifier **operations** are supposed to run (Unity CRM, MCP, deploy, smoke tests).
 - Operational runbooks and troubleshooting notes that are not marketing-specific.
 - Pointers to authoritative repos (`unity`, `unifier-marketing`) so agents do not duplicate or drift.
-- **Imported raw data** (`raw/`) interpreted into procedures, customer context, and reference docs — **Unity remains canonical** for live CRM.
+- **Imported raw data** (`raw/`) interpreted into procedures, customer context, and reference docs - **Unity remains canonical** for live CRM.
 - **Unity-first ops:** job cards, install schedules, pricelists, shopping lists, and quote pipeline are **in Unity** (`/home/klara/dev/unity`). `raw/` Google/CSV material is mostly **historic**; use MCP or the **Unity CLI** below for current data.
 
-## Repo map — where to find what
+## Repo map - where to find what
 
 Read [`docs/internal/repo-map.md`](docs/internal/repo-map.md) first for navigation. Condensed index:
 
 ### Core operating instructions
 
-- `AGENTS.md` — rules, scope, this map pointer  
-- `docs/internal/repo-map.md` — full navigation index  
-- `docs/internal/raw-provenance.md` — what `raw/` contains and how it relates to Drive/Unity  
+- `AGENTS.md` — rules, scope, this map pointer
+- `docs/internal/repo-map.md` — full navigation index
+- `docs/internal/raw-provenance.md` — what `raw/` contains and how it relates to Drive/Unity
+- `docs/tasks/` — task tracking (backlog, in-progress, done)
+- `docs/tasks/INDEX.md` — auto-generated task index
+- `docs/tasks/COMPLETION_LOG.md` — chronological completion log
 
 ### Raw imports and derived data
 
-- `raw/manifest.json` — Google Docs/Sheets catalog with `webViewLink`s  
-- `raw/Unifier Claims.csv` — CRM quotes export (PII; historical snapshot)  
-- `raw/Statement of Account.csv` — Unifier template statement  
-- `raw/CGR Statement 19 06 2023.csv` — CGR / Fuel Me statement (duplicate path variant under `raw/CGR Statement 19/06/2023.csv`)  
-- `raw/README.md` — quick file list  
-- `data/derived/` — optional summaries; see `data/derived/claims-export-snapshot.md`  
+- `raw/manifest.json` - Google Docs/Sheets catalog with `webViewLink`s
+- `raw/Unifier Claims.csv` - CRM quotes export (PII; historical snapshot)
+- `raw/Statement of Account.csv` - Unifier template statement
+- `raw/CGR Statement 19 06 2023.csv` - CGR / Fuel Me statement (duplicate path variant under `raw/CGR Statement 19/06/2023.csv`)
+- `raw/README.md` - quick file list
+- `data/derived/` - optional summaries; see `data/derived/claims-export-snapshot.md`
 
 ### Unity live operations (prefer over raw exports)
 
-- `docs/reference/unity-scheduling-and-jobcards.md` — schedules, job cards, shopping list (Unity canonical)  
-- `docs/runbooks/unity-cli.md` — **`npm run unity`** CLI against `mcp_*.asp` (`.env`: `UNITY_MCP_TOKEN`)  
-- `skills/unifier-unity-cli/SKILL.md` — OpenClaw/Cursor skill stub for the CLI  
-- `unity/skills/unifier-unity/` (in `dev/unity`) — authoritative MCP tool semantics  
+- `docs/reference/unity-scheduling-and-jobcards.md` - schedules, job cards, shopping list (Unity canonical)
+- `docs/runbooks/unity-cli.md` - **`npm run unity`** CLI against `mcp_*.asp` (`.env`: `UNITY_MCP_TOKEN`)
+- `skills/unifier-unity-cli/SKILL.md` - OpenClaw/Cursor skill stub for the CLI
+- `unity/skills/unifier-unity/` (in `dev/unity`) - authoritative MCP tool semantics
 
 ### Reference (from raw extraction)
 
-- `docs/reference/crm-quote-statuses.md` — quote status values  
-- `docs/reference/lead-channel-taxonomy.md` — Bark, Leads, web, etc.  
-- `docs/reference/claims-export-columns.md` — CSV column meanings  
+- `docs/reference/crm-quote-statuses.md` - quote status values
+- `docs/reference/lead-channel-taxonomy.md` - Bark, Leads, web, etc.
+- `docs/reference/claims-export-columns.md` - CSV column meanings
 
 ### Knowledge Management & Hardware Datasheets
 
@@ -63,21 +66,21 @@ When new hardware datasheets, manuals, or technical specifications are provided 
 
 ### Customers and finance
 
-- `docs/customers/cgr-holdings-fuelme.md` — CGR / Fuel Me context  
-- `docs/customers/notable-commercial-accounts.md` — Buffalo, Bracken Lodge, Invest Gold, SkyCorp, Pizza Perfect (stubs)  
-- `docs/runbooks/ar-statements-and-reconciliation.md` — statements and AR checks  
+- `docs/customers/cgr-holdings-fuelme.md` - CGR / Fuel Me context
+- `docs/customers/notable-commercial-accounts.md` - Buffalo, Bracken Lodge, Invest Gold, SkyCorp, Pizza Perfect (stubs)
+- `docs/runbooks/ar-statements-and-reconciliation.md` - statements and AR checks
 
 ### Operations and incidents
 
-- `docs/operations/callouts-training-and-site-docs.md` — Drive doc catalog  
-- `docs/operations/main-agent-subagent-workflow.md` — how to split chat vs deep repo work  
-- `docs/incidents/pharmaleaf-20231211.md` — incident doc link (body stays in Google)  
+- `docs/operations/callouts-training-and-site-docs.md` - Drive doc catalog
+- `docs/operations/main-agent-subagent-workflow.md` - how to split chat vs deep repo work
+- `docs/incidents/pharmaleaf-20231211.md` - incident doc link (body stays in Google)
 
 ### Workflow (Tesla-style)
 
-- **Main assistant:** routing, approvals, live MCP/tool use, short task-focus updates.  
-- **Repo / sub-agent:** deep reading of `raw/` + `docs/`, evidence-based write-ups, no customer sends without approval.  
-- Details: [`docs/operations/main-agent-subagent-workflow.md`](docs/operations/main-agent-subagent-workflow.md).  
+- **Main assistant:** routing, approvals, live MCP/tool use, short task-focus updates.
+- **Repo / sub-agent:** deep reading of `raw/` + `docs/`, evidence-based write-ups, no customer sends without approval.
+- Details: [`docs/operations/main-agent-subagent-workflow.md`](docs/operations/main-agent-subagent-workflow.md).
 
 ## Scope boundaries
 
@@ -85,7 +88,7 @@ When new hardware datasheets, manuals, or technical specifications are provided 
 |--------|----------------|
 | Marketing dashboard, SEO, GA4, Google Ads, WordPress content, public dashboard URL | `/home/klara/dev/unifier-marketing` |
 | Unity CRM (Classic ASP), FTP/GitHub deploy, MCP endpoints, Sage/quoting internals | `/home/klara/dev/unity` |
-| Ops runbooks, ops memory, “how we run Unifier” cross-cutting notes | **this repo** (`unifier-ops`) |
+| Ops runbooks, ops memory, "how we run Unifier" cross-cutting notes | **this repo** (`unifier-ops`) |
 
 Default to **this repo** for **ops** Telegram/chat threads and for tasks that span CRM + process. Default to **marketing** for campaigns, dashboard, and SEO unless the task is explicitly operational.
 
@@ -113,24 +116,24 @@ Secrets for MCP and CLI (never commit): `UNITY_MCP_TOKEN` (required for `scripts
 
 ## OpenClaw Telegram (ops chat)
 
-- [`docs/openclaw-telegram-ops.md`](docs/openclaw-telegram-ops.md) — system prompt command for the ops Telegram group (`-5298149734`, [web chat](https://web.telegram.org/a/#-5298149734)).
+- [`docs/openclaw-telegram-ops.md`](docs/openclaw-telegram-ops.md) - system prompt command for the ops Telegram group (`-5298149734`, [web chat](https://web.telegram.org/a/#-5298149734)).
 
 ## Core docs in this repo
 
-- [`docs/overview.md`](docs/overview.md) — map of systems and responsibilities.
-- [`docs/unity-crm.md`](docs/unity-crm.md) — Unity CRM entry points and agent workflow.
-- [`docs/operations-model.md`](docs/operations-model.md) — end-to-end ops flow.
-- [`docs/related-repos.md`](docs/related-repos.md) — links and paths.
-- [`docs/access.md`](docs/access.md) — secrets and safe handling.
-- [`docs/runbooks/unity-deploy.md`](docs/runbooks/unity-deploy.md) — deploy checklist (points to Unity).
-- [`docs/runbooks/unity-cli.md`](docs/runbooks/unity-cli.md) — Unity MCP CLI (`npm run unity`) with `.env` credentials.
-- [`docs/internal/repo-map.md`](docs/internal/repo-map.md) — detailed repo map (start here for file layout).
+- [`docs/overview.md`](docs/overview.md) - map of systems and responsibilities.
+- [`docs/unity-crm.md`](docs/unity-crm.md) - Unity CRM entry points and agent workflow.
+- [`docs/operations-model.md`](docs/operations-model.md) - end-to-end ops flow.
+- [`docs/related-repos.md`](docs/related-repos.md) - links and paths.
+- [`docs/access.md`](docs/access.md) - secrets and safe handling.
+- [`docs/runbooks/unity-deploy.md`](docs/runbooks/unity-deploy.md) - deploy checklist (points to Unity).
+- [`docs/runbooks/unity-cli.md`](docs/runbooks/unity-cli.md) - Unity MCP CLI (`npm run unity`) with `.env` credentials.
+- [`docs/internal/repo-map.md`](docs/internal/repo-map.md) - detailed repo map (start here for file layout).
 
 ## Skills and tools
 
 - Prefer **Cursor** / **OpenClaw** tooling already configured on this machine.
 - **Unity MCP:** use the **unifier-unity** skill in `/home/klara/dev/unity` when the gateway exposes MCP tools.
-- **Unity CLI:** from this repo, `npm run unity` with `UNITY_MCP_TOKEN` in `.env` — see [`skills/unifier-unity-cli/SKILL.md`](skills/unifier-unity-cli/SKILL.md) and [`docs/runbooks/unity-cli.md`](docs/runbooks/unity-cli.md).
+- **Unity CLI:** from this repo, `npm run unity` with `UNITY_MCP_TOKEN` in `.env` - see [`skills/unifier-unity-cli/SKILL.md`](skills/unifier-unity-cli/SKILL.md) and [`docs/runbooks/unity-cli.md`](docs/runbooks/unity-cli.md).
 - Use **browser** tools when inspecting live CRM pages or auth flows.
 
 ## Access and secrets
@@ -141,4 +144,4 @@ Do not commit secrets. Use `.env` locally (see `.env.example`). For Unity FTP, d
 
 - Task completed with correct repo boundaries.
 - If the learning is reusable, a doc under `docs/` or `docs/runbooks/` is updated.
-- Meaningful progress is committed and pushed when appropriate.
+- Commit and push after each completed task.

@@ -1,0 +1,43 @@
+# Contractor Questionnaire
+
+- [ ] Complete attached Brenntag contractor questionnaire (QSHE-FM-04-1.0)
+- [ ] Attach company profile
+- [ ] Attach organogram
+- [ ] Attach BBBEE certificate copy
+- [ ] Attach ISO certificates (if applicable)
+- [ ] Attach trade/professional body membership (if applicable)
+- [ ] Attach contractor scheme details (if applicable)
+- [ ] Attach medical fitness certificates (not older than 1 year) for site personnel
+- [ ] Attach ID/work permit copies (clear pictures) for site personnel
+- [ ] Attach WCL2 forms/templates
+- [ ] Attach HSE Policy copy
+- [ ] Attach Environmental Policy copy (if applicable)
+- [ ] Attach accident/incident reporting system details (and copy if possible)
+- [ ] Attach Near Miss reporting system details (and copy if possible)
+- [ ] Attach last 3 HSE meeting minutes
+- [ ] Attach drugs and alcohol policy copy
+- [ ] Attach emergency contact numbers
+- [ ] Attach all applicable HSE appointments
+- [ ] Attach Copy of OHSAct and applicable regulations
+- [ ] Attach training plan for employees
+- [ ] Attach training records/certificates for employees
+- [ ] Attach recent certificates for general HSE training
+- [ ] Attach 3 examples of Tool Box talks
+- [ ] Provide recent competence assessment example (if applicable)
+- [ ] Detail subcontractor policy/supplier approval process (if using subcontractors)
+- [ ] Detail how safety performance of subcontractors is assessed (if applicable)
+- [ ] Explain how Brenntag safety info is communicated to subcontractors (if applicable)
+- [ ] Attach Method Statement for work at Brenntag site
+- [ ] Attach Risk Assessment for work at Brenntag site
+- [ ] Detail how risks/method statements are communicated to staff pre-commencement
+- [ ] Attach PPE Register
+- [ ] Attach equipment certificates (Load Tests, calibration, service, etc.)
+- [ ] Detail how safety performance is monitored on site
+- [ ] Attach Procedure for reporting/investigation of incidents/injuries and corrective action
+- [ ] Attach HSE Plan
+- [ ] Attach fall protection plan for height work
+- [ ] Attach relevant inspection registers and checklists
+- [ ] Attach relevant authorities’ approvals (where applicable)
+- [ ] Submit completed questionnaire to Brenntag
+
+> Source: QSHE-FM-04-1.0_CONTRACTOR_QUESTIONNAIRE---5131cbbf-0fff-44c1-ac5b-60cad5598732.pdf
