@@ -4,7 +4,7 @@ Auto-generated list of all tasks across backlog, in-progress, and done.
 
 <!-- TASK_INDEX_START -->
 ## Backlog
-- [01-contractor-questionnaire](backlog/01-contractor-questionnaire.md)
+- [01-complete-contractor-questionnaire](backlog/01-contractor-questionnaire.md)
 - [02-letter-of-good-standing](backlog/02-letter-of-good-standing.md)
 - [03-bbbee-certificate](backlog/03-bbbee-certificate.md)
 - [04-company-organogram](backlog/04-company-organogram.md)
@@ -23,4 +23,8 @@ Auto-generated list of all tasks across backlog, in-progress, and done.
 - [17-wcl2-forms](backlog/17-wcl2-forms.md)
 
 ## In Progress
+- None
+
+## Done
+- None
 <!-- TASK_INDEX_END -->

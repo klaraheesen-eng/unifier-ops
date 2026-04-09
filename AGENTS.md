@@ -30,9 +30,13 @@ Read [`docs/internal/repo-map.md`](docs/internal/repo-map.md) first for navigati
 - `AGENTS.md` — rules, scope, this map pointer
 - `docs/internal/repo-map.md` — full navigation index
 - `docs/internal/raw-provenance.md` — what `raw/` contains and how it relates to Drive/Unity
-- `docs/tasks/` — task tracking (backlog, in-progress, done)
-- `docs/tasks/INDEX.md` — auto-generated task index
+- `docs/tasks/` — task tracking system and working memory
+- `docs/tasks/INDEX.md` — task index across backlog, in-progress, and done
 - `docs/tasks/COMPLETION_LOG.md` — chronological completion log
+- `docs/tasks/templates/task-template.md` — standard task structure
+- `docs/tasks/source-docs/` — copied raw source documents needed to complete tasks
+- `docs/tasks/knowledge-base/` — markdown extracts and reusable reference material from source docs
+- `docs/tasks/worknotes/` — optional scratch notes grouped by project or site
 
 ### Raw imports and derived data
 
@@ -140,8 +144,23 @@ Secrets for MCP and CLI (never commit): `UNITY_MCP_TOKEN` (required for `scripts
 
 Do not commit secrets. Use `.env` locally (see `.env.example`). For Unity FTP, deploy, and MCP tokens, follow the Unity repo and `docs/access.md`.
 
+## Task operating rules
+
+1. Every meaningful request must become a task file in `docs/tasks/backlog/`, `docs/tasks/in-progress/`, or `docs/tasks/done/`.
+2. Use the standard task structure from `docs/tasks/templates/task-template.md`.
+3. Task files are not just labels, they are the durable scratch pad for the work. Keep enough notes, evidence, and next actions in the task file so work can resume cleanly next session.
+4. When a source document matters to a task, copy it into `docs/tasks/source-docs/<project-or-site>/`.
+5. Always extract or summarize important source documents into markdown under `docs/tasks/knowledge-base/<project-or-site>/` so they are easy to search, reuse, and edit.
+6. Link each task to its source documents and extracted markdown.
+7. Keep `docs/tasks/INDEX.md` up to date whenever tasks are created, moved, or completed.
+8. Keep `docs/tasks/COMPLETION_LOG.md` up to date whenever a task is completed.
+9. Reusable insights should be added to the knowledge base or other durable docs in this repo.
+10. Commit and push after each completed task.
+
 ## Definition of done
 
 - Task completed with correct repo boundaries.
-- If the learning is reusable, a doc under `docs/` or `docs/runbooks/` is updated.
+- The task file contains enough completion notes or evidence for future reference.
+- If the learning is reusable, a doc under `docs/`, `docs/runbooks/`, or `docs/tasks/knowledge-base/` is updated.
+- `INDEX.md` and `COMPLETION_LOG.md` are updated if task status changed.
 - Commit and push after each completed task.
