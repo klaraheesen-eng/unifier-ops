@@ -139,6 +139,7 @@ Secrets for MCP and CLI (never commit): `UNITY_MCP_TOKEN` (required for `scripts
 - **Unity MCP:** use the **unifier-unity** skill in `/home/klara/dev/unity` when the gateway exposes MCP tools.
 - **Unity CLI:** from this repo, `npm run unity` with `UNITY_MCP_TOKEN` in `.env` - see [`skills/unifier-unity-cli/SKILL.md`](skills/unifier-unity-cli/SKILL.md) and [`docs/runbooks/unity-cli.md`](docs/runbooks/unity-cli.md).
 - Use **browser** tools when inspecting live CRM pages or auth flows.
+- For sharing generated deliverables with humans, prefer uploading the local file to Google Drive with **gog** using the Klara account, then create an anyone-with-link reader share link and send that URL back in chat. This is the default file-sharing method unless Heinrich explicitly asks for another channel.
 
 ## Access and secrets
 

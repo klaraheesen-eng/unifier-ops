@@ -20,8 +20,11 @@ Complete the Brenntag contractor questionnaire and compile all required supporti
 ## Inputs / Evidence
 - Source docs:
   - `docs/tasks/source-docs/brenntag-pomona1/QSHE-FM-04-1.0_CONTRACTOR_QUESTIONNAIRE---5131cbbf-0fff-44c1-ac5b-60cad5598732.pdf`
+  - `docs/tasks/source-docs/brenntag-pomona1/RedOlive_Company_Profile.pdf`
 - Extracted markdown:
   - `docs/tasks/knowledge-base/brenntag-pomona1/contractor-questionnaire-extracted.md`
+  - `docs/tasks/knowledge-base/brenntag-pomona1/company-master-details.md`
+  - `docs/tasks/knowledge-base/brenntag-pomona1/RedOlive_Company_Profile.txt`
 - Related files:
   - `docs/tasks/backlog/02-letter-of-good-standing.md`
   - `docs/tasks/backlog/03-bbbee-certificate.md`
@@ -44,6 +47,10 @@ Complete the Brenntag contractor questionnaire and compile all required supporti
 - This task is the parent checklist for the full Brenntag onboarding pack.
 - Supporting documents should be completed through their own task files and then attached here.
 - Use this file to track overall questionnaire completion status and open gaps.
+- 2026-04-09: Lianne supplied core company details in chat and uploaded the RedOlive / Unifier company profile.
+- Added reusable master details file at `docs/tasks/knowledge-base/brenntag-pomona1/company-master-details.md`.
+- Confirmed so far: company name, trading name, registration number, address, phone, emails, founded 2015, not VAT registered, company profile summary, employee count `7`, application type `new`, no ISO accreditations/memberships, no subcontractors, no public liability cover, and preliminary role/safety answers.
+- Remaining gaps are now narrower: BBBEE proof/level, Mike Mabua email address, and the supporting document set.
 
 ## Checklist
 - [ ] Confirm company details for Section 1
@@ -59,10 +66,10 @@ Complete the Brenntag contractor questionnaire and compile all required supporti
 - Completed Brenntag contractor questionnaire package
 
 ## Blockers
-- Need actual company information and supporting documents
+- Need remaining company details and supporting documents to complete the questionnaire
 
 ## Next Step
-- Start gathering the supporting documents from tasks 02 to 17 and capture company master details.
+- Confirm the remaining questionnaire fields with Heinrich and Lianne, then start collecting the supporting documents from tasks 02 to 17.
 
 ## Completion Notes
 - Fill in when done.
