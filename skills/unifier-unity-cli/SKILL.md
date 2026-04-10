@@ -2,7 +2,8 @@
 name: unifier-unity-cli
 description: >
   Run the unifier-ops Unity MCP CLI against production IIS endpoints using UNITY_MCP_TOKEN
-  from unifier-ops/.env. Use for quotes, pricelists, pricelist search, and item updates.
+  from unifier-ops/.env. Use for leads, quotes, quote items, pricelists, pricelist search,
+  and item updates.
   Prefer this when the OpenClaw gateway does not expose MCP tools, or for scripted automation.
 ---
 
@@ -10,7 +11,7 @@ description: >
 
 ## When to use
 
-- Agents need **live** quotes, pricelists, or item search from Unity without opening the browser.
+- Agents need **live** leads, quotes, quote items, pricelists, or item search from Unity without opening the browser.
 - You are working in **`/home/klara/dev/unifier-ops`** with `UNITY_MCP_TOKEN` configured.
 
 ## Setup
@@ -25,11 +26,16 @@ description: >
 cd /home/klara/dev/unifier-ops
 npm run unity -- help
 npm run unity -- quotes --status-name="In Queue" --limit=20
+npm run unity -- lead-create --lead-short-name="CIA Biometric" --lead-details-name="Client Name"
+npm run unity -- quote-create-from-lead --lead-id=123 --opportunity-type-id=1
+npm run unity -- quote-add-item --quote-id=456 --part-code=DS-2CD --qty=2
+npm run unity -- quote-items --quote-id=456
+npm run unity -- quote-update --quote-id=456 --customer-po-number=PO-001
 npm run unity -- pricelists
 npm run unity -- search --part-code=DS-2CD --limit=30
 ```
 
-Write operations (`update-item`, `obsolete`) require explicit human approval; do not run destructive updates without confirmation.
+Write operations (`lead-create`, `quote-create-from-lead`, `quote-add-item`, `quote-update`, `update-item`, `obsolete`) require explicit human approval; do not run destructive updates without confirmation.
 
 ## Canonical docs
 

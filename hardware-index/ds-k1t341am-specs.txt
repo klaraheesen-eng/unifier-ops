@@ -1,0 +1,34 @@
+DS-K1T341AM / MinMoe Value Series Face Recognition Terminal
+Source reference:
+- Demo video: https://www.youtube.com/watch?v=4y5hKv0aqsw
+- Product page: https://www.hikvision.com/en/products/Access-Control-Products/Face-Recognition-Terminals/Value-Series/ds-k1t341am/
+
+Key specs captured from Hikvision product page:
+- Product type: Face recognition terminal / biometric access control reader
+- Series: MinMoe Value Series
+- Display: 4.3-inch LCD
+- Operation: Capacitive touch screen
+- Camera: Dual-lens, 2 MP, video stream 720P
+- FOV: HFOV 41.5°, VFOV 75.5°, DFOV 87°
+- Network: 10/100/1000 Mbps self-adaptive Ethernet
+- Interfaces: 1 x network, 1 x RS-485, 1 x Wiegand, 1 x lock output, 1 x exit button, 1 x door contact input
+- Capacity: 3,000 cards, 3,000 faces, 150,000 events
+- Card type: M1 card, 13.56 MHz
+- Face recognition duration: less than 0.2 s
+- Face recognition accuracy: greater than 99%
+- Face recognition distance: 0.3 m to 1.5 m
+- Power: 12 VDC, 2 A (power adapter not included)
+- Working temperature: -30 °C to 60 °C
+- Working humidity: 0 to 90% non-condensing
+- Dimensions: 172.5 mm × 83.2 mm × 22.7 mm
+- Installation: Surface mounting
+- Platform support: Hik-ProConnect and HikCentral Professional
+- Functions: Face anti-spoofing, audio prompt, time synchronization
+
+Quoting relevance:
+- Suitable for small to medium access control deployments with a single controlled opening.
+- Built-in lock output, exit button input, and door contact input make it suitable for standalone door/gate control.
+- Face distance range is practical for pedestrian gate or reception-controlled entry points.
+- Card fallback is available, useful where facial-only operation is not preferred.
+- Surface mount format suits brick pier or wall mounting near a pedestrian gate.
+- For outdoor/semi-outdoor installs, confirm exact environmental protection / enclosure requirements from the official datasheet before final hardware signoff.

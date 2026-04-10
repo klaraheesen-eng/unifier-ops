@@ -1,0 +1,35 @@
+DS-K1T341CMFW Face Recognition Terminal
+Source references:
+- Raw PDF: datasheets/raw/DS-K1T341CMFW_Datasheet_20240808.pdf
+- Extracted text: datasheets/text/DS-K1T341CMFW_Datasheet_20240808.txt
+- Demo video reference for family/product context: https://www.youtube.com/watch?v=4y5hKv0aqsw
+
+Key specs:
+- Product type: Face recognition terminal with fingerprint, card, and PIN authentication
+- Display: 4.3-inch IPS capacitive touch screen
+- Camera: Dual-lens, 2 MP wide-angle, 720P video stream
+- Capacity: 3,000 faces, 3,000 cards, 3,000 fingerprints, 150,000 events
+- Recognition: Face recognition < 0.2 s per user
+- Additional features: mask-wearing detection, QR code recognition, face anti-spoofing, Hik-Connect support
+- Audio: Two-way audio, noise suppression and echo cancellation
+- Network: RJ-45 10/100 Mbps self-adaptive, plus 2.4 GHz Wi-Fi 802.11b/g/n
+- Interfaces: lock control, exit button, door contact input, tamper, RS-485, Wiegand, USB
+- Controller: built-in access controller
+- Power: 12 VDC to 24 VDC, 2 A
+- Power consumption: ≤ 10 W
+- Working temperature: -30 °C to 60 °C
+- Protection: IP65
+- Suitable applications: buildings, enterprises, financial sector, other controlled access areas
+
+Optional accessories from datasheet:
+- DS-KAB6-D1 base bracket
+- DS-KAB6-ZU1 face terminal bracket
+- DS-KAB671-P2 stand stick
+- DS-KAB34X-S1 protective shield
+
+Quoting relevance:
+- Stronger field option than face-only terminals where fingerprint and card fallback are desirable.
+- IP65 and optional protective shield make it a better fit for semi-outdoor or exposed pedestrian gate installations.
+- Two-way audio support may help when combining visitor communication and access verification flows.
+- Built-in controller plus lock/exit/door contact interfaces suit a single controlled gate or door.
+- RS-485 to secure door control unit is useful for higher-security installs where terminal damage should not release the door.

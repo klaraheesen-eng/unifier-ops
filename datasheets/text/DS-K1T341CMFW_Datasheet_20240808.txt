@@ -1,0 +1,198 @@
+DS-K1T341CMFW
+Face Recognition Terminal
+
+Face recognition terminal adopts deep learning algorithm, which helps to recognize the face faster with higher accuracy. It
+also supports multiple authentication modes: face/card/fingerprint/PIN authentication, etc. It can be applied in multiple
+scenarios, such as buildings, enterprises, financial industries, and other important areas.
+
+
+
+Deep learning algorithm
+
+
+
+4.3-inch capacitive touch screen, 2 MP wide-angle dual-lens
+
+
+
+3,000 face capacity, 3,000 card capacity, 3,000 fingerprint capacity and 150,000 event capacity
+
+
+
+Multiple authentication modes, including face, fingerprint and card, etc.
+
+
+
+Face recognition duration ＜ 0.2 s/User
+
+
+
+Supports mask wearing detection
+
+
+
+Connects to external access controller or Wiegand card reader via Wiegand protocol
+
+
+
+Connects to secure door control unit via RS-485 protocol to avoid the door opening when the terminal is destroyed
+
+
+
+Two-way audio with client software, door station, indoor station, and main station
+
+
+
+Specification
+
+Display
+Screen size
+
+4.3 inch
+
+Operation method
+
+Capacitive touch screen
+
+Type
+
+IPS
+
+Video
+Lens
+
+2
+
+Resolution
+
+2 MP (video stream: 720P)
+
+FOV
+
+HFOV = 41.5°; VFOV = 75.5°; DFOV = 87°
+
+Audio
+Audio quality
+
+Noise suppression and echo cancellation
+
+Network
+Wired network
+
+Support
+
+Wi-Fi
+
+Support, 2.4 G, 802.11b/g/n
+
+Interface
+Network interface
+
+1 RJ-45, 10/100 M self-adaptive
+
+Lock control
+
+1
+
+Exit button
+
+1
+
+Door contact input
+
+1
+
+TAMPER
+
+1
+
+RS-485
+
+1,RS-485 (Half duplex,HIKVISION）
+
+Wiegand
+
+1,Wiegand （Hik 26bit,Hik 34bit）
+
+USB
+
+1
+
+Authentication
+Card type
+
+M1 card
+
+General
+Built-in access controller
+
+Support
+
+Power supply
+
+12 VDC to 24 VDC, 2 A
+
+Power consumption
+
+≤ 10 W
+
+Working temperature
+
+-30 °C to 60 °C (-22 °F to 140 °F)
+
+Protective level
+
+IP65
+
+Language
+
+English, Spanish (South America), Arabic, Thai, Indonesian, Russian, Vietnamese,
+Portuguese (Brazil), Korean
+
+Function
+
+
+
+Hik-Connect
+
+Support
+
+QR code recognition
+
+Support
+
+Face anti-spoofing
+
+Support
+
+Available Model
+
+DS-K1T341CMFW
+
+
+
+Dimension
+
+
+
+
+
+Accessory
+
+Optional
+DS-KAB6-D1
+Base Bracket
+
+DS-KAB6-ZU1
+Brackets for face
+terminals
+
+DS-KAB671-P2
+
+DS-KAB34X-S1
+
+Stand Stick
+
+Protective Shield
+
+

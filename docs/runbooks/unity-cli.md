@@ -12,6 +12,11 @@ Direct HTTP client for Unity **Classic ASP MCP endpoints** (`mcp_*.asp`). Uses t
 | Command | Purpose |
 |---------|---------|
 | `quotes` | List/filter quotes (`mcp_quotes.asp`) |
+| `lead-create` | Create a lead (`mcp_leads.asp`) — **approval required** |
+| `quote-create-from-lead` | Create quote/opportunity from a lead (`mcp_lead_instant_quote.asp`) — **approval required** |
+| `quote-add-item` | Add or update a quote item by part code (`mcp_quote_items_add.asp`) — **approval required** |
+| `quote-items` | List items on a quote (`mcp_quote_items_list.asp`) |
+| `quote-update` | Update quote header fields (`mcp_quote_update.asp`) — **approval required** |
 | `pricelists` | Active pricelists (`mcp_pricelists.asp`) |
 | `search` | Pricelist item search (`mcp_pricelist_items_search.asp`) |
 | `update-item` | Update pricelist item fields (`mcp_update_item.asp`) — **approval required** |
@@ -24,6 +29,11 @@ Direct HTTP client for Unity **Classic ASP MCP endpoints** (`mcp_*.asp`). Uses t
 cd /home/klara/dev/unifier-ops
 npm run unity -- quotes --status-name="Scheduled" --limit=30
 npm run unity -- quotes --id=959
+npm run unity -- lead-create --lead-short-name="CIA Biometric" --lead-details-name="Client Name" --lead-details-email="client@example.com"
+npm run unity -- quote-create-from-lead --lead-id=123 --opportunity-type-id=1
+npm run unity -- quote-add-item --quote-id=456 --part-code=DS-2CD --qty=2
+npm run unity -- quote-items --quote-id=456
+npm run unity -- quote-update --quote-id=456 --customer-po-number="PO-001"
 npm run unity -- pricelists
 npm run unity -- search --description="camera" --limit=25
 ```
@@ -33,7 +43,7 @@ npm run unity -- search --description="camera" --limit=25
 ## Safety
 
 - **Read-only** commands are safe for routine agent use.
-- **POST** commands (`update-item`, `obsolete`) change **pricelist** data; obtain explicit approval before running.
+- **POST** commands (`lead-create`, `quote-create-from-lead`, `quote-add-item`, `quote-update`, `update-item`, `obsolete`) change live Unity data; obtain explicit approval before running.
 
 ## Troubleshooting
 

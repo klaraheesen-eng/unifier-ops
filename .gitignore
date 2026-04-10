@@ -12,3 +12,4 @@ __pycache__/
 raw/*.docx
 raw/*.pdf
 raw/*.xlsx
+.env
