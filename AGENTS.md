@@ -59,6 +59,7 @@ Read [`docs/internal/repo-map.md`](docs/internal/repo-map.md) first for navigati
 - `docs/reference/crm-quote-statuses.md` - quote status values
 - `docs/reference/lead-channel-taxonomy.md` - Bark, Leads, web, etc.
 - `docs/reference/claims-export-columns.md` - CSV column meanings
+- `docs/tasks/knowledge-base/cctv/connectivity-requirements.md` - CCTV connectivity prerequisite, fibre-first guidance, and fallback router options
 
 ### Knowledge Management & Hardware Datasheets
 

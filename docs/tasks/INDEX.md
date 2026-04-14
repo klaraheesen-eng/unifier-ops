@@ -23,7 +23,7 @@ Auto-generated list of all tasks across backlog, in-progress, and done.
 - [17-wcl2-forms](backlog/17-wcl2-forms.md)
 
 ## In Progress
-- None
+- [2026-04-13-danny-herbatint-cctv-quote](in-progress/2026-04-13-danny-herbatint-cctv-quote.md)
 
 ## Done
 - [2026-04-10-cia-biometric-quote-execution](done/2026-04-10-cia-biometric-quote-execution.md)

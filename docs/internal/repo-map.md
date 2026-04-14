@@ -12,6 +12,8 @@ Read this section first when orienting on an ops task (pattern aligned with `tes
 | `docs/reference/crm-quote-statuses.md` | Unity quote/opportunity **status** values seen in exports |
 | `docs/reference/lead-channel-taxonomy.md` | Naming patterns: Bark, Leads, website, etc. |
 | `docs/reference/access-control-quoting-checklist.md` | Qualification checklist for gates, locks, biometrics, intercoms, and mag lock suitability |
+| `docs/reference/cctv-quoting-checklist.md` | Minimum CCTV quote qualification checklist based on Unity lead and site-survey questions |
+| `docs/tasks/knowledge-base/cctv/connectivity-requirements.md` | CCTV prerequisite: fibre first, network cable to router required, LTE/4G/5G fallback options |
 | `docs/customers/cgr-holdings-fuelme.md` | Durable context: CGR / Fuel Me (from raw statements + claims) |
 | `docs/runbooks/ar-statements-and-reconciliation.md` | Statement-of-account workflows and reconciliation cues |
 | `docs/operations/callouts-training-and-site-docs.md` | Operational Google Docs/Sheets catalog (from manifest) |
