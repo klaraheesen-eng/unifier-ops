@@ -12,15 +12,22 @@ Use this skill for operational actions in Unity (lead creation, quote retrieval,
 
 ## Integration Surface
 
-Unity MCP tools available through the relay:
+Unity MCP tools available through the relay or direct MCP endpoints:
 
 - `leads_post`
 - `quotes_get`
 - `quote_items_post`
 - `pricelists_list`
+- `pricelist_create`
 - `pricelist_item_search`
+- `pricelist_item_create`
 - `update_item`
 - `mark_item_obsolete`
+- `bundles_list`
+- `bundle_create`
+- `bundle_update`
+- `bundle_item_create`
+- `bundle_add_to_quote`
 
 Endpoint family behind these tools:
 
@@ -61,4 +68,7 @@ From IIS/Unity side:
 
 - Always include `x-mcp-auth` when calling `/sse` or `/mcp`.
 - Prefer exact filters for quote and pricelist searches to reduce payload size.
+- Use supplier-scoped pricelist listing/search when you are cleaning or comparing one supplier at a time.
+- Unity's classic UI margin/VAT helper is still the reference for human data entry, but MCP create endpoints expect final VAT-inclusive stored values (`cost_price` = incl VAT buy, `retail_price` = incl VAT sell).
+- Bundle adds to quotes create a parent quote entry plus buying lines for each bundle item, matching the Unity UI flow.
 - Do not send price filter fields with `0` unless you explicitly want zero-value filtering.

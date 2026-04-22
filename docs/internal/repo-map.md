@@ -20,7 +20,10 @@ Read this section first when orienting on an ops task (pattern aligned with `tes
 | `docs/operations/main-agent-subagent-workflow.md` | How to split chat vs repo-deep work |
 | `docs/reference/unity-scheduling-and-jobcards.md` | Schedules & job cards — **Unity** (not Drive) |
 | `docs/runbooks/unity-cli.md` | `npm run unity` — direct MCP HTTP from `.env` |
-| `skills/unifier-unity-cli/SKILL.md` | Agent skill for the CLI |
+| `skills/unifier-unity-cli/SKILL.md` | Broad agent skill for the CLI |
+| `skills/unifier-unity-pricelists/SKILL.md` | Focused skill for supplier pricelists, item creation, and cleanup |
+| `skills/unifier-unity-bundles/SKILL.md` | Focused skill for bundle creation and bundle-to-quote workflows |
+| `skills/unifier-unity-quotes/SKILL.md` | Focused skill for lead/quote composition workflows |
 | `scripts/unity-cli.mjs` | Implementation |
 
 ## Raw imports and derived notes

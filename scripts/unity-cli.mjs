@@ -67,12 +67,29 @@ function parsePricelistsKv(kv) {
       id: kv[`pricelist_${i}_id`] ?? null,
       name: kv[`pricelist_${i}_name`] ?? null,
       expiry_date: kv[`pricelist_${i}_expiry_date`] ?? null,
+      supplier_id: kv[`pricelist_${i}_supplier_id`] ?? null,
       supplier: kv[`pricelist_${i}_supplier`] ?? null,
       supplier_status: kv[`pricelist_${i}_supplier_status`] ?? null,
+      currency_id: kv[`pricelist_${i}_currency_id`] ?? null,
       currency: kv[`pricelist_${i}_currency`] ?? null,
     });
   }
   return { count, pricelists };
+}
+
+function parseBundleKv(kv) {
+  const count = parseInt(kv.count || 0, 10);
+  const bundles = [];
+  for (let i = 0; i < count; i++) {
+    bundles.push({
+      id: kv[`bundle_${i}_id`] ?? null,
+      name: kv[`bundle_${i}_name`] ?? null,
+      description: kv[`bundle_${i}_description`] ?? null,
+      status: kv[`bundle_${i}_status`] ?? null,
+      sell_price: kv[`bundle_${i}_sell_price`] ?? null,
+    });
+  }
+  return { count, bundles };
 }
 
 function parsePricelistItemsKv(kv) {
@@ -89,6 +106,11 @@ function parsePricelistItemsKv(kv) {
       retail_price: kv[`retail_price_${i}`] ?? null,
       supplier_name: kv[`supplier_name_${i}`] ?? null,
       pricelist_name: kv[`pricelist_name_${i}`] ?? null,
+      score: kv[`score_${i}`] ?? null,
+      usage_count: kv[`usage_count_${i}`] ?? null,
+      days_since_last_used: kv[`days_since_last_used_${i}`] ?? null,
+      last_used_date: kv[`last_used_date_${i}`] ?? null,
+      last_used_quote_id: kv[`last_used_quote_id_${i}`] ?? null,
     });
   }
   return { count, items };
@@ -140,22 +162,65 @@ function normalizeBaseUrl(base) {
   return base.endsWith("/") ? base : `${base}/`;
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function isRetryableUnityError(status, raw) {
+  const text = String(raw || "").toLowerCase();
+  if (status >= 500) return true;
+  return text.includes("permission denied") || text.includes("logging-functions.asp");
+}
+
+async function relayRequestWithRetry(url, options, maxAttempts = 5, initialDelayMs = 100) {
+  let lastStatus = 0;
+  let lastRaw = "";
+  let delayMs = initialDelayMs;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const res = await fetch(url, options);
+      const raw = await res.text();
+
+      if (res.ok) return raw;
+
+      lastStatus = res.status;
+      lastRaw = raw;
+
+      if (attempt < maxAttempts && isRetryableUnityError(res.status, raw)) {
+        await sleep(delayMs);
+        delayMs = delayMs * 2;
+        continue;
+      }
+
+      console.error(`HTTP ${res.status}: ${raw}`);
+      process.exit(1);
+    } catch (e) {
+      lastRaw = e.message || String(e);
+      if (attempt < maxAttempts) {
+        await sleep(delayMs);
+        delayMs = delayMs * 2;
+        continue;
+      }
+      console.error(lastRaw);
+      process.exit(1);
+    }
+  }
+
+  console.error(`HTTP ${lastStatus || 500}: ${lastRaw}`);
+  process.exit(1);
+}
+
 async function relayGet(base, token, endpoint, params) {
   const qs = new URLSearchParams();
   for (const [k, v] of Object.entries(params)) {
     if (v !== undefined && v !== null && v !== "") qs.set(k, String(v));
   }
   const url = `${base}${endpoint}${qs.toString() ? `?${qs}` : ""}`;
-  const res = await fetch(url, {
+  return relayRequestWithRetry(url, {
     method: "GET",
     headers: { Authorization: `Bearer ${token}` },
   });
-  const raw = await res.text();
-  if (!res.ok) {
-    console.error(`HTTP ${res.status}: ${raw}`);
-    process.exit(1);
-  }
-  return raw;
 }
 
 async function relayPost(base, token, endpoint, params) {
@@ -164,7 +229,7 @@ async function relayPost(base, token, endpoint, params) {
     if (v !== undefined && v !== null) body.set(k, String(v));
   }
   const url = `${base}${endpoint}`;
-  const res = await fetch(url, {
+  return relayRequestWithRetry(url, {
     method: "POST",
     headers: {
       Authorization: `Bearer ${token}`,
@@ -172,12 +237,6 @@ async function relayPost(base, token, endpoint, params) {
     },
     body: body.toString(),
   });
-  const raw = await res.text();
-  if (!res.ok) {
-    console.error(`HTTP ${res.status}: ${raw}`);
-    process.exit(1);
-  }
-  return raw;
 }
 
 function parseArgs(argv) {
@@ -214,10 +273,19 @@ Commands:
   quote-items --quote-id=N
   quote-update --quote-id=N [--quote-name=] [--customer-contact-id=N] [--customer-po-number=] [--quote-expected-order-date=YYYY-MM-DD]
                [--deposit-amount=] [--installation-date=YYYY-MM-DDTHH:MM] [--maps-link=] [--installation-address=] [--installation-notes=]
-  pricelists
-  search [--part-code=] [--description=] [--limit=50]  (+ optional min/max cost/retail — see code)
+  pricelists [--supplier-id=N] [--include-inactive=true]
+  pricelist-create --pricelist-name= --currency-id=N (--supplier-id=N | --supplier-name= | --new-supplier-name=) [--pricelist-expiry-date=YYYY-MM-DD] [--default-section-name=]
+  pricelist-add-item --pricelist-id=N [--pricelist-entry-group-id=N | --pricelist-entry-group-name=] --part-code= --description= --cost-price= --retail-price= [--type-id=N]
+  pricelist-add-items --pricelist-id=N [--pricelist-entry-group-id=N | --pricelist-entry-group-name=] --items-json='[{...}]'
+  search [--part-code=] [--description=] [--q=] [--supplier-id=N] [--limit=50]  (+ optional min/max cost/retail — see code)
   update-item --pricelist-entry-id=N [--part-code=] [--description=] [--cost-price=] [--retail-price=] [--obsolete-date=YYYY-MM-DD]
   obsolete --pricelist-entry-id=N   (marks obsolete today)
+  bundles [--bundle-id=N] [--bundle-status=Active]
+  bundle-create --bundle-name= [--bundle-description=] [--bundle-sell-price=] [--bundle-status=Active]
+  bundle-update --bundle-id=N --bundle-name= [--bundle-description=] [--bundle-sell-price=] [--bundle-status=Active]
+  bundle-add-item --bundle-id=N --pricelist-entry-id=N --quantity=N [--item-price=] [--description=]
+  bundle-add-items --bundle-id=N --items-json='[{...}]'
+  bundle-add-to-quote --bundle-id=N --quote-id=N [--quote-entry-group-id=N] [--bundle-quantity=N]
   raw-get <endpoint.asp> [--key=value ...]   (debug: returns raw body)
 
 Examples:
@@ -227,8 +295,14 @@ Examples:
   npm run unity -- quote-add-item --quote-id=456 --part-code=DS-2CD --qty=2
   npm run unity -- quote-items --quote-id=456
   npm run unity -- quote-update --quote-id=456 --customer-po-number=PO-001
-  npm run unity -- pricelists
+  npm run unity -- pricelists --supplier-id=18
+  npm run unity -- pricelist-create --pricelist-name="Klara Test" --currency-id=1 --supplier-id=15
+  npm run unity -- pricelist-add-item --pricelist-id=30 --part-code=KLARA-TEST-001 --description="Test item" --cost-price=115 --retail-price=190 --type-id=1
   npm run unity -- search --part-code=DS-2CD
+  npm run unity -- search --q=promo --limit=10
+  npm run unity -- bundles
+  npm run unity -- bundle-create --bundle-name="Klara Test Bundle" --bundle-sell-price=500
+  npm run unity -- bundle-add-to-quote --bundle-id=12 --quote-id=2539 --bundle-quantity=2
 `);
 }
 
@@ -380,17 +454,89 @@ try {
     parsedKv.quote_url = `https://www.unifier.co.za/unity/quote-details.asp?quote_id=${quoteId}`;
     console.log(JSON.stringify(parsedKv, null, 2));
   } else if (cmd === "pricelists") {
-    const raw = await relayGet(base, token, "mcp_pricelists.asp", {});
+    const raw = await relayGet(base, token, "mcp_pricelists.asp", {
+      supplier_id: args["supplier-id"],
+      include_inactive: args["include-inactive"],
+    });
     const kv = parseAspKv(raw);
     if (kv.error) {
       console.error(JSON.stringify(kv, null, 2));
       process.exit(1);
     }
     console.log(JSON.stringify(parsePricelistsKv(kv), null, 2));
+  } else if (cmd === "pricelist-create") {
+    const post = {
+      pricelist_name: args["pricelist-name"],
+      currency_id: args["currency-id"],
+      supplier_id: args["supplier-id"],
+      supplier_name: args["supplier-name"],
+      new_supplier_name: args["new-supplier-name"],
+      pricelist_expiry_date: args["pricelist-expiry-date"],
+      default_section_name: args["default-section-name"],
+    };
+    if (!post.pricelist_name || !post.currency_id || (!post.supplier_id && !post.supplier_name && !post.new_supplier_name)) {
+      console.error("Required: --pricelist-name= --currency-id= and one of --supplier-id= | --supplier-name= | --new-supplier-name=");
+      process.exit(1);
+    }
+    const raw = await relayPost(base, token, "mcp_pricelists.asp", post);
+    console.log(JSON.stringify(parseAspKv(raw), null, 2));
+  } else if (cmd === "pricelist-add-item") {
+    const post = {
+      pricelist_id: args["pricelist-id"],
+      pricelist_entry_group_id: args["pricelist-entry-group-id"],
+      pricelist_entry_group_name: args["pricelist-entry-group-name"],
+      part_code: args["part-code"],
+      description: args.description,
+      cost_price: args["cost-price"],
+      retail_price: args["retail-price"],
+      pricelist_entry_type_id: args["type-id"],
+    };
+    if (!post.pricelist_id || !post.part_code || !post.description || !post.cost_price || !post.retail_price) {
+      console.error("Required: --pricelist-id= --part-code= --description= --cost-price= --retail-price=");
+      process.exit(1);
+    }
+    const raw = await relayPost(base, token, "mcp_pricelist_items_create.asp", post);
+    console.log(JSON.stringify(parseAspKv(raw), null, 2));
+  } else if (cmd === "pricelist-add-items") {
+    const pricelistId = args["pricelist-id"];
+    const itemsJson = args["items-json"];
+    if (!pricelistId || !itemsJson) {
+      console.error("Required: --pricelist-id= and --items-json='[{...}]'");
+      process.exit(1);
+    }
+    let items;
+    try {
+      items = JSON.parse(itemsJson);
+    } catch (e) {
+      console.error(`Invalid --items-json: ${e.message}`);
+      process.exit(1);
+    }
+    if (!Array.isArray(items) || !items.length) {
+      console.error("--items-json must be a non-empty JSON array");
+      process.exit(1);
+    }
+    const post = {
+      pricelist_id: pricelistId,
+      pricelist_entry_group_id: args["pricelist-entry-group-id"],
+      pricelist_entry_group_name: args["pricelist-entry-group-name"],
+      pricelist_entry_type_id: args["type-id"],
+    };
+    items.forEach((item, idx) => {
+      const n = idx + 1;
+      post[`row_${n}_part_code`] = item.part_code;
+      post[`row_${n}_description`] = item.description;
+      post[`row_${n}_cost_price`] = item.cost_price;
+      post[`row_${n}_retail_price`] = item.retail_price;
+      if (item.type_id != null) post[`row_${n}_type_id`] = item.type_id;
+    });
+    const raw = await relayPost(base, token, "mcp_pricelist_items_create.asp", post);
+    console.log(JSON.stringify(parseAspKv(raw), null, 2));
   } else if (cmd === "search") {
     const params = {
       part_code: args["part-code"],
       description: args.description,
+      q: args.q,
+      supplier_id: args["supplier-id"],
       limit: args.limit,
       min_cost_price: args["min-cost-price"],
       max_cost_price: args["max-cost-price"],
@@ -438,6 +584,99 @@ try {
       obsolete_date: todayStr,
       action: "update",
     });
+    console.log(JSON.stringify(parseAspKv(raw), null, 2));
+  } else if (cmd === "bundles") {
+    const raw = await relayGet(base, token, "mcp_bundles.asp", {
+      bundle_id: args["bundle-id"],
+      bundle_status: args["bundle-status"],
+    });
+    const kv = parseAspKv(raw);
+    if (kv.error) {
+      console.error(JSON.stringify(kv, null, 2));
+      process.exit(1);
+    }
+    console.log(JSON.stringify(parseBundleKv(kv), null, 2));
+  } else if (cmd === "bundle-create") {
+    const post = {
+      action: "create",
+      bundle_name: args["bundle-name"],
+      bundle_description: args["bundle-description"],
+      bundle_sell_price: args["bundle-sell-price"],
+      bundle_status: args["bundle-status"],
+    };
+    if (!post.bundle_name) {
+      console.error("Required: --bundle-name=");
+      process.exit(1);
+    }
+    const raw = await relayPost(base, token, "mcp_bundles.asp", post);
+    console.log(JSON.stringify(parseAspKv(raw), null, 2));
+  } else if (cmd === "bundle-update") {
+    const post = {
+      action: "update",
+      bundle_id: args["bundle-id"],
+      bundle_name: args["bundle-name"],
+      bundle_description: args["bundle-description"],
+      bundle_sell_price: args["bundle-sell-price"],
+      bundle_status: args["bundle-status"],
+    };
+    if (!post.bundle_id || !post.bundle_name) {
+      console.error("Required: --bundle-id= --bundle-name=");
+      process.exit(1);
+    }
+    const raw = await relayPost(base, token, "mcp_bundles.asp", post);
+    console.log(JSON.stringify(parseAspKv(raw), null, 2));
+  } else if (cmd === "bundle-add-item") {
+    const post = {
+      action: "add-items",
+      bundle_id: args["bundle-id"],
+      pricelist_entry_id: args["pricelist-entry-id"],
+      quantity: args.quantity,
+      item_price: args["item-price"],
+      description: args.description,
+    };
+    if (!post.bundle_id || !post.pricelist_entry_id || !post.quantity) {
+      console.error("Required: --bundle-id= --pricelist-entry-id= --quantity=");
+      process.exit(1);
+    }
+    const raw = await relayPost(base, token, "mcp_bundles.asp", post);
+    console.log(JSON.stringify(parseAspKv(raw), null, 2));
+  } else if (cmd === "bundle-add-items") {
+    const bundleId = args["bundle-id"];
+    const itemsJson = args["items-json"];
+    if (!bundleId || !itemsJson) {
+      console.error("Required: --bundle-id= and --items-json='[{...}]'");
+      process.exit(1);
+    }
+    let items;
+    try {
+      items = JSON.parse(itemsJson);
+    } catch (e) {
+      console.error(`Invalid --items-json: ${e.message}`);
+      process.exit(1);
+    }
+    const post = { action: "add-items", bundle_id: bundleId };
+    items.forEach((item, idx) => {
+      const n = idx + 1;
+      post[`row_${n}_pricelist_entry_id`] = item.pricelist_entry_id;
+      post[`row_${n}_quantity`] = item.quantity;
+      if (item.item_price != null) post[`row_${n}_item_price`] = item.item_price;
+      if (item.description != null) post[`row_${n}_description`] = item.description;
+    });
+    const raw = await relayPost(base, token, "mcp_bundles.asp", post);
+    console.log(JSON.stringify(parseAspKv(raw), null, 2));
+  } else if (cmd === "bundle-add-to-quote") {
+    const post = {
+      action: "add-to-quote",
+      bundle_id: args["bundle-id"],
+      quote_id: args["quote-id"],
+      quote_entry_group_id: args["quote-entry-group-id"],
+      bundle_quantity: args["bundle-quantity"],
+    };
+    if (!post.bundle_id || !post.quote_id) {
+      console.error("Required: --bundle-id= --quote-id=");
+      process.exit(1);
+    }
+    const raw = await relayPost(base, token, "mcp_bundles.asp", post);
     console.log(JSON.stringify(parseAspKv(raw), null, 2));
   } else if (cmd === "raw-get") {
     const endpoint = args._[1];

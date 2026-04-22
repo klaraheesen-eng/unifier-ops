@@ -51,7 +51,10 @@ Read [`docs/internal/repo-map.md`](docs/internal/repo-map.md) first for navigati
 
 - `docs/reference/unity-scheduling-and-jobcards.md` - schedules, job cards, shopping list (Unity canonical)
 - `docs/runbooks/unity-cli.md` - **`npm run unity`** CLI against `mcp_*.asp` (`.env`: `UNITY_MCP_TOKEN`)
-- `skills/unifier-unity-cli/SKILL.md` - OpenClaw/Cursor skill stub for the CLI
+- `skills/unifier-unity-cli/SKILL.md` - broad CLI entry skill
+- `skills/unifier-unity-pricelists/SKILL.md` - focused pricelist and cleanup skill
+- `skills/unifier-unity-bundles/SKILL.md` - focused bundle skill
+- `skills/unifier-unity-quotes/SKILL.md` - focused quote composition skill
 - `unity/skills/unifier-unity/` (in `dev/unity`) - authoritative MCP tool semantics
 
 ### Reference (from raw extraction)
@@ -138,7 +141,10 @@ Secrets for MCP and CLI (never commit): `UNITY_MCP_TOKEN` (required for `scripts
 
 - Prefer **Cursor** / **OpenClaw** tooling already configured on this machine.
 - **Unity MCP:** use the **unifier-unity** skill in `/home/klara/dev/unity` when the gateway exposes MCP tools.
-- **Unity CLI:** from this repo, `npm run unity` with `UNITY_MCP_TOKEN` in `.env` - see [`skills/unifier-unity-cli/SKILL.md`](skills/unifier-unity-cli/SKILL.md) and [`docs/runbooks/unity-cli.md`](docs/runbooks/unity-cli.md).
+- **Unity CLI:** from this repo, `npm run unity` with `UNITY_MCP_TOKEN` in `.env`.
+  - Broad entry: [`skills/unifier-unity-cli/SKILL.md`](skills/unifier-unity-cli/SKILL.md)
+  - Focused skills: [`skills/unifier-unity-pricelists/SKILL.md`](skills/unifier-unity-pricelists/SKILL.md), [`skills/unifier-unity-bundles/SKILL.md`](skills/unifier-unity-bundles/SKILL.md), [`skills/unifier-unity-quotes/SKILL.md`](skills/unifier-unity-quotes/SKILL.md)
+  - Runbook: [`docs/runbooks/unity-cli.md`](docs/runbooks/unity-cli.md).
 - Use **browser** tools when inspecting live CRM pages or auth flows.
 - For sharing generated deliverables with humans, prefer Google Drive via **gog** using the Klara account, then create an anyone-with-link reader share link and send that URL back in chat. When a PDF is needed, do **not** wrap a raster image inside a PDF if avoidable. Prefer creating the document as a proper Google Doc first, then export/download it as PDF so the result stays text-native and easier to edit.
 

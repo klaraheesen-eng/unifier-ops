@@ -18,11 +18,18 @@ Two auth boundaries are in place:
 
 - `leads_post` -> `mcp_leads.asp` (POST)
 - `quotes_get` -> `mcp_quotes.asp` (GET)
-- `quote_items_post` -> `mcp_quote_items.asp` (POST)
-- `pricelists_list` -> `mcp_pricelists.asp` (GET)
-- `pricelist_item_search` -> `mcp_pricelist_items_search.asp` (GET)
+- `quote_items_post` -> `mcp_quote_items.asp` / `mcp_quote_items_add.asp` (POST)
+- `pricelists_list` -> `mcp_pricelists.asp` (GET, supports `supplier_id`)
+- `pricelist_create` -> `mcp_pricelists.asp` (POST)
+- `pricelist_item_search` -> `mcp_pricelist_items_search.asp` (GET, supports `supplier_id`)
+- `pricelist_item_create` -> `mcp_pricelist_items_create.asp` (POST)
 - `update_item` -> `mcp_update_item.asp` (POST)
 - `mark_item_obsolete` -> `mcp_update_item.asp` (POST with `obsolete_date=today`)
+- `bundles_list` -> `mcp_bundles.asp` (GET)
+- `bundle_create` -> `mcp_bundles.asp` (POST `action=create`)
+- `bundle_update` -> `mcp_bundles.asp` (POST `action=update`)
+- `bundle_item_create` -> `mcp_bundles.asp` (POST `action=add-items`)
+- `bundle_add_to_quote` -> `mcp_bundles.asp` (POST `action=add-to-quote`)
 
 ## Deployment and Operations
 
