@@ -146,6 +146,15 @@ function parseMarkdownTable(text) {
 
 function parseSingleMarkdownTable(text) {
   const rows = parseMarkdownTable(text);
+  if (rows && rows.length === 1 && Object.keys(rows[0]).length === 2 && rows[0].Field !== undefined && rows[0].Value !== undefined) {
+    return { [rows[0].Field]: rows[0].Value };
+  }
+  if (rows && rows.length > 1 && rows.every((row) => Object.keys(row).length === 2 && row.Field !== undefined && row.Value !== undefined)) {
+    return rows.reduce((acc, row) => {
+      acc[row.Field] = row.Value;
+      return acc;
+    }, {});
+  }
   return rows && rows.length ? rows[0] : null;
 }
 
@@ -324,6 +333,8 @@ Commands:
               [--building-type=] [--purpose=] [--number-cameras=] [--ceiling=0|1] [--internet=0|1] [--human-form=0|1] [--colorvu=0|1] [--notes=]
   quote-create-from-lead --lead-id=N --opportunity-type-id=N [--quote-status-id=N] [--call=true|false] [--size=]
   quote-add-item --quote-id=N --part-code=CODE [--qty=N]
+  quote-remove-item --quote-id=N --part-code=CODE
+  quote-clear-items --quote-id=N
   quote-items --quote-id=N
   quote-update --quote-id=N [--quote-name=] [--customer-contact-id=N] [--customer-po-number=] [--quote-expected-order-date=YYYY-MM-DD]
                [--deposit-amount=] [--installation-date=YYYY-MM-DDTHH:MM] [--maps-link=] [--installation-address=] [--installation-notes=]
@@ -340,6 +351,7 @@ Commands:
   bundle-add-item --bundle-id=N --pricelist-entry-id=N --quantity=N [--item-price=] [--description=]
   bundle-add-items --bundle-id=N --items-json='[{...}]'
   bundle-add-to-quote --bundle-id=N --quote-id=N [--quote-entry-group-id=N] [--bundle-quantity=N]
+  bundle-remove-from-quote --quote-id=N --part-code=CODE
   raw-get <endpoint.asp> [--key=value ...]   (debug: returns raw body)
 
 Examples:
@@ -347,6 +359,8 @@ Examples:
   npm run unity -- lead-create --lead-short-name="CIA Biometric" --lead-details-name="Client Name"
   npm run unity -- quote-create-from-lead --lead-id=123 --opportunity-type-id=1
   npm run unity -- quote-add-item --quote-id=456 --part-code=DS-2CD --qty=2
+  npm run unity -- quote-remove-item --quote-id=456 --part-code=DS-2CD
+  npm run unity -- quote-clear-items --quote-id=456
   npm run unity -- quote-items --quote-id=456
   npm run unity -- quote-update --quote-id=456 --customer-po-number=PO-001
   npm run unity -- pricelists --supplier-id=18
@@ -473,6 +487,28 @@ try {
     }
     const raw = await relayPost(base, token, "mcp_quote_items_add.asp", params);
     console.log(JSON.stringify({ ok: true, quote_id: params.quote_id, quote_url: `https://www.unifier.co.za/unity/quote-details.asp?quote_id=${params.quote_id}`, result: String(raw).trim() }, null, 2));
+  } else if (cmd === "quote-remove-item") {
+    const quoteId = args["quote-id"];
+    const partCode = args["part-code"];
+    if (!quoteId || !partCode) {
+      console.error("Required: --quote-id= and --part-code=");
+      process.exit(1);
+    }
+    const raw = await relayPost(base, token, "mcp_quote_items_remove.asp", {
+      quote_id: quoteId,
+      part_code: partCode,
+    });
+    console.log(JSON.stringify({ ok: true, quote_id: quoteId, part_code: partCode, quote_url: `https://www.unifier.co.za/unity/quote-details.asp?quote_id=${quoteId}`, result: String(raw).trim() }, null, 2));
+  } else if (cmd === "quote-clear-items") {
+    const quoteId = args["quote-id"];
+    if (!quoteId) {
+      console.error("Required: --quote-id=");
+      process.exit(1);
+    }
+    const raw = await relayPost(base, token, "mcp_quote_items_clear.asp", {
+      quote_id: quoteId,
+    });
+    console.log(JSON.stringify({ ok: true, quote_id: quoteId, quote_url: `https://www.unifier.co.za/unity/quote-details.asp?quote_id=${quoteId}`, result: String(raw).trim() }, null, 2));
   } else if (cmd === "quote-items") {
     const quoteId = args["quote-id"];
     if (!quoteId) {
@@ -764,6 +800,18 @@ try {
     }
     const raw = await relayPost(base, token, "mcp_bundles.asp", post);
     console.log(JSON.stringify(parseAspKv(raw), null, 2));
+  } else if (cmd === "bundle-remove-from-quote") {
+    const quoteId = args["quote-id"];
+    const partCode = args["part-code"];
+    if (!quoteId || !partCode) {
+      console.error("Required: --quote-id= and --part-code=");
+      process.exit(1);
+    }
+    const raw = await relayPost(base, token, "mcp_quote_items_remove.asp", {
+      quote_id: quoteId,
+      part_code: partCode,
+    });
+    console.log(JSON.stringify({ ok: true, quote_id: quoteId, part_code: partCode, quote_url: `https://www.unifier.co.za/unity/quote-details.asp?quote_id=${quoteId}`, result: String(raw).trim() }, null, 2));
   } else if (cmd === "raw-get") {
     const endpoint = args._[1];
     if (!endpoint) {
