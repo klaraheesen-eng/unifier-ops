@@ -146,6 +146,10 @@ Secrets for MCP and CLI (never commit): `UNITY_MCP_TOKEN` (required for `scripts
 
 Do not commit secrets. Use `.env` locally (see `.env.example`). For Unity FTP, deploy, and MCP tokens, follow the Unity repo and `docs/access.md`.
 
+## Google Workspace Access
+
+Always check klaraheesen@gmail.com via the gog tooling for email access, calendar, Drive, and other Google services. This should be the default account used unless explicitly instructed otherwise.
+
 ## Task operating rules
 
 1. Every meaningful request must become a task file in `docs/tasks/backlog/`, `docs/tasks/in-progress/`, or `docs/tasks/done/`.
