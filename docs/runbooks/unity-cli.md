@@ -19,8 +19,8 @@ Direct HTTP client for Unity **Classic ASP MCP endpoints** (`mcp_*.asp`). Uses t
 | `quote-update` | Update quote header fields (`mcp_quote_update.asp`) — **approval required** |
 | `pricelists` | Active pricelists (`mcp_pricelists.asp`), optionally filtered by supplier |
 | `pricelist-create` | Create a new pricelist plus default section (`mcp_pricelists.asp`) — **approval required** |
-| `pricelist-add-item` | Add a single item to a pricelist (`mcp_pricelist_items_create.asp`) — **approval required** |
-| `pricelist-add-items` | Add multiple items to a pricelist from JSON (`mcp_pricelist_items_create.asp`) — **approval required** |
+| `pricelist-add-item` | Add a single item to a pricelist (`mcp_pricelist_items_create.asp`) with Unity-style default pricing helper support — **approval required** |
+| `pricelist-add-items` | Add multiple items to a pricelist from JSON (`mcp_pricelist_items_create.asp`) with default margin/VAT helper support — **approval required** |
 | `search` | Pricelist item search (`mcp_pricelist_items_search.asp`) with ranking metadata (`score`, `usage_count`, `last_used_date`, `days_since_last_used`, `last_used_quote_id`) |
 | `update-item` | Update pricelist item fields (`mcp_update_item.asp`) — **approval required** |
 | `obsolete` | Mark item obsolete today — **approval required** |
@@ -45,7 +45,8 @@ npm run unity -- quote-items --quote-id=456
 npm run unity -- quote-update --quote-id=456 --customer-po-number="PO-001"
 npm run unity -- pricelists --supplier-id=18
 npm run unity -- pricelist-create --pricelist-name="Klara MCP Test Pricelist" --currency-id=1 --supplier-id=15 --default-section-name="Klara Test Section"
-npm run unity -- pricelist-add-item --pricelist-id=30 --pricelist-entry-group-name="Klara Test Section" --part-code="KLARA-TEST-001" --description="Safe test item" --cost-price=115 --retail-price=190 --type-id=1
+npm run unity -- pricelist-add-item --pricelist-id=30 --pricelist-entry-group-name="Klara Test Section" --part-code="KLARA-TEST-001" --description="Safe test item" --excl-vat-cost=100 --type-id=1
+npm run unity -- pricelist-add-item --pricelist-id=30 --pricelist-entry-group-name="Klara Test Section" --part-code="KLARA-TEST-001" --description="Safe test item" --excl-vat-cost=100 --margin-percent=35 --vat-rate=0.15 --type-id=1
 npm run unity -- search --description="camera" --limit=25
 npm run unity -- search --q="promo" --limit=10
 npm run unity -- bundles
@@ -57,6 +58,30 @@ npm run unity -- bundle-add-to-quote --bundle-id=12 --quote-id=2539 --bundle-qua
 `status-name` accepts the same labels as the MCP relay (e.g. `In Queue`, `Cool`, `Scheduled`, …). `Incomplete` is mapped to `In Queue` to match the worker.
 
 For `search`, prefer `--q` when you want ranked matching across part code and description. The CLI returns Unity's ranking metadata so agents can prefer heavily used, recently used items instead of simple text-only matches.
+
+## Pricing helper behavior for pricelist writes
+
+Unity stores pricelist prices as **VAT-inclusive** values.
+
+The classic Unity helper UI uses:
+- **default margin:** `40%`
+- **VAT rate:** `15%`
+
+The CLI now mirrors that by default for pricelist item creation:
+- if you pass `--excl-vat-cost=...`, the CLI computes:
+  - `cost_price` = VAT-inclusive buy price
+  - `retail_price` = VAT-inclusive sell price using the margin rule
+- defaults:
+  - `--margin-percent=40`
+  - `--vat-rate=0.15`
+- you can override either value explicitly
+- if you already know the final stored Unity values, you can still pass:
+  - `--cost-price=`
+  - `--retail-price=`
+
+For batch item creation, each JSON item can use either:
+- final stored values: `cost_price`, `retail_price`
+- or helper inputs: `excl_vat_cost` with optional `margin_percent` and `vat_rate`
 
 ## Safety
 

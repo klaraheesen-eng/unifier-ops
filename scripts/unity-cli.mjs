@@ -162,6 +162,60 @@ function normalizeBaseUrl(base) {
   return base.endsWith("/") ? base : `${base}/`;
 }
 
+const DEFAULT_VAT_RATE = 0.15;
+const DEFAULT_MARGIN_PERCENT = 40;
+
+function toNumber(value) {
+  if (value === undefined || value === null || value === "") return null;
+  const normalized = String(value).replace(/,/g, ".").trim();
+  if (!normalized) return null;
+  const n = Number(normalized);
+  return Number.isFinite(n) ? n : null;
+}
+
+function roundMoney(value) {
+  return Math.round((value + Number.EPSILON) * 100) / 100;
+}
+
+function formatMoney(value) {
+  const n = roundMoney(value);
+  if (Math.abs(n - Math.round(n)) < 0.005) return String(Math.round(n));
+  return n.toFixed(2);
+}
+
+function computeVatInclusivePricing({
+  exclVatCost,
+  inclVatCost,
+  retailPrice,
+  marginPercent,
+  vatRate,
+}) {
+  const vatMultiplier = 1 + vatRate;
+  let finalInclVatCost = toNumber(inclVatCost);
+  let finalRetailPrice = toNumber(retailPrice);
+  const finalMarginPercent = toNumber(marginPercent) ?? DEFAULT_MARGIN_PERCENT;
+
+  if (finalInclVatCost == null) {
+    const exVat = toNumber(exclVatCost);
+    if (exVat == null) return null;
+    finalInclVatCost = roundMoney(exVat * vatMultiplier);
+  }
+
+  if (finalRetailPrice == null) {
+    finalRetailPrice = roundMoney(finalInclVatCost / (1 - finalMarginPercent / 100));
+    finalRetailPrice = Math.round(finalRetailPrice);
+  }
+
+  return {
+    cost_price: formatMoney(finalInclVatCost),
+    retail_price: formatMoney(finalRetailPrice),
+    incl_vat_cost: formatMoney(finalInclVatCost),
+    retail_price_incl_vat: formatMoney(finalRetailPrice),
+    margin_percent: formatMoney(finalMarginPercent),
+    vat_rate: vatRate,
+  };
+}
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -275,8 +329,8 @@ Commands:
                [--deposit-amount=] [--installation-date=YYYY-MM-DDTHH:MM] [--maps-link=] [--installation-address=] [--installation-notes=]
   pricelists [--supplier-id=N] [--include-inactive=true]
   pricelist-create --pricelist-name= --currency-id=N (--supplier-id=N | --supplier-name= | --new-supplier-name=) [--pricelist-expiry-date=YYYY-MM-DD] [--default-section-name=]
-  pricelist-add-item --pricelist-id=N [--pricelist-entry-group-id=N | --pricelist-entry-group-name=] --part-code= --description= --cost-price= --retail-price= [--type-id=N]
-  pricelist-add-items --pricelist-id=N [--pricelist-entry-group-id=N | --pricelist-entry-group-name=] --items-json='[{...}]'
+  pricelist-add-item --pricelist-id=N [--pricelist-entry-group-id=N | --pricelist-entry-group-name=] --part-code= --description= [--cost-price= --retail-price= | --excl-vat-cost= [--margin-percent=40] [--vat-rate=0.15] [--retail-price=]] [--type-id=N]
+  pricelist-add-items --pricelist-id=N [--pricelist-entry-group-id=N | --pricelist-entry-group-name=] --items-json='[{...}]' [--margin-percent=40] [--vat-rate=0.15]
   search [--part-code=] [--description=] [--q=] [--supplier-id=N] [--limit=50]  (+ optional min/max cost/retail — see code)
   update-item --pricelist-entry-id=N [--part-code=] [--description=] [--cost-price=] [--retail-price=] [--obsolete-date=YYYY-MM-DD]
   obsolete --pricelist-entry-id=N   (marks obsolete today)
@@ -297,7 +351,8 @@ Examples:
   npm run unity -- quote-update --quote-id=456 --customer-po-number=PO-001
   npm run unity -- pricelists --supplier-id=18
   npm run unity -- pricelist-create --pricelist-name="Klara Test" --currency-id=1 --supplier-id=15
-  npm run unity -- pricelist-add-item --pricelist-id=30 --part-code=KLARA-TEST-001 --description="Test item" --cost-price=115 --retail-price=190 --type-id=1
+  npm run unity -- pricelist-add-item --pricelist-id=30 --part-code=KLARA-TEST-001 --description="Test item" --excl-vat-cost=100 --type-id=1
+  npm run unity -- pricelist-add-item --pricelist-id=30 --part-code=KLARA-TEST-001 --description="Test item" --excl-vat-cost=100 --margin-percent=35 --vat-rate=0.15 --type-id=1
   npm run unity -- search --part-code=DS-2CD
   npm run unity -- search --q=promo --limit=10
   npm run unity -- bundles
@@ -481,22 +536,41 @@ try {
     const raw = await relayPost(base, token, "mcp_pricelists.asp", post);
     console.log(JSON.stringify(parseAspKv(raw), null, 2));
   } else if (cmd === "pricelist-add-item") {
+    const vatRate = toNumber(args["vat-rate"]) ?? DEFAULT_VAT_RATE;
+    const computed = computeVatInclusivePricing({
+      exclVatCost: args["excl-vat-cost"],
+      inclVatCost: args["cost-price"],
+      retailPrice: args["retail-price"],
+      marginPercent: args["margin-percent"],
+      vatRate,
+    });
     const post = {
       pricelist_id: args["pricelist-id"],
       pricelist_entry_group_id: args["pricelist-entry-group-id"],
       pricelist_entry_group_name: args["pricelist-entry-group-name"],
       part_code: args["part-code"],
       description: args.description,
-      cost_price: args["cost-price"],
-      retail_price: args["retail-price"],
+      cost_price: computed?.cost_price,
+      retail_price: computed?.retail_price,
       pricelist_entry_type_id: args["type-id"],
     };
     if (!post.pricelist_id || !post.part_code || !post.description || !post.cost_price || !post.retail_price) {
-      console.error("Required: --pricelist-id= --part-code= --description= --cost-price= --retail-price=");
+      console.error("Required: --pricelist-id= --part-code= --description= and either final --cost-price= with --retail-price=, or --excl-vat-cost= (CLI defaults to 40% margin and 15% VAT)");
       process.exit(1);
     }
+    if (process.env.UNITY_DEBUG_PRICING === "1") {
+      console.error(JSON.stringify({ debug: "pricelist-add-item", computed, post }, null, 2));
+    }
     const raw = await relayPost(base, token, "mcp_pricelist_items_create.asp", post);
-    console.log(JSON.stringify(parseAspKv(raw), null, 2));
+    const parsed = parseAspKv(raw);
+    parsed.pricing_mode = args["excl-vat-cost"] ? "computed_from_ex_vat" : "direct_inclusive";
+    if (computed) {
+      parsed.margin_percent = computed.margin_percent;
+      parsed.vat_rate = String(computed.vat_rate);
+      parsed.cost_price_incl_vat = computed.incl_vat_cost;
+      parsed.retail_price_incl_vat = computed.retail_price_incl_vat;
+    }
+    console.log(JSON.stringify(parsed, null, 2));
   } else if (cmd === "pricelist-add-items") {
     const pricelistId = args["pricelist-id"];
     const itemsJson = args["items-json"];
@@ -515,6 +589,8 @@ try {
       console.error("--items-json must be a non-empty JSON array");
       process.exit(1);
     }
+    const defaultVatRate = toNumber(args["vat-rate"]) ?? DEFAULT_VAT_RATE;
+    const defaultMarginPercent = toNumber(args["margin-percent"]) ?? DEFAULT_MARGIN_PERCENT;
     const post = {
       pricelist_id: pricelistId,
       pricelist_entry_group_id: args["pricelist-entry-group-id"],
@@ -523,14 +599,24 @@ try {
     };
     items.forEach((item, idx) => {
       const n = idx + 1;
+      const computed = computeVatInclusivePricing({
+        exclVatCost: item.excl_vat_cost,
+        inclVatCost: item.cost_price,
+        retailPrice: item.retail_price,
+        marginPercent: item.margin_percent ?? defaultMarginPercent,
+        vatRate: toNumber(item.vat_rate) ?? defaultVatRate,
+      });
       post[`row_${n}_part_code`] = item.part_code;
       post[`row_${n}_description`] = item.description;
-      post[`row_${n}_cost_price`] = item.cost_price;
-      post[`row_${n}_retail_price`] = item.retail_price;
+      post[`row_${n}_cost_price`] = computed?.cost_price;
+      post[`row_${n}_retail_price`] = computed?.retail_price;
       if (item.type_id != null) post[`row_${n}_type_id`] = item.type_id;
     });
     const raw = await relayPost(base, token, "mcp_pricelist_items_create.asp", post);
-    console.log(JSON.stringify(parseAspKv(raw), null, 2));
+    const parsed = parseAspKv(raw);
+    parsed.default_margin_percent = String(defaultMarginPercent);
+    parsed.default_vat_rate = String(defaultVatRate);
+    console.log(JSON.stringify(parsed, null, 2));
   } else if (cmd === "search") {
     const params = {
       part_code: args["part-code"],

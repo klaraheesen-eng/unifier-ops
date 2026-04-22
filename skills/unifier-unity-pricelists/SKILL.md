@@ -37,10 +37,15 @@ npm run unity -- obsolete --pricelist-entry-id=875
 - Supplier-scoped listing works through `mcp_pricelists.asp?supplier_id=...`.
 - Search also supports `--supplier-id=` for supplier-local cleanup/import work.
 - Unity UI helper pages calculate excl VAT, incl VAT, margin %, and retail incl VAT before insert.
-- CLI/MCP writes expect the final VAT-inclusive stored values:
-  - `cost_price` = incl VAT buy
-  - `retail_price` = incl VAT sell
-- As of 2026-04-22, `update-item` and `obsolete` are blocked live by a Unity-side `mcp_auth.asp` compile error. Treat cleanup mutations as currently broken until that server defect is fixed.
+- Unity stores VAT-inclusive values in the DB.
+- The CLI now mirrors the Unity helper by default for pricelist item creation:
+  - default margin = `40%`
+  - default VAT rate = `15%`
+  - pass `--excl-vat-cost=` and it will compute VAT-inclusive `cost_price` and `retail_price`
+  - override with `--margin-percent=` and/or `--vat-rate=` when needed
+  - if you already know the final stored values, pass `--cost-price=` and `--retail-price=` directly
+- `update-item` creates a replacement entry with updated values rather than mutating the original row in place.
+- `obsolete` marks an existing item obsolete by date.
 
 ## Read before acting
 
