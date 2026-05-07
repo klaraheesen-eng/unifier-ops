@@ -1,0 +1,66 @@
+{
+  "project": "Thokoman Q-2566 CCTV storage calculation",
+  "defaults": {
+    "drive_tb": 10,
+    "overhead_percent": 10,
+    "hours_per_day": 24
+  },
+  "nvr_groups": [
+    {
+      "name": "Block A warehouse/production/finished goods \u2014 ideal 8-bay NVR plan",
+      "nvr_count": 4,
+      "target_days": 60,
+      "max_drive_bays": 8,
+      "camera_groups": [
+        {
+          "name": "Block A standard 4MP cameras",
+          "count": 108,
+          "preset": "4mp-h265-15fps"
+        },
+        {
+          "name": "Block A 8MP parking camera",
+          "count": 1,
+          "preset": "8mp-h265-15fps"
+        }
+      ]
+    },
+    {
+      "name": "Block B/admin \u2014 4-bay NVR plan",
+      "nvr_count": 2,
+      "target_days": 14,
+      "max_drive_bays": 4,
+      "camera_groups": [
+        {
+          "name": "Block B standard/long-range 4MP cameras",
+          "count": 26,
+          "preset": "4mp-h265-15fps"
+        },
+        {
+          "name": "Block B 8MP gate camera scenario",
+          "count": 1,
+          "preset": "8mp-h265-15fps"
+        }
+      ]
+    },
+    {
+      "name": "Current Unity quote reality check \u2014 6 x 4-bay NVRs with 24 x 10TB",
+      "nvr_count": 6,
+      "target_days": 60,
+      "max_drive_bays": 4,
+      "drive_count": 24,
+      "camera_groups": [
+        {
+          "name": "All 4MP-equivalent cameras",
+          "count": 134,
+          "preset": "4mp-h265-15fps"
+        },
+        {
+          "name": "Two 8MP long-range cameras",
+          "count": 2,
+          "preset": "8mp-h265-15fps"
+        }
+      ],
+      "include_in_totals": false
+    }
+  ]
+}

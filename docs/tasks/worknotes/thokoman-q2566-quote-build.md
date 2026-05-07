@@ -289,3 +289,42 @@ Using the current listed Unity selling prices, and treating `UNI-POE-MNG-24` as 
 - Proper **32-channel 8-bay non-PoE NVR** option for Block A if the 2-month retention requirement is to be met cleanly. Current closest Unity line is 4-SATA only, so the live quote currently carries 24 × 10TB rather than the earlier 34 × 10TB ideal storage plan.
 - Vendor storage calculation for 4MP/8MP, fps, bitrate, H.265/H.265+, continuous vs motion recording.
 - Confirmation that the selected monitoring workstation can display at least 32 cameras simultaneously.
+
+---
+
+## 11. Storage calculation script result — 2026-05-07
+
+Created repo-local CCTV storage calculator skill and script:
+
+- Skill: `skills/cctv-storage-calculator/SKILL.md`
+- Script: `scripts/cctv-storage-calc.py`
+- Runbook: `docs/runbooks/cctv-storage-calculator.md`
+- Thokoman input: `examples/cctv-storage/thokoman-q2566-storage.json`
+- Thokoman output: `docs/tasks/worknotes/thokoman-q2566-storage-calculation.md`
+
+Planning assumptions used for the first Thokoman run:
+
+- 4MP H.265 @ 15fps planning bitrate: 4 Mbps/camera.
+- 8MP H.265 @ 15fps planning bitrate: 8 Mbps/camera.
+- 24/7 recording.
+- 10% overhead.
+- HDD size: 10TB decimal.
+
+Calculated storage requirement:
+
+- Block A: 109 cameras, 60 days retention.
+  - Required: 285.12TB raw / 313.63TB with 10% overhead.
+  - Required drives: 32 × 10TB total, about 8 × 10TB per NVR across 4 NVRs.
+  - This fits only if the Block A NVRs are 8-bay units or equivalent external/expanded storage is used.
+- Block B: 27 cameras, 14 days retention.
+  - Required: 16.93TB raw / 18.63TB with 10% overhead.
+  - Required drives: 2 × 10TB total, about 1 × 10TB per NVR across 2 NVRs.
+- Total project requirement under these assumptions: **34 × 10TB drives**.
+
+Unity update performed:
+
+- Updated `UNI-HDD-10TB-SURV-SG` on quote `2566` from 24 to **34**.
+
+Important caveat:
+
+- The current closest-match NVR in Unity, `DS-7732NXI-I4/S`, is a 4-SATA 32-channel NVR. The storage calculation shows this is not suitable for the Block A 60-day target if using internal drives only. Vendor must quote/confirm a proper 32-channel 8-bay NVR or another supported storage design.

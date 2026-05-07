@@ -55,6 +55,7 @@ Read [`docs/internal/repo-map.md`](docs/internal/repo-map.md) first for navigati
 - `skills/unifier-unity-pricelists/SKILL.md` - focused pricelist and cleanup skill
 - `skills/unifier-unity-bundles/SKILL.md` - focused bundle skill
 - `skills/unifier-unity-quotes/SKILL.md` - focused quote composition skill
+- `skills/cctv-storage-calculator/SKILL.md` - repo-local CCTV/NVR storage and retention calculator for quote storage sizing
 - `unity/skills/unifier-unity/` (in `dev/unity`) - authoritative MCP tool semantics
 
 ### Reference (from raw extraction)
