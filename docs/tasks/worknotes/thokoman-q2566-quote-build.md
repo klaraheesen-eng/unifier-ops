@@ -328,3 +328,79 @@ Unity update performed:
 Important caveat:
 
 - The current closest-match NVR in Unity, `DS-7732NXI-I4/S`, is a 4-SATA 32-channel NVR. The storage calculation shows this is not suitable for the Block A 60-day target if using internal drives only. Vendor must quote/confirm a proper 32-channel 8-bay NVR or another supported storage design.
+
+---
+
+## 12. Required quote section split — Heinrich clarification 2026-05-07
+
+Heinrich clarified that the quote must be split into separate Unity quote sections/zones:
+
+1. **Block B — Offices**
+2. **Block B — Warehousing**
+3. **Block A**
+
+### Proposed section allocation for pricing
+
+Because the exact Block B office-vs-warehouse camera markings are still pending, use this as the current working split until the floor plan confirms the final count.
+
+#### Block B — Offices
+
+Working allocation:
+
+- 2 × 4MP dome cameras.
+- 8 × standard 4MP bullet cameras as provisional office/admin internal/perimeter allowance.
+- 1 × 32-channel NVR, non-PoE.
+- 1 × 10TB surveillance HDD.
+- Share Block B cabinet/network infrastructure with Block B warehousing unless Unity quote needs each section fully standalone.
+
+#### Block B — Warehousing / loading / gate
+
+Working allocation:
+
+- 13 × standard 4MP bullet cameras.
+- 3 × 60m long-range loading-bay cameras.
+- 1 × 80m gate/number-plate-view camera.
+- 1 × 32-channel NVR, non-PoE.
+- 1 × 10TB surveillance HDD.
+- 2 × 24-port PoE switches for all Block B cameras if Block B infrastructure is grouped here, or split 1+1 if the final Unity sectioning needs stricter separation.
+- 1 × 4U wall cabinet for Block B.
+
+Block B total under this provisional split: 27 cameras.
+
+#### Block A
+
+Working allocation:
+
+- 96 × standard 4MP bullet cameras.
+- 12 × 4MP dome cameras.
+- 1 × 80m/8MP parking-lot camera.
+- 4 × 32-channel NVRs, preferably 8-bay/non-PoE or equivalent storage design.
+- 32 × 10TB surveillance HDDs.
+- 5 × 24-port PoE switches.
+- 2 × 4U wall cabinets.
+
+### Shared / general section option
+
+If Unity allows a fourth section, keep these as **General / Shared Infrastructure & Commissioning** instead of forcing them into one zone:
+
+- monitoring workstation,
+- commissioning/handover,
+- project-wide surge approach if not allocated per cabinet,
+- any temporary monitoring / AI add-on.
+
+If Unity must be only the three requested sections, allocate shared items to Block A unless they are physically located in Block B.
+
+### Current Unity limitation / action needed
+
+The current MCP endpoint used by `scripts/unity-cli.mjs quote-add-item` always adds/updates items in the first quote section and also updates by `part_code` across the quote. That means it cannot currently create the three requested sections or duplicate the same part code across different sections safely.
+
+To correctly restructure live quote `2566`, use one of these paths:
+
+1. **Unity UI/manual path:** create/rename quote sections in Unity, then move/add items into the three sections.
+2. **MCP/code path:** extend `mcp_quote_items_add.asp` and `scripts/unity-cli.mjs` to support:
+   - `quote_entry_group_id`,
+   - `quote_entry_group_name=new/existing`,
+   - duplicate same part code in multiple groups,
+   - quote group listing/creation.
+
+Until one of those is done, the live quote currently contains the correct overall quantities but is not yet structurally split by zone.
