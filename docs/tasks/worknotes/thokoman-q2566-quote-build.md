@@ -230,3 +230,62 @@ Please send pricing, scope assumptions, and any technical prerequisites.
 ## 9. Recommendation before sending vendor requests
 
 Send the two hardware/network WhatsApps first. Once NVR/camera models and storage calculations are back, lock the quote into Unity with accurate part codes and datasheets instead of using stale placeholders for the long-range cameras/NVRs.
+
+---
+
+## 10. Unity live quote update — 2026-05-07
+
+Heinrich approved adding all available/closest-match lines into Unity quote `2566`.
+
+### Updated assumptions from Heinrich
+
+- Do **not** include fibre/SFP as a base requirement between switch locations.
+- Switch locations/intersections are expected to be close enough for **CAT cable gigabit uplinks**.
+- Use standard **4U wall-mount cabinets**, not 12U/18U cabinets, for the quoted cabinet allowance.
+
+### Copper uplink adjustment
+
+- Camera cable: 136 × 35m = 4,760m.
+- Added provisional copper uplink allowance: 3 × 35m = 105m.
+- Updated CAT5e installed quantity added to Unity: **4,865m**.
+- Port impact: copper uplinks consume RJ45 switch ports rather than SFP ports.
+  - 7 × 24-port switches = 168 RJ45 ports.
+  - 136 camera ports + approx. 6 inter-switch/uplink ports = 142 ports used.
+  - Approx. 26 spare RJ45 ports remain, still acceptable.
+
+### Items added to Unity quote `2566`
+
+| Qty | Part code | Notes |
+|---:|---|---|
+| 117 | `SUPP-CAM-BULLET-4MP-IP-28MM-ADI` | Standard 4MP IP bullets. |
+| 14 | `SUPP-CAM-DOME-4MP-IP-28MM-ADI` | Standard 4MP IP domes. |
+| 3 | `DS-2CD2T46G2-2I(4MM)(O-STD)` | Closest available match for the 60m loading-bay cameras; still needs vendor confirmation for true 60m suitability. |
+| 6 | `DS-7732NXI-I4/S` | Closest available 32-channel non-PoE NVR match; 4 SATA, not the ideal 8-bay Block A requirement. |
+| 24 | `UNI-HDD-10TB-SURV-SG` | Matches the 6 × 4-SATA NVR capacity currently quoted. Vendor still needs to confirm storage/retention. |
+| 7 | `UNI-POE-MNG-24` | 24-port managed Gigabit PoE switch. Quote-items list endpoint displays this line with malformed qty/group fields, a known lightweight listing issue; add command reported success for qty 7. |
+| 4,865 | `UNI-CAT5E-INST-PM` | 35m/camera plus 105m copper uplink allowance. |
+| 136 | `UNI-SUN` | Per-camera sundries. |
+| 7 | `UNI-RACK-PATCH-CAT5E` | One patch panel per 24-port switch. |
+| 168 | `SUPP-PATCH-CAT5E 0.5m` | Patch leads for the 168-port switch allowance. |
+| 3 | `UNI-CAB-4U` | Standard 4U wall-mounted cabinets. |
+| 4 | `UNI-PDU-6` | Rack PDUs per equipment/switch location. |
+| 4 | `UNI-SHELF-19` | Cabinet shelves. |
+| 7 | `UNI-RACK-BRUSH` | Brush panels. |
+| 8 | `UNI-RACK-BLANK-1U` | Blank panels. |
+| 7 | `UNI-LIGHT-PRT-POE` | PoE lightning/surge protection allowance, one per switch/cabinet zone. |
+| 1 | `DS-VP41D-C/HW5L(O-STD)` | Closest monitoring workstation match. |
+| 1 | `UNI-HANDOVER` | Commissioning/training/handover. |
+
+### Approximate live-quote subtotal from added known lines
+
+Using the current listed Unity selling prices, and treating `UNI-POE-MNG-24` as 7 × R8,900 despite the lightweight list display bug:
+
+- Approximate subtotal: **R1,010,602**.
+
+### Still not properly priced / needs vendor input
+
+- True **60m long-range** camera model/datasheet/price for 3 loading-bay cameras.
+- True **80m/8MP gate/parking** camera model(s), datasheets and prices for 2 cameras. No satisfactory current pricelist match was found; do not substitute the promo or unrelated Ajax camera lines.
+- Proper **32-channel 8-bay non-PoE NVR** option for Block A if the 2-month retention requirement is to be met cleanly. Current closest Unity line is 4-SATA only, so the live quote currently carries 24 × 10TB rather than the earlier 34 × 10TB ideal storage plan.
+- Vendor storage calculation for 4MP/8MP, fps, bitrate, H.265/H.265+, continuous vs motion recording.
+- Confirmation that the selected monitoring workstation can display at least 32 cameras simultaneously.
