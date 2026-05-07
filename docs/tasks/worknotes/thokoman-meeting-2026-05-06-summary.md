@@ -6,8 +6,10 @@ Source notes:
 
 - Older pre-meeting request image: `docs/tasks/source-docs/thokoman-2026-05-06/older-cctv-site-visit-request.jpg`
 - Lianne meeting notes: `docs/tasks/source-docs/thokoman-2026-05-06/lianne-meeting-notes-2026-05-06.md`
+- Q-2566 / jobcard facts: `docs/tasks/worknotes/thokoman-q2566-calendar-unity-facts.md`
+- Jobcard PDF: `docs/tasks/source-docs/thokoman-2026-05-06/JOB-502-2566-00.pdf`
 
-> Note: the older pre-meeting request is useful background only. The meeting decisions and clarified meeting notes below supersede the older request where there is any conflict.
+> Note: the older pre-meeting request and jobcard are useful baseline context only. The meeting decisions and clarified meeting notes below supersede the older request/jobcard where there is any conflict.
 
 ## 1. General summary
 
@@ -32,7 +34,19 @@ The site is divided into two main areas:
 - **Block A** — warehouse / factory / production area.
 - **Block B** — office/admin block with loading bay and related operational areas.
 
-The older request identifies the address as:
+Quote / jobcard reference:
+
+- Unity quote ID: **Q-2566** / internal quote ID `2566`.
+- Jobcard: **JOB502256600**.
+- Calendar/jobcard title: **Site Survey - Nhlakanipho Cebekhulu - Thokoman Centurion Site Visit (Q-2566)**.
+- Contact: **Nhlakanipho Cebekhulu**.
+- Contact email: `nhlakanipho@thokoman.co.za`.
+- Contact phone: `0128110501`.
+- Unity status at lookup: **Scheduled** / Installation.
+- Quote list total: blank / not priced yet.
+- Quote items endpoint returned no current items for quote `2566`.
+
+Address from the jobcard / older request:
 
 - **17 Rain Street, Sunderland Ridge, Centurion, 0157**
 

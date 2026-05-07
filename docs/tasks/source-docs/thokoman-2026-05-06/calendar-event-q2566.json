@@ -1,0 +1,56 @@
+{
+  "attendees": [
+    {
+      "email": "whheesen@gmail.com",
+      "responseStatus": "accepted",
+      "self": true
+    },
+    {
+      "displayName": "Installations",
+      "email": "installations@unifier.co.za",
+      "responseStatus": "needsAction"
+    },
+    {
+      "displayName": "Lianne Heesen",
+      "email": "lianne@unifier.co.za",
+      "organizer": true,
+      "responseStatus": "accepted"
+    },
+    {
+      "email": "nhlakanipho@thokoman.co.za",
+      "responseStatus": "needsAction"
+    }
+  ],
+  "created": "2026-05-05T10:07:11.000Z",
+  "creator": {
+    "email": "whheesen@gmail.com",
+    "self": true
+  },
+  "description": "\n________________________________\nFrom: Lianne Heesen <lianne@unifier.co.za>\nSent: Thursday, April 30, 2026 4:04:30 PM (UTC+02:00) Harare, Pretoria\nTo: nhlakanipho@thokoman.co.za <nhlakanipho@thokoman.co.za>; Installations <installations@unifier.co.za>\nSubject: Site Survey - nhlakanipho cebekhulu- thokoman centurion site visit (Q-2566) - Nhlakanipho Cebekhulu\nWhen: Wednesday, May 6, 2026 12:00 PM-8:00 PM.\nWhere:\n\nHi Nhlakanipho Cebekhulu,\n\nThank you for your interest in Unifier's services. We've scheduled a site survey to assess your requirements and provide an accurate quotation. Please Click Here <https://www.unifier.co.za/unity/jobcards/JOB-502-2566-00.pdf> to download the jobcard for all information regarding your site survey appointment.\n\nSite Survey Preparation Guidelines\n\nBefore Our Team Arrives:\n\n  *   Requirements List: Please prepare a list of your security concerns and requirements to discuss with our surveyor.\n  *   Site Access: Please ensure our surveyor can access all areas where security equipment might be installed (interior and exterior).\n  *   Infrastructure Access: If possible, provide access to current network infrastructure, electrical panels, and existing security systems.\n  *   Decision Makers: If possible, ensure all decision-makers are present for at least part of the survey to discuss options and requirements.\n  *   Building Plans: If available, having building plans or layouts can help with planning camera positions and cabling routes.\n\nDuring the Site Survey:\n\n  *   Our surveyor will walk through your property, taking notes and photos to help design the optimal security solution.\n  *   They will discuss your specific security concerns and recommend appropriate solutions.\n  *   The surveyor will assess technical feasibility, cabling routes, equipment positioning, and any special requirements.\n  *   Following the survey, we'll prepare a detailed quotation based on your specific requirements and site conditions.\n\nSite Survey Process\n\n  1.  Assessment: Our surveyor will thoroughly assess your property and discuss your security requirements.\n  2.  Documentation: We'll document all specifications, take relevant measurements, and note any special considerations.\n  3.  Consultation: Our team will discuss preliminary recommendations and answer any questions you might have.\n  4.  Quotation: Based on the survey, we'll provide a detailed quotation tailored specifically to your property and requirements.\n\nShould you have any questions before the site survey, feel free to reach out to us. We look forward to helping you secure your property with the right solution.\n\nKind Regards,\n\nLianne Heesen\nDirector, Unifier (PTY) LTD\nmobile: 0820943681\nemail: lianne@unifier.co.za\nwww: www.unifier.co.za\n[http://www.unifier.co.za/marketing/email-footer.png]\n",
+  "end": {
+    "dateTime": "2026-05-06T20:00:00+02:00",
+    "timeZone": "Africa/Maputo"
+  },
+  "etag": "\"3555952014755070\"",
+  "eventType": "default",
+  "guestsCanInviteOthers": false,
+  "htmlLink": "https://www.google.com/calendar/event?eid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc2OTBqY2NoazhvcTM2Z2ExOGdzNDhncGc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnOGNza2NoaTM4Y3EzaWU5cDg0b2ppZzlrNzUxM2FoOWs4NTM0Y2hpMjg1MWs0ZHBpNmQyZyB3aGhlZXNlbkBt",
+  "iCalUID": "040000008200E00074C5B7101A82E008000000002A624F43AAD8DC01000000000000000010000000C9FFCC4999A19A49B5E4AFFFBACB723E",
+  "id": "_60q30c1g60o30e1i60o4ac1g60rj8gpl88rj2c1h84s34h9g60s30c1g60o30c1g690jcchk8oq36ga18gs48gpg64o30c1g60o30c1g60o30c1g60o32c1g60o30c1g8cskchi38cq3ie9p84ojig9k7513ah9k8534chi2851k4dpi6d2g",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Lianne Heesen",
+    "email": "lianne@unifier.co.za"
+  },
+  "privateCopy": true,
+  "reminders": {
+    "useDefault": true
+  },
+  "start": {
+    "dateTime": "2026-05-06T12:00:00+02:00",
+    "timeZone": "Africa/Maputo"
+  },
+  "status": "confirmed",
+  "summary": "FW: Site Survey - nhlakanipho cebekhulu- thokoman centurion site visit (Q-2566) - Nhlakanipho Cebekhulu",
+  "updated": "2026-05-05T10:13:27.377Z"
+}

@@ -1,0 +1,260 @@
+Unifier (PTY) LTD
+186 Arathorn Estate, Leander Road, Olympus, 0081
+Company #: 2017/265961/07
+VAT #: 4010278515
+
+Job Card ­ JOB­502­2566­00
+
+Quote Name
+
+Unifier Quote ­ Nhlakanipho Cebekhulu­ Thokoman Centurion Site Visit
+
+Prepared for
+
+Nhlakanipho Cebekhulu
+
+Prepared by
+
+Lianne Heesen, Director
+ lianne@unifier.co.za
+ 0820943681
+
+ nhlakanipho@thokoman.co.za
+ 0128110501 (Phone Call)
+
+Issue Date
+
+Thursday, 30 April 2026
+
+Whatsapp
+Special Notes
+Company
+
+Private
+Installation Team:
+
+Mike Mabua, Team Leader
+ mike@unifier.co.za
+
+Customer PO
+
+ 0767209109
+Deposit
+
+R0
+Office
+
+Installation Date
+
+2026/05/06 12:00:00 PM (Estimated arrival time due to traffic)
+
+Google Maps Link
+
+Open Maps
+
+Installation Address
+
+17 Rain Street, Sunderland Ridge, Centurion, 0157
+
+Lianne Heesen, Operations Manager
+ lianne@unifier.co.za
+ 0820943681
+
+A brief overview of the current CCTV System: 64 cameras. Both
+Hikvision and Dahua. Recorder type: NVR. Known Issues: Yes, we do
+have image quality problems as most of our cameras are 2MP. We're
+looking for 4MP. High Risk Areas: We have two buildings. Building A and
+Installation Notes
+
+B. In both buildings, we have a server room. So that would be a high­risk
+area. Additionally, another high­risk area would be any location that would
+have our finished goods stock (peanut butter). Retention Policy: We're
+looking at a retention policy of 60 ­ 90 days. Support: We're looking at an
+SLA based support. Floor plans will be provided after the site visit.
+
+Stock Checklist
+Installation
+
+Technician Stock Checklist
+
+Complete Installation Checklist
+
+Completion
+Mobile Site Survey
+
+Open Mobile Site Survey
+
+Main Section
+QTY
+
+Part Code
+
+Description
+
+INSTALLATION PREPARATION GUIDELINES
+
+Before Our Team Arrives:
+
+Site Access & Walk­through: Please ensure someone is available at the installation site to provide access and conduct an initial walkthrough with our installation team.
+Power Requirements: Ensure stable electricity is available at the installation site. Each switch, DVR/NVR or power supply requires a dedicated power outlet.
+DVR/NVR Location: Please identify a secure, dry location for the DVR/NVR that has adequate ventilation, access to power, and is protected from unauthorized access.
+Internet Access: If your system includes remote viewing capabilities, please have wired (ethernet) internet access available, preferably close to the DVR/NVR location.
+Clear Work Areas: To speed up the installation process, please ensure that work areas are accessible and free from obstacles.
+Mobile Device: Please have the main cellphone or tablet that will be used to access the CCTV system available. Our technicians will assist with setting up the Hik­Connect app for remote
+viewing.
+
+On the Day of Installation:
+
+Our team lead will be your primary point of contact during the installation. Please communicate any specific requirements or concerns directly with them on arrival.
+Our team will introduce themselves and confirm the installation plan before starting.
+Once work is complete, a final walkthrough will be done, and you'll be required to sign off on the job card.
+If our team needs to return to complete the installation due to unforeseen circumstances or site­related issues not identified in advance, additional charges may apply.
+
+SCOPE OF WORK CLAUSE – UNIFIER CCTV INSTALLATIONS
+
+Page: 1 of 4
+
+SCOPE OF WORK CLAUSE – UNIFIER CCTV INSTALLATIONS
+
+Scope of Work: The services provided by Unifier are strictly limited to the scope detailed in the official quotation and job card. Any modifications, additions, or changes to the
+agreed­upon work must be requested in writing and approved before implementation.
+On­Site Changes: Once our technicians are on­site, they will only perform the work as per the approved job card. Any additional work requested while on­site will not be
+undertaken unless a new quotation is issued and approved by the client.
+Job Completion: The technicians will prioritize completing the agreed­upon work before considering any additional tasks. If there is time remaining after completing the quoted
+work, the team may assist with additional tasks at their discretion, provided they do not interfere with other scheduled commitments.
+Approval & Sign­Off: The client or their representative must sign off on the completed work before requesting further assistance. Any additional work after sign­off may be subject
+to additional charges.
+
+TERMS AND CONDITIONS
+
+Payment of 50% required before any work can commence. The remaining 50% is due upon completion.
+Prices are in South African Rand (ZAR) and include 15% VAT.
+If the customer is not available on the scheduled installation date, and additional callout fee will be levied for travel time.
+All equipment remains the property of Unifier (PTY) LTD until paid for in full.
+Sundries required for installation, that only becomes known to us during installation, will be chargeable upon completion of the installation.
+Banking Details: FNB, Branch Code: 259745, Account Number: 62707889244
+Please send Proof of Payment to sales@unifier.co.za
+
+Job Card ­ JOB­502­2566­00
+
+Meet the Gauteng Team
+
+Iphrahim (Installer), M i k e (Team lead), Martin (Team Lead), Anthony (Founder)
+
+Job Card ­ JOB­502­2566­00
+
+Page: 2 of 4
+
+Job Card ­ JOB­502­2566­00
+
+Meet the Gauteng Team
+
+Iphrahim (Installer), M i k e (Team lead), Martin (Team Lead), Anthony (Founder)
+
+Job Card ­ JOB­502­2566­00
+
+INSTALLATION EXTRAS
+QTY
+
+Description
+
+Unit Price
+
+Cat5e Cable Installed ­ Per Metre
+
+R10.00
+
+RG59 Combo Cable (Data + Power) Cable Installed ­ Per Metre
+
+R10.00
+
+Conduit Installed ­ Per Metre
+
+R25.00
+
+Trunking (25mm x 16mm) Installed ­ Per Metre
+
+R30.00
+
+Trunking (40mm x 40mm) Installed ­ Per Metre
+
+R41.00
+
+Multiplug (10x way), 5x 3Pin, 5x 2Pin
+
+R250.00
+
+10m Power Extension Cable
+
+R200.00
+
+20m Power Extension Cable
+
+R350.00
+
+Mounting Pole ­ 1.5m Straight
+
+R850.00
+
+Sub­Total
+
+Page: 3 of 4
+
+Job Card ­ JOB­502­2566­00
+
+INSTALLATION EXTRAS
+QTY
+
+Description
+
+Unit Price
+
+Cat5e Cable Installed ­ Per Metre
+
+R10.00
+
+RG59 Combo Cable (Data + Power) Cable Installed ­ Per Metre
+
+R10.00
+
+Conduit Installed ­ Per Metre
+
+R25.00
+
+Trunking (25mm x 16mm) Installed ­ Per Metre
+
+R30.00
+
+Trunking (40mm x 40mm) Installed ­ Per Metre
+
+R41.00
+
+Multiplug (10x way), 5x 3Pin, 5x 2Pin
+
+R250.00
+
+10m Power Extension Cable
+
+R200.00
+
+20m Power Extension Cable
+
+R350.00
+
+Mounting Pole ­ 1.5m Straight
+
+R850.00
+
+...........................................................................................................................................................
+
+................
+
+...........................................................................................................................................................
+
+................
+
+...........................................................................................................................................................
+
+................
+
+Sub­Total
