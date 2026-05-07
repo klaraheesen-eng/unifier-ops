@@ -2,43 +2,48 @@
 
 Source transcript: `docs/tasks/worknotes/thokoman-meeting-2026-05-06-transcript.md`
 
-Older pre-meeting request image: `docs/tasks/source-docs/thokoman-2026-05-06/older-cctv-site-visit-request.jpg`
+Source notes:
 
-> Note: the older pre-meeting request is useful background only. The meeting decisions and clarified requirements below supersede the older request where there is any conflict.
+- Older pre-meeting request image: `docs/tasks/source-docs/thokoman-2026-05-06/older-cctv-site-visit-request.jpg`
+- Lianne meeting notes: `docs/tasks/source-docs/thokoman-2026-05-06/lianne-meeting-notes-2026-05-06.md`
+
+> Note: the older pre-meeting request is useful background only. The meeting decisions and clarified meeting notes below supersede the older request where there is any conflict.
 
 ## 1. General summary
 
-Thokoman requested a site visit for a CCTV infrastructure enhancement / redesign. The site currently has an existing CCTV system, but the agreed approach from the meeting is to design the new system **as if starting from scratch**, then repurpose any useful existing cameras into secondary or lower-risk positions.
+Thokoman requested a CCTV infrastructure enhancement / redesign for two main buildings. The agreed approach is to design the new system **as if there is no usable existing CCTV infrastructure**, then repurpose any functional existing cameras into secondary or lower-risk locations.
 
-The existing CCTV estate is approximately **64 cameras** across two buildings. The older request noted Hikvision and Dahua equipment, NVR recording, and mostly 2MP cameras. During the meeting, the existing estate was described as a mix of IP and analogue cameras, split across brands including Equal Vision and Power. Not all cameras are functional, and current camera placement is not ideal.
+The existing CCTV estate is approximately **64 cameras**. Existing cameras are mostly **2MP**, image quality is not adequate, not all cameras are functional, and the current placements are not ideal for the risk areas. Earlier notes identify Hikvision and Dahua equipment with NVR recording. The transcript also mentions mixed equipment/brands and possible analogue/IP confusion, so the existing system should not be treated as the design baseline.
 
-The overall design direction is therefore:
+The new design direction is:
 
-- Treat the new solution as a fresh design.
-- Use new 4MP cameras as the general standard.
-- Use selected long-range / higher-resolution cameras where distance or number plate visibility is required.
-- Repurpose functional existing cameras only where appropriate.
-- Design around proper switch, NVR, cabinet, cabling, power, and retention requirements.
-- Avoid over-reliance on onboard NVR PoE ports; prefer separate PoE switching for maintainability and resilience.
+- Fresh CCTV design, independent of the existing 64-camera estate.
+- Existing 64 cameras to remain on their current NVRs/switches unless separately repurposed.
+- Quote for new switches and new recording infrastructure for the new design.
+- Use **4MP IP cameras** as the general standard.
+- Use selected long-range / 8MP cameras only where required for distance or number plate visibility.
+- No onboard NVR PoE dependency; use separate PoE switches.
+- Include storage, cabling, cabinets, protected power, monitoring workstation, and optional temporary monitoring / AI add-on.
 
 ## 2. Site context
 
 The site is divided into two main areas:
 
-- **Block A** — large factory / warehouse / production area.
-- **Block B** — office/admin block with related loading / warehouse areas.
+- **Block A** — warehouse / factory / production area.
+- **Block B** — office/admin block with loading bay and related operational areas.
 
 The older request identifies the address as:
 
 - **17 Rain Street, Sunderland Ridge, Centurion, 0157**
 
-High-risk areas identified in the older request and reinforced during the meeting include:
+High-risk / important areas identified:
 
 - Server rooms in both buildings.
 - Finished goods stock areas.
 - Warehouse operations.
 - Conveyor / movement areas between Block A and Block B.
-- Loading bay and gate / parking areas.
+- Loading bay.
+- Gate / parking lot views where number plate recognition from footage is required.
 
 ## 3. Specific client requirements
 
@@ -47,99 +52,111 @@ High-risk areas identified in the older request and reinforced during the meetin
 Current known environment:
 
 - Approximately **64 existing cameras**.
-- Existing cameras are mostly **2MP**, causing image-quality limitations.
-- Mix of IP and analogue cameras.
-- Multiple brands currently in use.
+- Mostly **2MP**, causing image-quality limitations.
+- Earlier notes say **all IP**, Hikvision and Dahua.
+- Transcript suggests there may also be mixed brands and possibly some analogue equipment.
 - Recorder type: NVR.
-- No current formal SLA in place.
-- Some existing cameras are not functional.
+- Not all cameras are functional.
 - Some camera placements are not suitable for current risk areas.
 
-Client direction from meeting:
+Client direction:
 
-- Do not base the core design on the old system.
+- Do not base the core new design on the old system.
 - Design the new system from first principles.
-- Repurpose working existing cameras into non-critical or secondary areas where practical.
+- Keep the existing 64 cameras on their existing NVRs and switches for now.
+- Repurpose working existing cameras only where practical and non-critical.
+- Unifier to reinstall/repurpose existing functional cameras where required.
 
 ### 3.2 Block B camera requirement
 
-Meeting decision: **27 total cameras** for Block B.
+Meeting decision / clarified notes: **27 total cameras** for Block B.
 
 Breakdown:
 
-- Mostly bullet cameras.
-- **3 × 60m long-range bullet cameras** for the loading bay / long-distance viewing area.
-- **1 × 80m long-range camera**, specified as **8MP**, aimed toward the gate / parking area.
-- **2 × dome cameras** on the first floor.
-- Balance to be normal **4MP bullet cameras**.
+- Mostly **4MP IP bullet cameras**.
+- **3 × 60m long-range bullet cameras** at / around the loading bay, outside.
+- **1 × 80m long-range camera** at the gate.
+- **2 × dome cameras** included in the Block B total.
+- Balance to be normal **4MP IP bullet cameras**.
 
 Important note:
 
-- The 80m / 8MP camera should allow number plates to be made out from footage when needed.
-- The client is **not requesting a full LPR/ANPR database solution**.
+- The gate camera must be good enough to recognise / make out number plates in footage.
+- This is not specified as a full LPR/ANPR database solution.
 
 ### 3.3 Block A camera requirement
 
-Meeting decision: **109 total cameras** for Block A.
+Meeting decision / clarified notes: **109 total cameras** for Block A.
 
 Breakdown:
 
-- **9 × dome cameras** on the ground floor.
-- **3 × dome cameras** on the first floor.
+- **9 × dome cameras** inside on the ground floor.
+- **3 × dome cameras** inside on the first floor.
 - Balance to be **4MP bullet cameras**.
-- One **80m / 8MP long-range camera**.
+- One **80m long-range 8MP camera** to view the parking lot.
 
-Block A includes factory, warehouse, production, inside, and outside coverage.
+Block A includes warehouse, production, finished goods, factory, internal, and external coverage.
 
 ### 3.4 Image quality
 
-The older request specifically notes image-quality problems because most current cameras are **2MP** and the client is looking for **4MP**.
+Client problem:
 
-Meeting decision:
+- Existing 2MP camera quality is insufficient.
 
-- Use **4MP** as the general camera standard.
-- Use **8MP** only where specifically required for long-range viewing / number plate visibility.
+New design:
+
+- Use **4MP IP** as the general camera standard.
+- Use **8MP** only for the specific long-range parking/gate-type view where higher detail is needed.
 
 ### 3.5 Floor plans and design input
 
-The client indicated that they have already mapped where cameras should go.
-
 Still required from client:
 
-- Floor plans.
+- Spec sheet.
+- Floor plan.
 - Camera location markings / desired camera positions.
-- Spec sheets.
-- Confirmation of server room, cabinet, and switch locations.
+- Confirmation of server room, cabinet, switch, and NVR locations.
 
-The older request says floor plans would be provided after the site visit. Meeting discussion confirmed the floor plans may be blank and may require camera positions to be marked up as part of proposal preparation.
+The client indicated that floor plans and specs will be sent.
 
 ### 3.6 Cabling
 
-A rough cable allowance of **2,000m** was discussed and flagged as likely too low.
+Meeting/notes direction:
 
-With approximately **134 cameras** across the new design, even a conservative **35m average per camera** results in roughly **4,700m** of cable before detailed routing and allowance.
+- Add approximately **5,000m CAT5e** cable allowance.
 
-Cabling must be estimated from:
+Rationale:
 
-- Marked floor plans.
-- Server room locations.
-- Switch / cabinet positions.
+- A 2,000m allowance was discussed and flagged as too low.
+- With around 136 new cameras total if Block B is 27 and Block A is 109, 5,000m is a more realistic planning allowance before final measurement.
+- Final cabling should still be checked against floor plans and route distances.
+
+Cabling must account for:
+
 - Actual cable routes, not straight-line distances.
-- Cable trays, conduits, vertical drops, ups and downs, and wastage allowance.
-
-Switch placement will have a major impact on cable length and cost.
+- Cable trays / conduits / containment.
+- Vertical drops, cabinet drops, ups and downs.
+- Wastage and service loops.
+- Switch location impact on cable quantity.
 
 ### 3.7 Switch and NVR architecture
 
-Recommended architecture from the meeting:
+Confirmed direction:
 
-- Use dedicated PoE switches rather than relying primarily on NVR onboard PoE.
-- Use NVRs primarily for recording.
-- Split the large camera estate into zones / groups.
-- Consider multiple 32-channel NVR groups rather than one large central dependency.
-- Place NVRs / switches closer to camera clusters where practical.
+- **No onboard PoE** as the primary design.
+- Use **separate PoE switches**.
+- Quote for **completely new switches** for the new system.
+- Keep existing 64 cameras on existing NVRs and switches.
 
-Reasoning:
+Clarified equipment/topology notes:
+
+- **Block B:** 2 NVRs, including a 32-channel NVR requirement noted for Block B.
+- **Block A:** 4 × 32-channel NVRs.
+- Switch locations discussed as **4 locations**.
+- Notes mention one switch location for each block, one in Block A packaging, and adding a third switch in the server room.
+- Two existing 32-port switches are already onsite, but the quote should still cover the new switches required for the new system.
+
+Design reasoning:
 
 - Easier maintenance.
 - Better redundancy.
@@ -148,76 +165,73 @@ Reasoning:
 - PoE/lightning damage should ideally affect a switch, not force replacement of an NVR.
 - Distributed equipment makes tampering with the full system harder.
 
-The client has some existing switches that may be repurposed, including at least one existing **32-port PoE switch**, but the quote should include the new switching required for the new camera estate.
-
 ### 3.8 Cabinets
 
-Existing server-room cabinets are handled by the client.
+Quote for:
 
-Additional cabinet locations will likely be required for remote switch / NVR locations.
+- **2 cabinets for Block A**.
+- **1 cabinet for Block B**.
 
-Provisional cabinet requirement discussed:
-
-- Approximately **2 cabinets for Block A**.
-- Approximately **1 cabinet for Block B**.
-
-This must be confirmed after final topology and floor-plan layout.
+Existing server-room cabinets are handled by the client where applicable.
 
 ### 3.9 Backup power and protection
 
-Main server rooms have backup power.
+Known:
 
-Remote cabinet locations will need protected / backed-up power.
+- Backup power exists in the main server rooms.
 
-Recommendation from meeting:
+Requirement:
 
-- Prefer feeding remote cabinet locations from existing protected circuits where possible.
-- Use the client’s electrician to tap from generator / solar / protected supply where available.
-- Include lightning / surge protection.
-- UPSs can be used where needed, but small batteries create ongoing maintenance overhead.
+- Connect relevant cabinet/equipment power to solar / backed-up power where available.
+- Client/electrician must ensure power is connected and surge protected before installation.
+- Include surge/lightning protection in the design assumptions.
+- Avoid relying only on small UPS batteries where properly backed-up building power can be provided.
 
 ### 3.10 Recording retention
 
-Older request asked for **60–90 days** retention.
+Clarified retention requirement:
 
-Meeting discussion refined this into area-based retention:
+- **Block A warehouse / production / finished goods:** approximately **2 months** storage.
+- **Block B and admin office areas:** approximately **2 weeks** storage.
 
-- Office/security-only areas may only need approximately **2 weeks** retention.
-- Production / warehouse / finished goods areas need longer retention because issues may only be discovered later.
-- The client indicated some issues may only be discovered after around a month.
+This supersedes the older general 60–90 day retention request.
 
-Provisional recommendation:
+### 3.11 Maintenance / SLA / monitoring
 
-- **Block A / production / warehouse / finished goods:** approximately **2 months** retention.
-- **Office/admin areas:** approximately **2 weeks** retention.
-- Block B may require split retention if it contains both office and warehouse-related footage.
+Clarified notes:
 
-### 3.11 Support / SLA / monitoring
+- Maintenance to be done **in-house**.
+- Quote for **temporary off-site incident monitoring** for approximately **3 months**.
+- Purpose is shrinkage/theft investigation — **not traditional security monitoring**.
+- Focus: identify who is stealing / reduce shrinkage.
+- Possible AI analytics quote should be separate as an add-on.
 
-Older request asked for **SLA-based support**.
+Important interpretation:
 
-Meeting discussion clarified that:
+- This is not primarily armed-response security monitoring.
+- It is closer to shrinkage / operational incident monitoring and investigation support.
+- The monitoring scope should therefore focus on selected high-risk stock movement, finished goods, warehouse, conveyor, loading, and access areas.
 
-- The client may handle some maintenance onsite.
-- They are considering temporary offsite monitoring for the initial period.
-- The likely monitoring period discussed was around **3 months**, and less than 6 months.
+### 3.12 Monitoring workstation
 
-Important clarification still needed:
+Include a monitoring workstation in the quote.
 
-- Whether they want **security incident monitoring** or **operational footage review support**.
+Requirement:
 
-Security incident monitoring means event-based triggers, schedules, motion / line-crossing rules, escalation procedures, and alerts to armed response or nominated contacts.
+- Strong GPU / suitable workstation specification.
+- Able to monitor at least **32 cameras at a time**.
+- No screens required.
+- Client can connect **2 screens**.
 
-Operational review means ensuring footage is available for later investigation of stock, production, conveyor, or finished goods issues.
+If AI analytics is quoted as an add-on, workstation/GPU requirements should be checked against the selected analytics platform.
 
-Likely zones mentioned for monitoring / review:
+### 3.13 Timeline
 
-- Finished goods activity.
-- Warehouse operations.
-- Conveyor area between Block A and Block B.
-- Selected high-risk / high-activity zones.
+Client expectation:
 
-The full camera estate is unlikely to be monitored live. Monitoring should be scoped to selected cameras/zones and priced accordingly.
+- Quote by **early next week**.
+- Installation date to be confirmed.
+- Expected start: **Q3**.
 
 ## 4. Open items before quoting
 
@@ -226,32 +240,42 @@ The following still need to be received or confirmed before the final quote is p
 - Final floor plans.
 - Camera markings / exact camera positions.
 - Spec sheets.
-- Confirmation of Block A and Block B server room locations.
-- Exact switch / cabinet / NVR positions.
-- Which existing switches can be reused.
-- Which existing cameras can be repurposed.
-- Final retention requirement per camera group.
+- Confirmation of server room, cabinet, switch, and NVR positions.
+- Final switch location layout, because the notes mention 4 switch locations but the wording needs layout confirmation.
+- Whether the existing equipment is definitely all IP/Hikvision/Dahua or mixed as described in the transcript. This does not materially affect the new quote if existing equipment is kept separate.
+- Final retention requirement per camera group if any areas differ from the 2-month / 2-week split.
 - Final offsite monitoring scope and number of monitored cameras/zones.
-- Confirmation whether monitoring is security-response monitoring or operational review.
+- Whether AI analytics should be included only as an optional add-on or also priced as a recommended option.
 - Power availability and backup/protection at each remote cabinet.
-- Whether client-provided electrical work will handle protected power feeds to cabinets.
+- Confirmation that client electrical work will provide protected/solar-backed power before installation.
 
-## 5. General BOM / scope items
+## 5. Possible conflicts / clarification needed
+
+These notes mostly align with the summary and clarify it. I found the following items that may need Heinrich/client confirmation:
+
+1. **Block B count:** one note says “Office Block B — 25 cams”, but the later detailed note says **Block B x27**, including 2 domes. The summary uses **27 total** because that is the more detailed meeting note and matches the transcript clarification.
+2. **Existing camera type/brands:** Lianne’s notes say existing 64 cameras are **all IP, Hikvision and Dahua**. The transcript includes discussion suggesting mixed IP/analogue and different brand names. Since the new design is fresh and existing cameras stay on existing NVRs/switches, this is low-risk, but should be confirmed before any repurpose/reinstall work.
+3. **Switch locations:** the notes say **4 locations for switches**, but also mention one for each block, one in packaging Block A, and adding a third switch in the server room. This should be confirmed against the floor plan before quoting exact switch/cabinet placement.
+4. **Monitoring wording:** Lianne’s notes say “temporary off-site incident monitoring” but also “not security, focus on shrinkage.” The summary now treats this as shrinkage/theft incident monitoring rather than armed-response security monitoring.
+
+## 6. General BOM / scope items
 
 This is a general, non-brand-specific BOM structure for quote preparation. Final quantities and specifications must be confirmed from the floor plans, topology, and final client input.
 
-### 5.1 Cameras
+### 6.1 Cameras
 
-- 4MP bullet cameras for general internal / external coverage.
-- 4MP dome cameras for office, indoor, or suitable ceiling-mounted locations.
+- 4MP IP bullet cameras for general internal / external coverage.
+- 4MP IP dome cameras for office, indoor, or suitable ceiling-mounted locations.
 - 60m long-range bullet cameras for selected longer viewing corridors / loading areas.
 - 80m long-range 8MP cameras for selected high-detail / distance views, including gate or parking visibility.
 - Mounting brackets, junction boxes, poles, or adapters where required.
 - Weather-rated housings / fittings where required.
 
-### 5.2 Recording and storage
+### 6.2 Recording and storage
 
 - Network video recorders sized by camera group / zone.
+- Block B NVR capacity, including 2 NVRs as noted.
+- Block A NVR capacity, including 4 × 32-channel NVRs as noted.
 - Surveillance-grade hard drives sized according to:
   - camera count,
   - resolution,
@@ -259,45 +283,58 @@ This is a general, non-brand-specific BOM structure for quote preparation. Final
   - compression standard,
   - recording schedule,
   - required retention period.
-- Separate storage profiles for high-retention production/warehouse areas and shorter-retention office/admin areas where practical.
+- Separate storage profiles for:
+  - 2-month Block A warehouse/production/finished-goods retention,
+  - 2-week Block B/admin retention.
 - Optional distributed NVR layout for redundancy and reduced backhaul.
 
-### 5.3 Network and PoE infrastructure
+### 6.3 Network and PoE infrastructure
 
-- PoE network switches sized per camera zone.
+- Separate PoE network switches sized per camera zone.
+- No onboard NVR PoE dependency.
 - Uplink switches / aggregation where required.
 - Fibre uplinks or network backbone links where copper distances or building separation require it.
 - SFP modules / fibre patch leads if fibre is used.
 - Patch panels and patch leads.
 - Network labelling and documentation.
 
-### 5.4 Cabling and containment
+### 6.4 Cabling and containment
 
-- CAT6 / suitable network cable for camera runs.
+- Approximately 5,000m CAT5e / suitable network cable allowance, subject to floor-plan verification.
 - Cable trays, trunking, conduit, saddles, and fixings as required.
 - Outdoor-rated cable / conduit where exposed.
 - Penetrations, glands, weatherproofing, and sealing materials.
 - Cable management inside cabinets.
 - Allowance for wastage, vertical drops, routing around obstacles, and service loops.
 
-### 5.5 Cabinets and physical infrastructure
+### 6.5 Cabinets and physical infrastructure
 
-- Wall-mount or floor-standing network cabinets for remote switch/NVR positions.
+- 2 × cabinets for Block A.
+- 1 × cabinet for Block B.
 - Cabinet shelves, rails, fans, locks, and cable management.
 - Cabinet earthing / bonding where required.
 - Secure cabinet placement in server rooms, warehouse, or production areas.
 
-### 5.6 Power and protection
+### 6.6 Power and protection
 
 - Protected power points for each cabinet / equipment location.
 - Surge and lightning protection for network and power where appropriate.
-- UPS units where protected building power is not available.
-- Integration with generator / solar / backed-up circuits where available.
+- Integration with solar / generator / backed-up circuits where available.
+- UPS units only where protected building power is not available or as a supplementary requirement.
 - Electrical work by client electrician or nominated electrical contractor, to be confirmed.
 
-### 5.7 Configuration and commissioning
+### 6.7 Monitoring workstation and analytics
+
+- Monitoring workstation with strong GPU / suitable graphics capability.
+- Ability to view at least 32 cameras simultaneously.
+- No monitors/screens included unless later requested.
+- Support for two client-supplied screens.
+- Optional AI analytics platform / licensing / configuration as a separate add-on.
+
+### 6.8 Configuration and commissioning
 
 - Camera installation and alignment.
+- Existing functional camera relocation/reinstallation where approved.
 - NVR configuration.
 - Recording schedule setup.
 - Retention profile setup.
@@ -308,11 +345,12 @@ This is a general, non-brand-specific BOM structure for quote preparation. Final
 - Testing and handover.
 - As-built documentation.
 
-### 5.8 Support and optional services
+### 6.9 Support and optional services
 
-- SLA / maintenance support option.
-- Temporary offsite monitoring option.
+- In-house maintenance handover support.
+- Temporary off-site shrinkage / theft incident monitoring for approximately 3 months.
 - Monitoring setup and rule configuration.
-- Response/escalation procedure setup.
-- Health checks and periodic maintenance.
+- Incident review / escalation process definition.
+- Optional AI analytics add-on.
+- Health checks and periodic maintenance option.
 - Client training / handover.
