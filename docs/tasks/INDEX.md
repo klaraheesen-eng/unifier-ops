@@ -26,6 +26,7 @@ Auto-generated list of all tasks across backlog, in-progress, and done.
 - [2026-04-13-danny-herbatint-cctv-quote](in-progress/2026-04-13-danny-herbatint-cctv-quote.md)
 
 ## Done
+- [2026-05-11-unity-endpoint-health-check](done/2026-05-11-unity-endpoint-health-check.md)
 - [2026-04-10-cia-biometric-quote-execution](done/2026-04-10-cia-biometric-quote-execution.md)
 - [2026-04-10-unity-mcp-auth-env-hardening](done/2026-04-10-unity-mcp-auth-env-hardening.md)
 - [2026-04-10-unity-cli-expansion-for-leads-and-quotes](done/2026-04-10-unity-cli-expansion-for-leads-and-quotes.md)
