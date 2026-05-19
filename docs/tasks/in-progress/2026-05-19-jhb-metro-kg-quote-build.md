@@ -224,3 +224,18 @@ Pricing check:
 Q-2591 handling:
 - Added individual boom/access lines directly to Q-2591 after confirming the active bundle exists with the same components, because Unity's current quote-total view duplicates multi-line bundle parent pricing when a multi-line bundle is added as a bundle entry.
 - Fresh Unity verification: 13 `KG-BOOM-*` lines on Q-2591 total R288,237, no supplier wording on quote, Q-2591 total `R853,105`.
+
+## One-boom bundle normalization — 2026-05-19 21:45
+Heinrich clarified the desired reusable structure: bring the boom/access scope down to one boom per bundle, divide all line items and retail by 4, then add the bundle to Q-2591 at quantity 4.
+
+Applied in Unity:
+- Created per-boom unbranded pricelist items (`KG-BOOM-*`) from the four-boom scope, with cost and retail divided by 4 and rounded to Unity's integer price handling.
+- Created detailed one-boom bundle `bundle_id=23`, `KG-BOOM-GATE-ACCESS-EACH-DETAIL-NOT-FOR-QUOTE`, with 13 individual per-boom component lines. Marked it inactive/not-for-quote because adding a multi-line bundle to a live quote still triggers Unity's known duplicate parent-total issue.
+- Created quote-safe one-boom package item `KG-BOOM-GATE-ACCESS-EACH-PACKAGE` (`pricelist_entry_id=982`) and active one-line quote bundle `bundle_id=24`, `KG-BOOM-GATE-ACCESS-EACH`.
+- Added `KG-BOOM-GATE-ACCESS-EACH` to Q-2591 at quantity 4.
+
+Verification:
+- Attempting to add the detailed 13-line one-boom bundle to Q-2591 at quantity 4 inflated the Unity quote total to `R4,311,936`; it was removed immediately.
+- Quote-safe bundle at qty 4 gives boom/access total `R288,236` (R1 lower than the previous R288,237 because Unity MCP price creation rejects decimal cents and bundle sell prices are effectively integer-rounded here).
+- Fresh Unity quote lookup reports Q-2591 total `R853,104`.
+- Quote item check confirms no customer-facing `Sekweti` wording.
