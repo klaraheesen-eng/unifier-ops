@@ -205,3 +205,22 @@ Pricing:
 - Corrected bundle sell: R288,238.
 - Corrected cost basis: R245,001.75 incl VAT with 15% subcontract margin.
 - Fresh Unity quote lookup reports Q-2591 total `R853,106`.
+
+## Boom/access bundle structure correction — 2026-05-19 21:25
+Heinrich corrected the bundle structure: the subcontract scope must not be a single package line; each individual line item must exist on the pricelist first and then be included as an individual bundle item. He also instructed not to expose the supplier name for now and to re-check the 15% margin.
+
+Applied in Unity:
+- Created/used unbranded pricelist part codes `KG-BOOM-*` for the individual boom/access lines.
+- Marked old one-line bundle `bundle_id=21` inactive and renamed it `OLD-SEK-QU478917-DO-NOT-USE`.
+- Created active individual-line bundle `bundle_id=22`, `KG-BOOM-GATES-ACCESS`, with 13 component lines: barriers, radar sensors, batteries, civils, technical labour, PM, QC/handover, site establishment, transport/logistics, travel, sundries, plant hire, and containment.
+- Removed supplier wording from customer-facing descriptions. The quote item check confirms no `Sekweti` wording appears in Q-2591 item part codes/descriptions.
+- Fibre installation/splicing remains excluded; containment remains included.
+
+Pricing check:
+- Cost basis for corrected scope: R245,001.75 incl VAT.
+- 15% subcontract margin target: R245,001.75 / 0.85 = R288,237.35.
+- Rounded applied sell total: R288,237 across the 13 individual lines.
+
+Q-2591 handling:
+- Added individual boom/access lines directly to Q-2591 after confirming the active bundle exists with the same components, because Unity's current quote-total view duplicates multi-line bundle parent pricing when a multi-line bundle is added as a bundle entry.
+- Fresh Unity verification: 13 `KG-BOOM-*` lines on Q-2591 total R288,237, no supplier wording on quote, Q-2591 total `R853,105`.
