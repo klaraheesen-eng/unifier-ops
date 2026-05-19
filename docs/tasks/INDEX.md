@@ -23,9 +23,13 @@ Auto-generated list of all tasks across backlog, in-progress, and done.
 - [17-wcl2-forms](backlog/17-wcl2-forms.md)
 
 ## In Progress
+- [2026-05-19-jhb-metro-kg-quote-build](in-progress/2026-05-19-jhb-metro-kg-quote-build.md)
 - [2026-04-13-danny-herbatint-cctv-quote](in-progress/2026-04-13-danny-herbatint-cctv-quote.md)
+- [2026-04-17-armscor-dv128500-preliminary-quote](in-progress/2026-04-17-armscor-dv128500-preliminary-quote.md)
+- [2026-04-22-trn-bryanston-randburg-quotes](in-progress/2026-04-22-trn-bryanston-randburg-quotes.md)
 
 ## Done
+- [2026-05-19-jhb-metro-kg-lead-site-survey](done/2026-05-19-jhb-metro-kg-lead-site-survey.md)
 - [2026-05-11-unity-endpoint-health-check](done/2026-05-11-unity-endpoint-health-check.md)
 - [2026-04-10-cia-biometric-quote-execution](done/2026-04-10-cia-biometric-quote-execution.md)
 - [2026-04-10-unity-mcp-auth-env-hardening](done/2026-04-10-unity-mcp-auth-env-hardening.md)

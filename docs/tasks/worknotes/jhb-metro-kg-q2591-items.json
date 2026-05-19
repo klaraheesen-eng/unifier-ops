@@ -1,0 +1,196 @@
+{
+  "quote_id": "2591",
+  "quote_url": "https://www.unifier.co.za/unity/quote-details.asp?quote_id=2591",
+  "count": 27,
+  "items": [
+    {
+      "part_code": "UNI-DAU-IP-ANPR-4MP",
+      "description": "Dahua IP ANPR 4MP 30m 2.7-12mm 80km/h 1 Lane  Mic IO",
+      "qty": "2",
+      "selling_price": "12710",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "DS-K1T341CMFW",
+      "description": "Value Series Face Access Terminal Deep learning algorithm 4.3-inch capacitive touch screen, 2 MP wide-angle dual-lens 3,000 face capacity, 3,000 card capacity, 3,000 fingerprint capacity and 150,000 event capacity. Stainless steel rainshield for DS-K1T341 series included.",
+      "qty": "2",
+      "selling_price": "9976",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-NO-TOUCH",
+      "description": "Adjustable No-Touch Sensor for exit access control",
+      "qty": "3",
+      "selling_price": "309",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "SUPP-CAM-BULLET-4MP-IP-28MM-ADI",
+      "description": "Pro Series AcuSense 4MP IP Bullet Camera, 2.8mm Fixed Lens, White",
+      "qty": "16",
+      "selling_price": "3891",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "DS-2DE5425IWAE(T5)_C",
+      "description": "PTZ 12.8 Progressive Scan CMOS High quality imaging with 4MP resolution. Excellent low light performance with powered-by DarkFighter technology.",
+      "qty": "1",
+      "selling_price": "15017",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "DS-1604ZJ-POLE (NR)",
+      "description": "BRACKET IP CAMERA Pole Mount - PTZ",
+      "qty": "1",
+      "selling_price": "1778",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "101700361",
+      "description": "POE MIDSPAN 1 Channel 60W power supply for PTZ",
+      "qty": "1",
+      "selling_price": "2471",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-DAU-NVR-32",
+      "description": "Dahua NVR 32CH NO PoE 2 SATA WizSense",
+      "qty": "1",
+      "selling_price": "9166",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-8TB-HDD-WD",
+      "description": "Western Digital Surveillance HDD - 8TB",
+      "qty": "2",
+      "selling_price": "7183",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-POE-MNG-24",
+      "description": "Reyee 24 Port Gigabit PoE 370W 4SFP Layer 2+ Smart Managed Switch",
+      "qty": "RG-NBS3100-24GT4SFP-P-V2",
+      "selling_price": "1",
+      "group": "8900"
+    },
+    {
+      "part_code": "DS-3T0506HPE_HS_C8port",
+      "description": "Hikvision L2 Unmanaged 8 Port Industrial Switch. 8 GB RJ45 PoE ports 2 Gigabit SFP uplink ports 802.3afatbt. port 1 support Hi-PoE 60w. PoE power budget 60W. 8 Port support up to 300meter. 6KV surge protection. supports POE watchdog. port isolation. -30~65�C. DIN rail",
+      "qty": "2",
+      "selling_price": "5052",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UB-UF-MM-1G",
+      "description": "MM SFP Modules",
+      "qty": "4",
+      "selling_price": "848",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-FIBRE-250m-MM",
+      "description": "FIBRE-250m Ruggedised pre-made Mulit-Mode",
+      "qty": "1",
+      "selling_price": "7223",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-MEDIACONV-MM",
+      "description": "Fibre Media Converter Gigabit Multi Mode SC - TP-Link",
+      "qty": "2",
+      "selling_price": "1338",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-CAT5E-INST-PM",
+      "description": "Cat5e Cable per Meter Installed",
+      "qty": "700",
+      "selling_price": "8",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-SVC-CONDUIT25-PM",
+      "description": "25mm Conduit Per Meter Installed",
+      "qty": "300",
+      "selling_price": "50",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "EYE-TRNCH-MAN",
+      "description": "Manual trenching per meter. Labor and hand tools, per day (includes machinery). The client must indicate the service locations; Unifier accepts no responsibility for damage to underground plumbing, electrical, or sewer lines. Where paving is lifted, we will replace it (cement included)  If paving is cemented, new paving must be supplied by the client for us to relay.",
+      "qty": "150",
+      "selling_price": "55",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-POLE3-CUSTOM",
+      "description": "Pole to Mount Cameras - Made to Order. 3 Meter straigth, Pole with Flat Base. - Planted. 3m  (Price includes installation and sundries - Raw Bolts, Weatherproof Paint, Weather-sealing Cap, etc)",
+      "qty": "1",
+      "selling_price": "1725",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-CAM-EMCL",
+      "description": "Universal Camera Mount enclosure 115 x 115 x 48mm",
+      "qty": "1",
+      "selling_price": "107",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-CAB-4U",
+      "description": "Network Cabinet Wall mounted 4U 300mm - Installed",
+      "qty": "1",
+      "selling_price": "2455",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-3kVA-UPS",
+      "description": "Hikvision DS-UPS3000 3KVA 1800W",
+      "qty": "1",
+      "selling_price": "6713",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "EYE-CAM-INST",
+      "description": "Professional installation of indoor or outdoor surveillance cameras, including secure mounting, positioning, connection, and full configuration for optimal coverage and performance. This service also includes cable connector crimping to ensure a secure and stable wired connection. Cable and mounting box are not included in the installation price.",
+      "qty": "16",
+      "selling_price": "576",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "EYE-PTZ-INST",
+      "description": "Professional installation of a PTZ (Pan-Tilt-Zoom) camera, including secure mounting, positioning, and connection for full functionality. This service includes system configuration, integration with existing surveillance equipment, and setup of presets, patrols, and remote control functions. Camera, cable and mounting accessories are not included in the installation price.",
+      "qty": "1",
+      "selling_price": "980",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "EYE-NVR-INST-32",
+      "description": "Professional installation of a 32 channel Network Video Recorder (NVR), including mounting, hard drive installation, and system configuration. We ensure a secure and stable wired set up for reliable video transmission. Our service also includes remote access setup and optimal storage management for seamless surveillance. Cable is not included in the installation price. Assumes power is available at the installation point.",
+      "qty": "1",
+      "selling_price": "1840",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "EYE-POE-INST-24",
+      "description": "Professional installation and setup of a 24-port Power over Ethernet (PoE) switch to support IP camera systems. This service includes mounting, connection to the network, and basic configuration to ensure reliable power and data transmission. Cables are not included in the installation price. Assumes cabinet and power is available at the installation point.",
+      "qty": "1",
+      "selling_price": "576",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "EYE-BIO-INST",
+      "description": "Installation of biometric access control terminal (labour only), including mounting, wiring, and basic configuration � excludes hardware",
+      "qty": "2",
+      "selling_price": "1265",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "EYE-CALL-HR",
+      "description": "Additional labour for CCTV installation, maintenance, or troubleshooting beyond the initial service time. Charged per hour to cover extended work on-site, ensuring a thorough and professional job. Parts and materials are not included in the labour rate.",
+      "qty": "40",
+      "selling_price": "595",
+      "group": "Main Section"
+    }
+  ]
+}

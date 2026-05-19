@@ -1,0 +1,87 @@
+# Jhb Metro KG quote build from site photos
+
+## Metadata
+- Task ID: 2026-05-19-jhb-metro-kg-quote-build
+- Status: in-progress
+- Project: Unifier Unity CRM
+- Site: City Power Johannesburg, Reuven, Johannesburg, 2091
+- Owner: Klara
+- Priority: urgent
+- Created: 2026-05-19
+- Last Updated: 2026-05-19
+
+## Objective
+Extract the site drawing and handwritten scope from Heinrich/KG's Telegram attachments and build the best possible draft Unity quote for a complete access control, ANPR, CCTV, EV parking monitoring, and perimeter solution.
+
+## Source Requirements
+- Telegram request from Heinrich in Unifier Ops group on 2026-05-19 with two images, PDF drawing, and maps link `https://maps.app.goo.gl/hKomDF2hTNDKvEGh6?g_st=iw`.
+- Existing Unity records created earlier:
+  - Lead `11001`
+  - Quote `2591`
+  - Opportunity `2524`
+
+## Inputs / Evidence
+- Source docs:
+  - `docs/tasks/source-docs/jhb-metro-kg/site-plan-photo.png`
+  - `docs/tasks/source-docs/jhb-metro-kg/handwritten-scope.png`
+  - `docs/tasks/source-docs/jhb-metro-kg/EV_CUSTOMER_PARKING_LINE_DRAWING.pdf`
+- Extracted markdown:
+  - `docs/tasks/knowledge-base/jhb-metro-kg/scope-extraction.md`
+- Related files:
+  - Previous setup task: `docs/tasks/done/2026-05-19-jhb-metro-kg-lead-site-survey.md`
+
+## Working Notes
+- Maps link resolves to `City Power Johannesburg, Reuven, Johannesburg, 2091`.
+- PDF metadata title: `Model_Customer & EV Parking Top View`; author Morisse Sabrey; created 2025-10-06.
+- Handwritten scope appears to require:
+  - Main entrance: pole, ANPR x2, face/access cameras x2, enclosure, boom gates 4m arm x2, touch pads x2.
+  - EV area: cameras for chargers x4, overview cameras x4, possible oval/extra cameras x5, network/fibre/control cabling.
+  - Perimeter: cameras x2?, PTZ + multisensor/radar x1, boom gate x1.
+  - Coffee shop: boom gate x1, touch/tech pad x1, overview camera x1.
+- Conservative draft camera count: 2 ANPR + 16 fixed overview/monitoring + 1 PTZ/multisensor + 2 face/access devices.
+- Boom gate catalogue items were not found with searches for `boom`, `barrier`, or `parking`; must be treated as a pricing/model gap unless a matching pricelist item is added.
+
+## Checklist
+- [x] Gather required source material
+- [x] Extract source documents to markdown if needed
+- [x] Record the information needed to complete the task
+- [x] Produce the draft Unity quote
+- [x] Update knowledge base if reusable
+- [ ] Move task to the correct status folder
+
+## Deliverables
+- Draft Unity quote lines on quote `2591`.
+- Missing-info list for Heinrich/KG/site survey.
+
+## Blockers
+- Missing exact boom gate model/pricing.
+- Missing exact trench/cable/fibre lengths.
+- Several handwritten items are unclear.
+
+## Next Step
+Report draft quote status, assumptions, and missing info to Heinrich; await boom gate/model/cabling confirmations before customer-ready issue.
+
+## Completion Notes
+- Pending.
+
+
+## Draft Unity quote update — 2026-05-19
+Added 27 lines to Unity quote `2591` as the first draft based on the extracted scope. Unity currently reports quote `2591` as `In Queue` with total `R262,440` (this total excludes confirmed boom gate pricing because no matching boom/barrier pricelist item was found).
+
+Major line groups added:
+- ANPR: `UNI-DAU-IP-ANPR-4MP` x2.
+- Face/access: `DS-K1T341CMFW` x2; `UNI-NO-TOUCH` x3; `EYE-BIO-INST` x2.
+- Fixed cameras: `SUPP-CAM-BULLET-4MP-IP-28MM-ADI` x16 plus `EYE-CAM-INST` x16.
+- PTZ point: `DS-2DE5425IWAE(T5)_C` x1, PTZ pole bracket x1, 60W midspan x1, `EYE-PTZ-INST` x1.
+- Recording/core: `UNI-DAU-NVR-32` x1, `UNI-8TB-HDD-WD` x2, `UNI-POE-MNG-24` x1, 4U cabinet x1, 3kVA UPS x1, NVR/switch install lines.
+- Remote networking/fibre: industrial 8-port PoE switch x2, SFP modules x4, 250m ruggedised multimode fibre x1, media converters x2.
+- Provisional cabling/civils: Cat5e installed 700m, 25mm conduit 300m, manual trenching 150m, 3m camera pole x1, enclosure x1, labour 40h.
+
+Known quote gaps before customer-ready issue:
+- Add or price 4 x boom gates / parking barriers, including 2 x 4m arms at main entrance, 1 perimeter, 1 coffee-shop/truck route. Need controller, loops/safety beams, plinth/civils and access-control integration.
+- Confirm whether `touch pad` means no-touch sensor, keypad, access terminal, or intercom.
+- Confirm exact meaning/qty of `oval cam`, `lap channel`, `Bosel`, `Tracch`, and `Menu/MECU`.
+- Replace provisional cable/trench quantities with measured site-survey quantities.
+- Confirm recording retention/FPS/resolution and whether ANPR/VMS licences are required.
+
+Quote item snapshot saved to `docs/tasks/worknotes/jhb-metro-kg-q2591-items.json`.
