@@ -29,6 +29,7 @@ Auto-generated list of all tasks across backlog, in-progress, and done.
 - [2026-04-22-trn-bryanston-randburg-quotes](in-progress/2026-04-22-trn-bryanston-randburg-quotes.md)
 
 ## Done
+- [2026-05-19-hide-zero-retail-quote-search](done/2026-05-19-hide-zero-retail-quote-search.md)
 - [2026-05-19-jhb-metro-kg-lead-site-survey](done/2026-05-19-jhb-metro-kg-lead-site-survey.md)
 - [2026-05-11-unity-endpoint-health-check](done/2026-05-11-unity-endpoint-health-check.md)
 - [2026-04-10-cia-biometric-quote-execution](done/2026-04-10-cia-biometric-quote-execution.md)
