@@ -13,10 +13,12 @@ Heinrich asked that Unity's add-quote-item search hide pricelist items with zero
 
 ## Deployment
 - Deployed `add-quote-item.asp` to Unity production via FTP/curl.
-- Committed and pushed Unity commit: `152bbc6` (`Hide zero-retail quote item search results`).
+- Initial Unity commit: `152bbc6` (`Hide zero-retail quote item search results`).
+- Follow-up Unity commit after live screenshot still showed `R0.00` rows: `20c604a` (`Strengthen zero-retail quote search filtering`).
 
 ## Verification
 - Local diff/syntax placement check passed.
+- Downloaded the production file back over FTP and confirmed the stronger filter is present in the live file.
 - Public unauthenticated smoke request returned HTTP `302` to login/object-moved as expected for a protected Unity page; live functional test requires logged-in browser session.
 
 ## Test link
