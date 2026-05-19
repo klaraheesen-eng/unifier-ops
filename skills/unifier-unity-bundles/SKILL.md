@@ -34,22 +34,24 @@ npm run unity -- bundle-add-to-quote --bundle-id=18 --quote-id=2539 --bundle-qua
 - Adding a bundle to a quote creates a parent quote entry and underlying buying lines for each bundle item.
 - Use safe test bundles when validating flows.
 
-## Bundle design rules
+## Bundle design rules — mandatory
 
-- A bundle should represent a **singular reusable concept**, not an entire site quantity, unless the bundle name explicitly says it is a multi-unit/site package.
+- A bundle must represent a **singular reusable concept**, not an entire site quantity, unless Heinrich explicitly asks for a site/multi-unit package.
   - Good: `KG-BOOM-GATE-ACCESS-EACH` = one boom/access point.
-  - Then add the bundle to the quote at the needed quantity, e.g. quantity `4` for four boom gates.
-  - Avoid encoding quote quantity into every component part code/description (`-X4`) unless the source line truly cannot be split.
-- Bundle components should be real pricelist entries first, then added as bundle line items.
-- A detailed/internal bundle should **show the component line items** so the buying/scope breakdown is inspectable.
+  - Then add that bundle to the quote at the needed quantity, e.g. quantity `4` for four boom gates.
+  - Do **not** encode quote quantity into every component part code/description (`-X4`) unless the source line truly cannot be split.
+- A bundle must contain **all of the actual component line items** for that singular concept.
+  - Do **not** replace a proper line-item bundle with one generic/package component just to make the bundle simpler.
+  - The bundle details page must show the component breakdown (hardware, labour, travel, containment, etc.) as bundle items.
+- Bundle components must be real pricelist entries first, then added as bundle line items.
 - When converting a multi-unit supplier quote into a reusable bundle, divide component quantities/cost/retail down to the single concept before creating the component pricelist items. Re-check margin after rounding.
 - Keep customer-facing bundle/line descriptions clean: do not expose subcontractor/supplier names unless explicitly approved.
 
-## Quote-total gotcha and quote-safe workaround
+## Quote-total gotcha — do not let this change bundle design
 
-- **Quote total gotcha:** current Unity quote total calculation can duplicate the parent bundle sell price once per bundle buying line when a multi-line bundle is added to a customer quote.
-- Until Unity's quote total calculation is fixed and verified:
-  - Keep the detailed multi-line bundle as an internal/not-for-quote reference if needed.
-  - For live customer quotes, use a quote-safe bundle with **one package pricelist item** as its only bundle item, but keep the detailed component bundle/pricelist lines available for inspection.
-  - Add the quote-safe singular bundle at the required quote quantity.
-- If a multi-line bundle is accidentally added to a quote, immediately verify the quote total; if inflated, remove it and replace with the quote-safe package bundle.
+- **Known Unity bug:** current Unity quote total calculation can duplicate the parent bundle sell price once per bundle buying line when a multi-line bundle is added to a customer quote.
+- This bug must **not** be solved by making the master bundle a one-line package. The master bundle still needs all component line items.
+- If a multi-line bundle inflates a live quote total:
+  - treat it as a Unity calculation bug to fix or work around at the quote/calculation layer;
+  - verify the live quote total immediately;
+  - if needed as a temporary quote workaround, document it clearly and do not rename it as the canonical bundle design.

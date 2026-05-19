@@ -239,3 +239,13 @@ Verification:
 - Quote-safe bundle at qty 4 gives boom/access total `R288,236` (R1 lower than the previous R288,237 because Unity MCP price creation rejects decimal cents and bundle sell prices are effectively integer-rounded here).
 - Fresh Unity quote lookup reports Q-2591 total `R853,104`.
 - Quote item check confirms no customer-facing `Sekweti` wording.
+
+## Bundle rule correction — 2026-05-19 22:02
+Heinrich corrected the bundle principle again: the canonical bundle must still contain all line items. The correction is only that the bundle represents a singular concept (one boom/access point), not that it becomes a one-line package.
+
+Applied:
+- Updated `skills/unifier-unity-bundles/SKILL.md` to make this mandatory: singular reusable concept + all component line items in the bundle + pricelist first; do not solve quote total issues by collapsing canonical bundles into one package line.
+- Marked package-only bundle `bundle_id=24` inactive and renamed it `OLD-KG-BOOM-GATE-ACCESS-EACH-PACKAGE-DO-NOT-USE`.
+- Reactivated/renamed detailed one-boom bundle `bundle_id=23` as the canonical active `KG-BOOM-GATE-ACCESS-EACH`; it contains the 13 per-boom component line items and has sell price `R72,059`.
+
+Note: Q-2591 still needs care if replacing the temporary quote line, because live Unity quote totals currently inflate when a multi-line bundle is added to a quote. Do not hide that by changing bundle design; fix/work around quote calculation separately.
