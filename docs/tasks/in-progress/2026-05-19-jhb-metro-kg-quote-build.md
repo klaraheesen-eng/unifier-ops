@@ -178,3 +178,14 @@ Q-2591 update:
 - Fresh Unity quote lookup reports total `R892,584`.
 
 Note: the broader `KG-CIVIL-REINSTATE-ALLOW` and trenching/fibre allowances remain on Q-2591 because Sekweti's quote covers boom/access subcontract scope; the broader site route/trenching uncertainty is still intentionally overquoted pending final site confirmation.
+
+## Screen default correction — 2026-05-19 21:00
+Heinrich clarified that when no specific screen size is specified, the default quote item should be `UNI-SCREEN-40INCH`, not smaller 22/32 inch monitor lines.
+
+Q-2591 update:
+- Removed `UNI-SCREEN-22IN-SWING` x1 @ R2,860.
+- Added `UNI-SCREEN-40INCH` x1 @ R3,970.
+- Kept `EYE-MON-INST` x1.
+- Fresh Unity quote lookup reports total `R893,694`.
+
+Durable default added to `docs/reference/cctv-quoting-checklist.md` under Quote discipline.

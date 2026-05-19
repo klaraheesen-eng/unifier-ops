@@ -75,6 +75,7 @@ These should not be forgotten just because they are easy to miss in a text enqui
 ## Quote discipline
 - If key answers are missing, issue only a **budgetary estimate**.
 - State assumptions clearly.
+- If a monitor/screen is needed and no specific size is given, default to `UNI-SCREEN-40INCH` rather than smaller 22/32 inch screen lines.
 - For stock/inventory requests, be clear that standard CCTV gives **visual monitoring**, not automatic stock counting.
 - If the operational requirement depends heavily on camera placement, recommend a site assessment.
 - For dispatch-verification use cases, strongly consider an extra camera dedicated to the packing/dispatch zone rather than only room overview cameras.
