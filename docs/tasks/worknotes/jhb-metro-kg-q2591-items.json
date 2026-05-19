@@ -1,7 +1,7 @@
 {
   "quote_id": "2591",
   "quote_url": "https://www.unifier.co.za/unity/quote-details.asp?quote_id=2591",
-  "count": 32,
+  "count": 35,
   "items": [
     {
       "part_code": "UNI-DAU-IP-ANPR-4MP",
@@ -62,7 +62,7 @@
     {
       "part_code": "UNI-8TB-HDD-WD",
       "description": "Western Digital Surveillance HDD - 8TB",
-      "qty": "2",
+      "qty": "4",
       "selling_price": "7183",
       "group": "Main Section"
     },
@@ -99,13 +99,6 @@
       "description": "Fibre Media Converter Gigabit Multi Mode SC - TP-Link",
       "qty": "4",
       "selling_price": "1338",
-      "group": "Main Section"
-    },
-    {
-      "part_code": "UNI-CAT5E-INST-PM",
-      "description": "Cat5e Cable per Meter Installed",
-      "qty": "1300",
-      "selling_price": "8",
       "group": "Main Section"
     },
     {
@@ -225,6 +218,34 @@
       "description": "Fiber installation per meter. Includes only the labour for trenching (with hydraulic trench hire, charged seperately) up to 500mm deep, as well as laying and joining of protective pipe and installation of pre-splicedfiber",
       "qty": "500",
       "selling_price": "49",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-CAT6-INST-PM",
+      "description": "Cat6 Cable Per Meter Installed",
+      "qty": "1300",
+      "selling_price": "12",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-SCREEN-22IN-SWING",
+      "description": "22 Inch Full HD Monitor - Wall Mounted with Swing Arm",
+      "qty": "1",
+      "selling_price": "2860",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "EYE-MON-INST",
+      "description": "Professional installation and setup of a monitor for your CCTV system, including secure mounting (if required) and connection via HDMI for clear video display. We ensure proper configuration for optimal viewing. TV licence, HDMI cable and mounting bracket is not included in the installation price.",
+      "qty": "1",
+      "selling_price": "433",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "KG-ANPR-VMS-LIC-ALLOW",
+      "description": "Provisional ANPR/VMS licensing and configuration allowance for 2-lane ANPR monitoring/plate recognition integration. Final licence stack depends on selected camera/VMS platform and whether client requires whitelist/opening automation or monitoring only.",
+      "qty": "1",
+      "selling_price": "12000",
       "group": "Main Section"
     }
   ]

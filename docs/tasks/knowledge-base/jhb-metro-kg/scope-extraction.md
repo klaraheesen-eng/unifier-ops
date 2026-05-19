@@ -90,3 +90,19 @@ Important commercial/technical implications:
 - Raw log entries before delete/duplicate cleanup total roughly 1.7km Cat6 and 0.7km RG59; current summary still shows multiple 85m-177m long runs. Use a conservative large trench/cable allowance until route is measured.
 - Quote update used 500m fibre trenching, 1.3km installed Cat5e, 800m conduit, 500m ruggedised multimode fibre, extra industrial switches/media converters/cabinets, plus a provisional civil/reinstatement allowance.
 - Boom gates were priced provisionally as 4 x complete 4m commercial barrier points based on Centurion SECTOR II 4.5m market-class hardware and installation/civil/safety allowances.
+
+
+## KG voice-note update — 2026-05-19 18:35
+Decoded two KG/Hein voice notes and updated quote `2591` accordingly. New confirmations:
+- Quote should intentionally overcompensate/overquote first; client can remove items if over budget.
+- No formal spec sheet and no known budget.
+- Cameras/locations are broadly covered.
+- Cabling is confirmed as Cat6, not Cat5e. Quote changed from `UNI-CAT5E-INST-PM` to `UNI-CAT6-INST-PM` x1300.
+- Container is the main equipment/monitoring point; added 22-inch monitor and monitor install.
+- Touch pad means no-touch wave button.
+- Over/oval cam means dome cameras.
+- Added provisional ANPR/VMS licensing/config allowance and increased storage to 4 x 8TB because retention/licensing remains a clarification point and KG asked to overcompensate.
+- Updated Unity total after these changes: R857,710.
+- Quote submission target is tomorrow; PO target is Friday if accepted.
+
+Voice-note transcript saved at `docs/tasks/worknotes/jhb-metro-kg-client-voice-notes-2026-05-19.md`.

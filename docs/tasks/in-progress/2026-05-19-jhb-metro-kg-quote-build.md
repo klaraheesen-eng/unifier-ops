@@ -106,3 +106,19 @@ Customer-facing assumptions to keep on the quote/proposal:
 - Boom gate final model, exact arm length and lane civil detail remain subject to confirmation.
 - Paving/asphalt/rock/heavy reinstatement could change pricing.
 - Estimated installation timeline: 8-12 working days after approval, material availability, trench route and power confirmation.
+
+
+## KG voice-note update — 2026-05-19 18:35
+Decoded two KG/Hein voice notes and updated quote `2591` accordingly. New confirmations:
+- Quote should intentionally overcompensate/overquote first; client can remove items if over budget.
+- No formal spec sheet and no known budget.
+- Cameras/locations are broadly covered.
+- Cabling is confirmed as Cat6, not Cat5e. Quote changed from `UNI-CAT5E-INST-PM` to `UNI-CAT6-INST-PM` x1300.
+- Container is the main equipment/monitoring point; added 22-inch monitor and monitor install.
+- Touch pad means no-touch wave button.
+- Over/oval cam means dome cameras.
+- Added provisional ANPR/VMS licensing/config allowance and increased storage to 4 x 8TB because retention/licensing remains a clarification point and KG asked to overcompensate.
+- Updated Unity total after these changes: R857,710.
+- Quote submission target is tomorrow; PO target is Friday if accepted.
+
+Voice-note transcript saved at `docs/tasks/worknotes/jhb-metro-kg-client-voice-notes-2026-05-19.md`.
