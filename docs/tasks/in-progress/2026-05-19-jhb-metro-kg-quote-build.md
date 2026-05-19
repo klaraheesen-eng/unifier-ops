@@ -189,3 +189,19 @@ Q-2591 update:
 - Fresh Unity quote lookup reports total `R893,694`.
 
 Durable default added to `docs/reference/cctv-quoting-checklist.md` under Quote discipline.
+
+## Sekweti bundle fibre correction — 2026-05-19 21:10
+Heinrich clarified: remove fibre from the Sekweti boom/access bundle, but keep containment (`kabels, krag, ens`).
+
+Applied in Unity:
+- Updated package pricelist item `SEK-QU478917-PACKAGE` (`pricelist_entry_id=951`) to exclude supplier line 28 fibre installation/splicing.
+- Kept containment line 29 in the package for cables, power, etc.
+- Updated active bundle `SEK-QU478917-BOOM-GATES` (`bundle_id=21`) description and sell price.
+- Removed/re-added the bundle on Q-2591 so the quote line uses the corrected price.
+
+Pricing:
+- Previous Sekweti package sell: R328,826.
+- Removed fibre/splicing component retail: R40,588.
+- Corrected bundle sell: R288,238.
+- Corrected cost basis: R245,001.75 incl VAT with 15% subcontract margin.
+- Fresh Unity quote lookup reports Q-2591 total `R853,106`.
