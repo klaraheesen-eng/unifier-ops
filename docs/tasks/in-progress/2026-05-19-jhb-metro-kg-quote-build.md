@@ -54,12 +54,12 @@ Extract the site drawing and handwritten scope from Heinrich/KG's Telegram attac
 - Missing-info list for Heinrich/KG/site survey.
 
 ## Blockers
-- Missing exact boom gate model/pricing.
-- Missing exact trench/cable/fibre lengths.
+- Boom gates are now priced as provisional market-related 4m commercial barrier points; final model/arm length still needs confirmation.
+- Trenching/cabling is now updated from the client-populated mobile site survey and best-guess civil allowances; final route/services still need confirmation.
 - Several handwritten items are unclear.
 
 ## Next Step
-Report draft quote status, assumptions, and missing info to Heinrich; await boom gate/model/cabling confirmations before customer-ready issue.
+Report updated quote status, site-survey assumptions, trenching/boom-gate allowances, and install timeline to Heinrich before customer-ready issue.
 
 ## Completion Notes
 - Pending.
@@ -85,3 +85,24 @@ Known quote gaps before customer-ready issue:
 - Confirm recording retention/FPS/resolution and whether ANPR/VMS licences are required.
 
 Quote item snapshot saved to `docs/tasks/worknotes/jhb-metro-kg-q2591-items.json`.
+
+
+## Client mobile site survey update — 2026-05-19 18:20
+Checked Unity mobile site survey `MOBSURVEY-2026519-89219` via the public survey summary and refreshed production `verbose_log.txt`. Key client-populated details:
+- Site survey title: `Private - Jhb Metro - KG - City Power Johannesburg`; address `City Power Johannesburg, Reuven, Johannesburg, 2091`; survey date `2026/05/19 13:14:48`.
+- Current survey summary includes ANPR entrance/exit, overview bullets, perimeter raised-pole camera groups, charging-point domes, NVR/container, camera room/monitor, power supply, and entry/exit boom notes.
+- Active current survey device list still contains long cable lengths from container/gate/perimeter runs, including 85m, 103m, 138m, 148m, 150m, 156m and 177m entries. Raw log entries total about 1.7km Cat6 and 0.7km RG59 before deletions/duplicates; this supports a large trenching/fibre/network allowance.
+- WhatsApp clarification from KG/Hein: trenching is allowed (`Yebo yes my good sir`), power supply is available, and power is required at the boom gates. Heinrich noted the distance from gate to container is too long, so solution is fibre or intermediate powered switch.
+
+Updated Unity quote `2591` from `R262,440` to Unity-reported `R822,851` and installation notes were updated. Additional/updated quote allowances include:
+- `KG-BOOM-SECTORII-4M-COMP` x4 @ R74,900 each: provisional complete 4m commercial boom/barrier point based on Centurion SECTOR II 4.5m market class pricing including controller/loop/safety/civil/install allowance.
+- `KG-CIVIL-REINSTATE-ALLOW` x1 @ R165,000: provisional civil/trench complexity, sleeves/protection, hand excavation near services, backfill and basic reinstatement.
+- `EYE-FIBER-TRENCH-INST` x500 plus `UNI-TRENCH-HYDRAULIC-SITE` x1 and `UNI-TRENCH-HYDRAULIC` x4.
+- Cabling/networking updated to `UNI-CAT5E-INST-PM` x1300, `UNI-SVC-CONDUIT25-PM` x800, `UNI-FIBRE-250m-MM` x2, industrial switches x4, media converters x4, SFPs x8, 4U cabinets x3.
+
+Customer-facing assumptions to keep on the quote/proposal:
+- Final trench route and all underground services must be marked/confirmed by client before work.
+- Power at remote gate/intermediate switch locations is assumed available by others unless specifically scoped.
+- Boom gate final model, exact arm length and lane civil detail remain subject to confirmation.
+- Paving/asphalt/rock/heavy reinstatement could change pricing.
+- Estimated installation timeline: 8-12 working days after approval, material availability, trench route and power confirmation.

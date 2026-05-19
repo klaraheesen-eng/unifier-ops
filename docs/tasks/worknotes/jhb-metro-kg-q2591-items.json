@@ -1,7 +1,7 @@
 {
   "quote_id": "2591",
   "quote_url": "https://www.unifier.co.za/unity/quote-details.asp?quote_id=2591",
-  "count": 27,
+  "count": 32,
   "items": [
     {
       "part_code": "UNI-DAU-IP-ANPR-4MP",
@@ -76,42 +76,42 @@
     {
       "part_code": "DS-3T0506HPE_HS_C8port",
       "description": "Hikvision L2 Unmanaged 8 Port Industrial Switch. 8 GB RJ45 PoE ports 2 Gigabit SFP uplink ports 802.3afatbt. port 1 support Hi-PoE 60w. PoE power budget 60W. 8 Port support up to 300meter. 6KV surge protection. supports POE watchdog. port isolation. -30~65�C. DIN rail",
-      "qty": "2",
+      "qty": "4",
       "selling_price": "5052",
       "group": "Main Section"
     },
     {
       "part_code": "UB-UF-MM-1G",
       "description": "MM SFP Modules",
-      "qty": "4",
+      "qty": "8",
       "selling_price": "848",
       "group": "Main Section"
     },
     {
       "part_code": "UNI-FIBRE-250m-MM",
       "description": "FIBRE-250m Ruggedised pre-made Mulit-Mode",
-      "qty": "1",
+      "qty": "2",
       "selling_price": "7223",
       "group": "Main Section"
     },
     {
       "part_code": "UNI-MEDIACONV-MM",
       "description": "Fibre Media Converter Gigabit Multi Mode SC - TP-Link",
-      "qty": "2",
+      "qty": "4",
       "selling_price": "1338",
       "group": "Main Section"
     },
     {
       "part_code": "UNI-CAT5E-INST-PM",
       "description": "Cat5e Cable per Meter Installed",
-      "qty": "700",
+      "qty": "1300",
       "selling_price": "8",
       "group": "Main Section"
     },
     {
       "part_code": "UNI-SVC-CONDUIT25-PM",
       "description": "25mm Conduit Per Meter Installed",
-      "qty": "300",
+      "qty": "800",
       "selling_price": "50",
       "group": "Main Section"
     },
@@ -139,7 +139,7 @@
     {
       "part_code": "UNI-CAB-4U",
       "description": "Network Cabinet Wall mounted 4U 300mm - Installed",
-      "qty": "1",
+      "qty": "3",
       "selling_price": "2455",
       "group": "Main Section"
     },
@@ -190,6 +190,41 @@
       "description": "Additional labour for CCTV installation, maintenance, or troubleshooting beyond the initial service time. Charged per hour to cover extended work on-site, ensuring a thorough and professional job. Parts and materials are not included in the labour rate.",
       "qty": "40",
       "selling_price": "595",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "KG-BOOM-SECTORII-4M-COMP",
+      "description": "Provisional complete 4m commercial boom gate/barrier point, market-related allowance based on Centurion SECTOR II 4.5m class kit incl. boom/controller/loop detector/pole, safety beams, plinth/civil fixing, integration, commissioning and installation. Final model subject to site confirmation.",
+      "qty": "4",
+      "selling_price": "74900",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "KG-CIVIL-REINSTATE-ALLOW",
+      "description": "Provisional civil allowance for trenching complexity, route making, sleeves/conduit protection, hand excavation near services, backfill and basic reinstatement where routes cross mixed surfaces. Final subject to marked services and confirmed trench route.",
+      "qty": "1",
+      "selling_price": "165000",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-TRENCH-HYDRAULIC-SITE",
+      "description": "Site establishment fee for hiring and delivering the hydraulic trenching machine to site.",
+      "qty": "1",
+      "selling_price": "3594",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "UNI-TRENCH-HYDRAULIC",
+      "description": "Hydraulic trencher hire per day. Trenching up to 600mm deep in pickable G5/G6 soil / no rocks or rubble. Including diesel.",
+      "qty": "4",
+      "selling_price": "2403",
+      "group": "Main Section"
+    },
+    {
+      "part_code": "EYE-FIBER-TRENCH-INST",
+      "description": "Fiber installation per meter. Includes only the labour for trenching (with hydraulic trench hire, charged seperately) up to 500mm deep, as well as laying and joining of protective pipe and installation of pre-splicedfiber",
+      "qty": "500",
+      "selling_price": "49",
       "group": "Main Section"
     }
   ]

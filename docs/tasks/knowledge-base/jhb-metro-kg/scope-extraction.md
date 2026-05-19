@@ -73,3 +73,20 @@
 7. Desired recording retention, FPS, resolution, and whether ANPR requires a HikCentral/VMS licence.
 8. Whether customer requires licence plate whitelist/access automation, visitor management, payment/ticketing, or only camera monitoring.
 9. Whether EV charger monitoring needs integration into a charger platform or only CCTV coverage.
+
+
+## Client-populated mobile site survey — `MOBSURVEY-2026519-89219`
+Checked on 2026-05-19. Survey summary identifies the same site: `Private - Jhb Metro - KG - City Power Johannesburg`, address `City Power Johannesburg, Reuven, Johannesburg, 2091`, survey date `2026/05/19 13:14:48`.
+
+Current visible device list includes:
+- ANPR entrance and ANPR exit, each on pole with long Cat6 runs around 150-156m.
+- Overview bullets `Bullet01`-`Bullet04`, plus perimeter raised-pole groups `Bullet05`-`Bullet07`; perimeter notes say 3x bullet cameras on raised poles for perimeter 1/2/3.
+- Charging-point domes, NVR/container, camera room/monitor, power supply, and `Pole01` perimeter point.
+- Boom-gate notes for entrance/exit: 4m boom gate arm, bullet camera and touch/wave pad.
+
+Important commercial/technical implications:
+- Treat this as a fibre/distributed-network job, not a simple all-copper run back to the container. Heinrich specifically noted the gate-to-container distance is too long; preferred solution is fibre or powered intermediate switches.
+- KG confirmed trenching is allowed and power supply is available; power must be available at boom gates and likely remote switch/cabinet locations.
+- Raw log entries before delete/duplicate cleanup total roughly 1.7km Cat6 and 0.7km RG59; current summary still shows multiple 85m-177m long runs. Use a conservative large trench/cable allowance until route is measured.
+- Quote update used 500m fibre trenching, 1.3km installed Cat5e, 800m conduit, 500m ruggedised multimode fibre, extra industrial switches/media converters/cabinets, plus a provisional civil/reinstatement allowance.
+- Boom gates were priced provisionally as 4 x complete 4m commercial barrier points based on Centurion SECTOR II 4.5m market-class hardware and installation/civil/safety allowances.
