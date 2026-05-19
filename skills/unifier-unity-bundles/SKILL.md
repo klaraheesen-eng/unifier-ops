@@ -32,4 +32,5 @@ npm run unity -- bundle-add-to-quote --bundle-id=18 --quote-id=2539 --bundle-qua
 
 - Bundle header writes go through `mcp_bundles.asp`.
 - Adding a bundle to a quote creates a parent quote entry and underlying buying lines for each bundle item.
+- **Quote total gotcha:** current Unity quote total calculation can duplicate the parent bundle sell price once per bundle buying line. For customer quote use, prefer a quote-safe bundle with **one package pricelist item** as its only bundle item. Keep detailed subcontract/source lines in the pricelist or a separate inactive/internal detail bundle.
 - Use safe test bundles when validating flows.

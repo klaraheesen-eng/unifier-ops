@@ -149,3 +149,32 @@ Unity quote updates applied:
 Verification:
 - Fresh Unity `quote-items --quote-id=2591` returns 36 lines and no `Dahua`/`DAU` camera/NVR lines remain.
 - Fresh Unity quote lookup reports total `R863,358`.
+
+## Sekweti formal boom gate subcontract update — 2026-05-19 20:55
+Heinrich provided Sekweti Projects quote `QU478917` dated `2026-05-19` for the boom/access subcontract package and instructed 15% margin for subcontracting.
+
+Source saved/extracted:
+- Image: `docs/tasks/source-docs/jhb-metro-kg/sekweti-projects-QU478917-boom-gates.jpg`
+- Extract: `docs/tasks/knowledge-base/jhb-metro-kg/sekweti-projects-QU478917-boom-gates.md`
+
+Supplier quote totals:
+- Subtotal ex VAT: R243,045.00
+- VAT: R36,456.75
+- Cost incl VAT: R279,501.75
+- 15% margin target: R279,501.75 / 0.85 = R328,825.59, rounded to R328,826.
+
+Unity pricelist work:
+- Created supplier/pricelist `Sekweti Projects QU478917 2026-05-19` (`pricelist_id=31`, supplier `Sekweti Projects (Pty) Ltd`).
+- Added detailed supplier line-total pricelist entries `SEK-QU478917-10`, `-11`, `-14`, and `-19` through `-29` for the included quote lines.
+- Added quote-safe package pricelist entry `SEK-QU478917-PACKAGE` (`pricelist_entry_id=951`) with cost R279,502 and retail R328,826.
+
+Bundle work:
+- Created detailed internal bundle `bundle_id=20`, then marked it inactive after discovering Unity quote totals duplicate a bundle parent once per bundle buying line. This is now documented in `skills/unifier-unity-bundles/SKILL.md`.
+- Created active quote-safe bundle `bundle_id=21`, name `SEK-QU478917-BOOM-GATES`, with a single package component `SEK-QU478917-PACKAGE` to avoid the quote-total duplication issue.
+
+Q-2591 update:
+- Removed provisional boom allowance `KG-BOOM-SECTORII-4M-COMP` x4 @ R74,900 (R299,600).
+- Added bundle `SEK-QU478917-BOOM-GATES` x1 @ R328,826.
+- Fresh Unity quote lookup reports total `R892,584`.
+
+Note: the broader `KG-CIVIL-REINSTATE-ALLOW` and trenching/fibre allowances remain on Q-2591 because Sekweti's quote covers boom/access subcontract scope; the broader site route/trenching uncertainty is still intentionally overquoted pending final site confirmation.
