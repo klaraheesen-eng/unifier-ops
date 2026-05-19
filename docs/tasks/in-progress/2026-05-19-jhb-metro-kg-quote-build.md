@@ -122,3 +122,30 @@ Decoded two KG/Hein voice notes and updated quote `2591` accordingly. New confir
 - Quote submission target is tomorrow; PO target is Friday if accepted.
 
 Voice-note transcript saved at `docs/tasks/worknotes/jhb-metro-kg-client-voice-notes-2026-05-19.md`.
+
+## Hikvision conversion update — 2026-05-19 20:45
+Heinrich asked to search for the correct Hikvision line items, check the software choice online, and convert all camera items on Unity quote `2591` to Hikvision.
+
+Research / selection notes:
+- Hikvision's own ANPR material positions **HikCentral Professional** as the VMS layer for managing ANPR/vehicle data with compatible ANPR cameras.
+- Unity pricelist contains exact HikCentral lines:
+  - `HikCentral-P-ANPR-1Camera` — HikCentral ANPR licence per camera/channel @ R4,545.
+  - `HikCentral-P-VSS-1Ch` — HikCentral VSS/video channel licence per camera/channel @ R860.
+- Correct Hikvision ANPR replacement selected: `DS-2CD4A26FWD-IZS P-2.8-12` — 4MP Hikvision ANPR, 50m IR, 2.8-12mm varifocal, plate recognition, no HikCentral licence included.
+- Correct 32ch Hikvision NVR replacement selected: `DS-7732NXI-I4/S (E)` — Pro Series 4K 32-channel 256Mbps 1U 4 SATA NVR.
+- Fixed overview cameras converted from generic supplier code to explicit Hikvision model `DS-2CD2T46G2-2I(4MM)(O-STD)` — Hikvision 4MP AcuSense fixed bullet IP camera, IP67.
+
+Unity quote updates applied:
+- Removed `UNI-DAU-IP-ANPR-4MP` x2.
+- Removed `SUPP-CAM-BULLET-4MP-IP-28MM-ADI` x16.
+- Removed `UNI-DAU-NVR-32` x1.
+- Removed `KG-ANPR-VMS-LIC-ALLOW` x1.
+- Added `DS-2CD4A26FWD-IZS P-2.8-12` x2.
+- Added `DS-2CD2T46G2-2I(4MM)(O-STD)` x16.
+- Added `DS-7732NXI-I4/S (E)` x1.
+- Added `HikCentral-P-ANPR-1Camera` x2.
+- Added `HikCentral-P-VSS-1Ch` x2.
+
+Verification:
+- Fresh Unity `quote-items --quote-id=2591` returns 36 lines and no `Dahua`/`DAU` camera/NVR lines remain.
+- Fresh Unity quote lookup reports total `R863,358`.
