@@ -274,3 +274,20 @@ Verification:
 - Fresh MCP quote lookup reports Q-2591 total `R853,104`, status `In Queue`, customer `Private`, contact `KG`.
 - Q-2591 now has 13 `KG-BOOM-*` lines totalling `R288,236` and no `KG-BOOM-GATE-ACCESS-EACH` bundle parent line.
 - Generated preview PDF/link: `Quote-524-2591-00`; WhatsApp number detected as `27637520094`. No customer email was configured, so the MCP preview fallback email target was `anthony@unifier.co.za`.
+
+## Bundle code fix and Q-2591 rework — 2026-05-20 12:35
+Heinrich requested fixing Unity quote code rather than avoiding the bundle, then putting Q-2591 back onto the bundle structure. Also confirmed trenching should stay removed because the civils allowance is enough.
+
+Applied to Unity code and deployed to production:
+- Fixed bundle-header queries in `quote-generate.asp`, `quote-details/quote-items-section.asp`, `mcp/mcp_quote_details.asp`, and `load-payment.asp` to read bundle quote entries from `tbl_quotes_entries` + `tbl_quotes_bundle_entries` instead of summing `qry_quotes_bundle_details` rows. The old view returns one row per bundle component, which duplicated bundle selling subtotals.
+- Deployed the four patched files by FTP and committed/pushed Unity commit `ff67a3b` (`Fix bundle totals in quote rendering`).
+
+Applied to Q-2591:
+- Removed the 13 individual `KG-BOOM-*` quote lines.
+- Removed remaining trenching/fibre-trenching lines: `UNI-TRENCH-HYDRAULIC-SITE`, `UNI-TRENCH-HYDRAULIC`, and `EYE-FIBER-TRENCH-INST`.
+- Added bundle `24` (`KG-BOOM-GATE-ACCESS-EACH`) to Q-2591 at quantity `4`.
+
+Verification:
+- MCP quote details now reports Q-2591 total `R807,148` incl. VAT, item_count `45`.
+- Bundle parent line shows quantity `4`, subtotal `R288,236`; bundle components are displayed as unpriced component rows.
+- Generated preview `Quote-524-2591-01.pdf`; PDF text verifies Total excl. VAT `R701,867.83`, VAT `R105,280.17`, Total incl. VAT `R807,148.00`.
