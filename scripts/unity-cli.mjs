@@ -350,6 +350,7 @@ Commands:
   bundle-update --bundle-id=N --bundle-name= [--bundle-description=] [--bundle-sell-price=] [--bundle-status=Active]
   bundle-add-item --bundle-id=N --pricelist-entry-id=N --quantity=N [--item-price=] [--description=]
   bundle-add-items --bundle-id=N --items-json='[{...}]'
+  bundle-delete-item --bundle-id=N (--bundle-item-id=N | --pricelist-entry-id=N)
   bundle-add-to-quote --bundle-id=N --quote-id=N [--quote-entry-group-id=N] [--bundle-quantity=N]
   bundle-remove-from-quote --quote-id=N --part-code=CODE
   raw-get <endpoint.asp> [--key=value ...]   (debug: returns raw body)
@@ -784,6 +785,19 @@ try {
       if (item.item_price != null) post[`row_${n}_item_price`] = item.item_price;
       if (item.description != null) post[`row_${n}_description`] = item.description;
     });
+    const raw = await relayPost(base, token, "mcp_bundles.asp", post);
+    console.log(JSON.stringify(parseAspKv(raw), null, 2));
+  } else if (cmd === "bundle-delete-item") {
+    const post = {
+      action: "delete-item",
+      bundle_id: args["bundle-id"],
+      bundle_item_id: args["bundle-item-id"],
+      pricelist_entry_id: args["pricelist-entry-id"],
+    };
+    if (!post.bundle_id || (!post.bundle_item_id && !post.pricelist_entry_id)) {
+      console.error("Required: --bundle-id= and either --bundle-item-id= or --pricelist-entry-id=");
+      process.exit(1);
+    }
     const raw = await relayPost(base, token, "mcp_bundles.asp", post);
     console.log(JSON.stringify(parseAspKv(raw), null, 2));
   } else if (cmd === "bundle-add-to-quote") {

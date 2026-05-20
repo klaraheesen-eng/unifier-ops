@@ -29,6 +29,7 @@ Direct HTTP client for Unity **Classic ASP MCP endpoints** (`mcp_*.asp`). Uses t
 | `bundle-update` | Update bundle header fields (`mcp_bundles.asp`) — **approval required** |
 | `bundle-add-item` | Add a single pricelist entry to a bundle (`mcp_bundles.asp`) — **approval required** |
 | `bundle-add-items` | Add multiple pricelist entries to a bundle from JSON (`mcp_bundles.asp`) — **approval required** |
+| `bundle-delete-item` | Delete a bundle component by bundle-item id or pricelist-entry id (`mcp_bundles.asp`) — **approval required** |
 | `bundle-add-to-quote` | Add an existing bundle to a quote (`mcp_bundles.asp`) — **approval required** |
 | `raw-get` | Debug: raw response from a named endpoint |
 
@@ -86,7 +87,7 @@ For batch item creation, each JSON item can use either:
 ## Safety
 
 - **Read-only** commands are safe for routine agent use.
-- **POST** commands (`lead-create`, `quote-create-from-lead`, `quote-add-item`, `quote-update`, `pricelist-create`, `pricelist-add-item`, `pricelist-add-items`, `update-item`, `obsolete`, `bundle-create`, `bundle-update`, `bundle-add-item`, `bundle-add-items`, `bundle-add-to-quote`) change live Unity data; obtain explicit approval before running.
+- **POST** commands (`lead-create`, `quote-create-from-lead`, `quote-add-item`, `quote-update`, `pricelist-create`, `pricelist-add-item`, `pricelist-add-items`, `update-item`, `obsolete`, `bundle-create`, `bundle-update`, `bundle-add-item`, `bundle-add-items`, `bundle-delete-item`, `bundle-add-to-quote`) change live Unity data; obtain explicit approval before running.
 
 ## Live verification snapshot (2026-04-22)
 

@@ -249,3 +249,15 @@ Applied:
 - Reactivated/renamed detailed one-boom bundle `bundle_id=23` as the canonical active `KG-BOOM-GATE-ACCESS-EACH`; it contains the 13 per-boom component line items and has sell price `R72,059`.
 
 Note: Q-2591 still needs care if replacing the temporary quote line, because live Unity quote totals currently inflate when a multi-line bundle is added to a quote. Do not hide that by changing bundle design; fix/work around quote calculation separately.
+
+## Bundle 24 line-item correction — 2026-05-20 08:10
+Heinrich pointed at `bundle_id=24` and clarified that the single-concept one-boom bundle still must contain all individual component line items.
+
+Applied in Unity:
+- Added the 13 per-boom component pricelist entries to `bundle_id=24` (`KG-BOOM-GATE-ACCESS-EACH`): barrier, radar sensor, batteries, civils, technical labour, project management/docs, QC/handover, site establishment, transport/logistics, travel, sundries, plant hire, and containment.
+- Updated `bundle_id=24` back to active canonical name/description with sell price `R72,059`.
+- Removed the old package-only component `KG-BOOM-GATE-ACCESS-EACH-PACKAGE` (`pricelist_entry_id=982`) from `bundle_id=24` after adding MCP support for targeted bundle-item deletion.
+
+Verification evidence:
+- MCP `bundle-add-items` returned `items_added=13` for `bundle_id=24`.
+- MCP `delete-item` returned `items_deleted=1` for `bundle_id=24`, `pricelist_entry_id=982`.

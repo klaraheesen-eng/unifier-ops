@@ -14,6 +14,7 @@ Use this skill when the task is specifically about Unity bundles.
 - List available bundles
 - Create or update a bundle
 - Add one or many pricelist entries to a bundle
+- Delete an incorrect bundle component
 - Add an existing bundle to a quote
 
 ## Primary commands
@@ -25,6 +26,7 @@ npm run unity -- bundle-create --bundle-name="Klara Test Bundle" --bundle-descri
 npm run unity -- bundle-update --bundle-id=18 --bundle-name="Klara Test Bundle" --bundle-sell-price=1200
 npm run unity -- bundle-add-item --bundle-id=18 --pricelist-entry-id=875 --quantity=1 --item-price=190 --description="Safe test item 1"
 npm run unity -- bundle-add-items --bundle-id=18 --items-json='[{"pricelist_entry_id":876,"quantity":2,"item_price":390}]'
+npm run unity -- bundle-delete-item --bundle-id=18 --pricelist-entry-id=876
 npm run unity -- bundle-add-to-quote --bundle-id=18 --quote-id=2539 --bundle-quantity=1
 ```
 
