@@ -261,3 +261,16 @@ Applied in Unity:
 Verification evidence:
 - MCP `bundle-add-items` returned `items_added=13` for `bundle_id=24`.
 - MCP `delete-item` returned `items_deleted=1` for `bundle_id=24`, `pricelist_entry_id=982`.
+
+## Pre-send correction — 2026-05-20 11:25
+Heinrich asked to send Q-2591. Before sending, live verification showed Unity total was inflated to `R4,311,936` because the multi-line boom/access bundle was still on the quote and triggered the known bundle-total duplication bug.
+
+Applied in Unity:
+- Removed quote line `KG-BOOM-GATE-ACCESS-EACH` from Q-2591.
+- Added the 13 underlying `KG-BOOM-*` component line items directly to Q-2591 at quantity 4 each, preserving the visible detailed line breakdown without using the quote-total-breaking bundle parent.
+- Removed and re-added `UNI-POE-MNG-24` at quantity 1; note the MCP markdown parser still displays this line oddly because the pricelist description contains a literal `|`, but the live quote total confirms the item is priced correctly.
+
+Verification:
+- Fresh MCP quote lookup reports Q-2591 total `R853,104`, status `In Queue`, customer `Private`, contact `KG`.
+- Q-2591 now has 13 `KG-BOOM-*` lines totalling `R288,236` and no `KG-BOOM-GATE-ACCESS-EACH` bundle parent line.
+- Generated preview PDF/link: `Quote-524-2591-00`; WhatsApp number detected as `27637520094`. No customer email was configured, so the MCP preview fallback email target was `anthony@unifier.co.za`.
