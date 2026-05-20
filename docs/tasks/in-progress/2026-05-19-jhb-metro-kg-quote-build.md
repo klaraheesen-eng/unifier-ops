@@ -291,3 +291,14 @@ Verification:
 - MCP quote details now reports Q-2591 total `R807,148` incl. VAT, item_count `45`.
 - Bundle parent line shows quantity `4`, subtotal `R288,236`; bundle components are displayed as unpriced component rows.
 - Generated preview `Quote-524-2591-01.pdf`; PDF text verifies Total excl. VAT `R701,867.83`, VAT `R105,280.17`, Total incl. VAT `R807,148.00`.
+
+## KG contact email update — 2026-05-20 12:45
+Heinrich provided KG's email: `Kgadip@tracksecure.co.za`.
+
+Applied:
+- Added/deployed reusable Unity MCP endpoint `mcp/mcp_contact_update.asp` to update contact details by `quote_id` or `contact_id`.
+- Updated the contact linked to Q-2591 (`contact_id=2948`) with `customer_contact_email=Kgadip@tracksecure.co.za`.
+
+Verification:
+- Fresh `mcp_quote_details.asp?quote_id=2591` returns `customer_contact_email=Kgadip@tracksecure.co.za` and phone `0637520094`.
+- Fresh quote-send preview generated `Quote-524-2591-02`; email recipients resolve to `Kgadip@tracksecure.co.za,Kgadip@tracksecure.co.za` because site and billing both resolve to the same contact/email.
