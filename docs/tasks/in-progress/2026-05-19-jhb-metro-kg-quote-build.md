@@ -302,3 +302,15 @@ Applied:
 Verification:
 - Fresh `mcp_quote_details.asp?quote_id=2591` returns `customer_contact_email=Kgadip@tracksecure.co.za` and phone `0637520094`.
 - Fresh quote-send preview generated `Quote-524-2591-02`; email recipients resolve to `Kgadip@tracksecure.co.za,Kgadip@tracksecure.co.za` because site and billing both resolve to the same contact/email.
+
+## WhatsApp sent to KG — 2026-05-20 12:58
+Heinrich approved sending KG the full WhatsApp message via `wacli`.
+
+Applied:
+- Ran `wacli sync --once` before send; it connected and synced messages before the CLI process was killed by local timeout after active syncing.
+- Generated fresh quote-send preview `Quote-524-2591-06` and used its full WhatsApp text, addressed to KG with email `Kgadip@tracksecure.co.za`.
+- Sent WhatsApp to `+27637520094` via `wacli send text`.
+
+Verification:
+- `wacli send text` returned success with WhatsApp message id `3EB060B18EB2454FEE0C36`, recipient `27637520094@s.whatsapp.net`.
+- Ran a post-send `wacli sync --once`; it connected and synced messages before the local timeout killed the process while still syncing.
