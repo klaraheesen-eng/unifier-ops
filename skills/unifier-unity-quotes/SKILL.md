@@ -45,7 +45,7 @@ When quoting HikCentral, ANPR/VMS software, or similar software/licence stacks:
 
 - Use current official supplier pricing if Heinrich has provided it and it has been loaded into Unity.
 - Software/licence lines should use Heinrich's **50% margin** rule unless explicitly overridden.
-- Include the required base licence/module prerequisites, not only the per-channel expansion licence.
+- Include the required base licence/module prerequisites, not only the per-channel expansion licence. For HikCentral ANPR, quote **one ANPR licence per ANPR camera/channel**.
 - Include a suitable workstation/server for the software unless the client explicitly provides one or Heinrich says to exclude it. For HikCentral, search for existing Sensor workstation/server lines (for example `workstation`, `HikCentral`, or `WS-XL04`) and pick a fit-for-purpose item before sending the quote.
 - If replacing provisional software or camera lines, remove stale quote lines first, then add the exact updated part codes and verify `quote-items` afterwards.
 

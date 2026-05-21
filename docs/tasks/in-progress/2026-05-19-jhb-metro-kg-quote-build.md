@@ -339,7 +339,7 @@ Q-2591 update:
 - Removed older/provisional `DS-2CD4A26FWD-IZS P-2.8-12`, `HikCentral-P-ANPR-1Camera`, and `HikCentral-P-VSS-1Ch` lines.
 - Added official Sensor ANPR camera line `iDS-2CD7A46G2-P-IZHSY-2.8-12MM` x2.
 - Added HikCentral base licence `HIKCENTRAL-P-VSS-BASE-0CH` x1.
-- Added official HikCentral ANPR licence `HIKCENTRAL-ANPR-1CAMERA-OFFICIAL` x2.
+- Added official HikCentral ANPR licence `HIKCENTRAL-ANPR-1CAMERA-OFFICIAL` x2 — one licence per ANPR camera/channel.
 - Added workstation `WS-XL04-i7` x1 for the HikCentral/software stack.
 
 Verification:
@@ -350,3 +350,5 @@ Verification:
 Reusable process updates:
 - Updated `skills/unifier-unity-pricelists/SKILL.md` with supplier-quote ingestion and 50% software margin rules.
 - Updated `skills/unifier-unity-quotes/SKILL.md` and `docs/reference/cctv-quoting-checklist.md` with the software/workstation quoting rule.
+
+Clarification from Heinrich — 2026-05-21 09:28: HikCentral ANPR licensing is **one licence per ANPR camera/channel**. Q-2591 currently has 2 ANPR cameras and 2 ANPR licences, so the quantity is correct.

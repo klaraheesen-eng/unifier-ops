@@ -34,5 +34,5 @@ Raw source files:
 
 - Replace the older/provisional ANPR camera line with the official Sensor ANPR camera line.
 - Add HikCentral base licence.
-- Use the official ANPR channel licence pricing; quantity should match ANPR camera/channel count.
+- Use the official ANPR channel licence pricing; **HikCentral ANPR is one licence per ANPR camera/channel**, so quantity must equal the number of ANPR cameras.
 - Include a workstation suitable for HikCentral/software operation.

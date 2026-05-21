@@ -77,7 +77,7 @@ These should not be forgotten just because they are easy to miss in a text enqui
 - State assumptions clearly.
 - If a monitor/screen is needed and no specific size is given, default to `UNI-SCREEN-40INCH` rather than smaller 22/32 inch screen lines.
 - If HikCentral, ANPR/VMS software, or similar server/workstation software is quoted, include a suitable workstation/server unless the client explicitly supplies one or Heinrich says to exclude it.
-- Software/licence items use Heinrich's 50% margin rule unless he overrides it for the specific quote.
+- Software/licence items use Heinrich's 50% margin rule unless he overrides it for the specific quote. For HikCentral ANPR, quote one ANPR licence per ANPR camera/channel.
 - For stock/inventory requests, be clear that standard CCTV gives **visual monitoring**, not automatic stock counting.
 - If the operational requirement depends heavily on camera placement, recommend a site assessment.
 - For dispatch-verification use cases, strongly consider an extra camera dedicated to the packing/dispatch zone rather than only room overview cameras.
