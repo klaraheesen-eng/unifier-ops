@@ -314,3 +314,39 @@ Applied:
 Verification:
 - `wacli send text` returned success with WhatsApp message id `3EB060B18EB2454FEE0C36`, recipient `27637520094@s.whatsapp.net`.
 - Ran a post-send `wacli sync --once`; it connected and synced messages before the local timeout killed the process while still syncing.
+
+## Sensor official ANPR/software pricing update — 2026-05-21 09:30
+Heinrich provided official Sensor Security quote `QTGP0171606` for KG `Boom / ANPR` pricing and instructed that supplier pricing must be stored in the knowledge base when loaded into Unity pricelists, software must use 50% margin, and software quotes must include a suitable workstation.
+
+Source saved/extracted:
+- PDF: `docs/tasks/source-docs/jhb-metro-kg/sensor-security-QTGP0171606-boom-anpr.pdf`
+- Text extract: `docs/tasks/source-docs/jhb-metro-kg/sensor-security-QTGP0171606-boom-anpr.txt`
+- Knowledge base: `docs/tasks/knowledge-base/jhb-metro-kg/sensor-security-QTGP0171606-boom-anpr.md`
+
+Official supplier costs from Sensor quote:
+- `iDS-2CD7A46G2/P-IZHSY(2.8-12mm)` ANPR camera: R9,289.87 ex VAT / R10,683.35 incl VAT.
+- `HIKCENTRAL-P-VSS-BASE/0CH` base licence: R885.72 ex VAT / R1,018.58 incl VAT.
+- `HIKCENTRAL-ANPR-1CAMERA` ANPR licence: R2,594.42 ex VAT / R2,983.58 incl VAT.
+
+Unity pricelist updates:
+- Added official Sensor entries to pricelist `18` (`Sensor`) using normalized Unity-safe part codes because exact supplier codes containing slash/parenthesis and decimal prices exposed MCP/ASP write limitations. Exact supplier codes and cents are preserved in descriptions and the KB extract.
+- `iDS-2CD7A46G2-P-IZHSY-2.8-12MM` (`pricelist_entry_id=985`) cost R10,683 / retail R17,806 (normal 40% hardware margin).
+- `HIKCENTRAL-P-VSS-BASE-0CH` (`pricelist_entry_id=986`) cost R1,019 / retail R2,037 (50% software margin, rounded to Unity whole-Rand storage).
+- `HIKCENTRAL-ANPR-1CAMERA-OFFICIAL` (`pricelist_entry_id=987`) cost R2,984 / retail R5,967 (50% software margin, rounded to Unity whole-Rand storage).
+- Temporary endpoint test items `983` and `984` were marked obsolete immediately.
+
+Q-2591 update:
+- Removed older/provisional `DS-2CD4A26FWD-IZS P-2.8-12`, `HikCentral-P-ANPR-1Camera`, and `HikCentral-P-VSS-1Ch` lines.
+- Added official Sensor ANPR camera line `iDS-2CD7A46G2-P-IZHSY-2.8-12MM` x2.
+- Added HikCentral base licence `HIKCENTRAL-P-VSS-BASE-0CH` x1.
+- Added official HikCentral ANPR licence `HIKCENTRAL-ANPR-1CAMERA-OFFICIAL` x2.
+- Added workstation `WS-XL04-i7` x1 for the HikCentral/software stack.
+
+Verification:
+- `quote-items --quote-id=2591` shows the new official Sensor lines and workstation on Q-2591, count `33` visible quote rows.
+- `raw-get mcp_quote_details.asp --quote_id=2591` reports total incl VAT `R864,837`, total ex VAT `R752,032.17`, VAT `R112,804.83`, and item_count `46` including bundle components.
+- New Sensor pricelist entries search back with `last_used_quote_id=2591`.
+
+Reusable process updates:
+- Updated `skills/unifier-unity-pricelists/SKILL.md` with supplier-quote ingestion and 50% software margin rules.
+- Updated `skills/unifier-unity-quotes/SKILL.md` and `docs/reference/cctv-quoting-checklist.md` with the software/workstation quoting rule.

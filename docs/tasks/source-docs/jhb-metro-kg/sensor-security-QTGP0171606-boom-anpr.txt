@@ -1,0 +1,63 @@
+                                                                                          Sales Quote
+                                                                         Sensor Security Systems (Pty) Ltd
+                                                                 Head Office:                          Collection/Deliveries:
+                                                                 820 16th Road                         Tarsus Distribution
+                                                                 Randjespark                           Waterfall District
+                                                                 Midrand                               1 Ruacana Falls Ave Buccleuch
+                                                                 South Africa
+                                                                                                       Sandton, 2191
+
+
+                                                                Reg No.:       2014/214201/07         Tel No.:       +27 (0)11 314 9419
+                                                                VAT No.:       4810198228
+                                                                Document Ref.:               QTGP0171606
+                                                                Date:                        21/05/2026 00:00:00
+                                                                Sales Person:                Sanet Doerk
+
+Status:           New Quote
+Reference:        Boom / ANPR
+
+Attention:        Heinrich Heesen                               Billing Address:             245 Indus Str
+Customer:         UNI0009 - Unifier Pty Ltd                                                  Waterkloof Ridge
+Tel No.:          +27 72 211 3960                                                            Pretoria
+                                                                                             0181
+Email:            heinrich@unifier.co.za
+VAT No.:          4010278515
+
+
+    Item Code                        Item Description                       Qty       Unit Price      Discount       Net Price          Total
+
+iDS-2CD7A46G2/P ANPR 4MP bullet, 2.8-12mm lens, 50m                         1.00         9,289.87           0.00       9,289.87        10,683.35
+-IZHSY(2.8-     IR, Wiegand output, 140dB WDR
+12mm)           12VDC/POE
+
+HIKCENTRAL-P-           HikCentral base license                             1.00           885.72           0.00         885.72          1,018.58
+VSS-BASE/0CH
+
+HIKCENTRAL-ANPR Hikvision HikCentral ANPR Channel                           1.00         2,594.42           0.00       2,594.42          2,983.58
+-1CAMERA        License Software.
+
+
+
+
+               We offer financing for Hikvision security systems. Visit www.sensorsecurity.co.za/financial-services
+                                          and speak to your Sensor account manager.
+Disclaimer: This quotation is valid for 7 days from date hereof, subject to account for increased costs beyond Sensor’s control, including foreign
+exchange fluctuations and availability. Orders placed by the customer are non-cancellable, irrevocable and subject to Sensor’s acceptance, in whole
+or in part. Goods remain the property of Sensor until paid for in full. Whilst all care has been taken to ensure that the solution and/or quotation
+provided herein is accurate, the solution is based on information received from the client and may be subject to change. The content hereof is
+provided for information and estimation purposes only.
+
+                                                                                                 Sub Total         ZAR                 12,770.01
+                                                                                                         VAT       ZAR                  1,915.50
+
+                                                                                                       Total       ZAR                 14,685.51
+
+
+                                                                                                  dd / mm / yyyy             hh : mm
+                 Customer Signature                                Print Name                         Date                    Time
+Payments Details: STANDARD BANK: SENSOR SECURITY SYSTEMS, Acc No.: 270845488, Branch Code: 051001
+                   ABSA BANK: SENSOR SECURITY SYSTEMS (PTY) LTD, Acc No.: 40-7176-7639, Branch Code: 630510
+
+Report created on BPO - www.co3.co.za                                    Printed :        21 May 2026 08:59                             Page 1 of 1
+
