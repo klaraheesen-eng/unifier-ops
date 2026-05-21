@@ -352,3 +352,33 @@ Reusable process updates:
 - Updated `skills/unifier-unity-quotes/SKILL.md` and `docs/reference/cctv-quoting-checklist.md` with the software/workstation quoting rule.
 
 Clarification from Heinrich — 2026-05-21 09:28: HikCentral ANPR licensing is **one licence per ANPR camera/channel**. Q-2591 currently has 2 ANPR cameras and 2 ANPR licences, so the quantity is correct.
+
+## ATCD fibre/civils supplier pricing update — 2026-05-21 09:55
+Heinrich provided ATCD fibre/civil supplier pricing by Telegram and instructed: load supplier unit costs, replace the provisional civils with the real pricing, assume 2 cabinets, keep 400m trenching/fibre, and use 3 x 400m 4-core fibre runs. Supplier said prices are ex VAT and suggested adding 10% because there is little margin.
+
+Knowledge base source:
+- `docs/tasks/knowledge-base/jhb-metro-kg/atcd-fibre-civils-pricing-2026-05-21.md`
+
+Unity pricelist load:
+- Existing supplier used: `ATC Divergence` / ATCD (`supplier_id=21`).
+- Created pricelist `ATCD KG Fibre Civils 2026-05-21` (`pricelist_id=32`, group `98`).
+- Loaded ATCD entries `988`-`995` with costs converted from ex VAT to VAT-inclusive and retail set at 10% margin, rounded to whole Rand for Unity storage.
+
+Loaded / quoted assumptions:
+- `ATCD-FIB-PAVE-TRENCH-PM` x400 @ R230 incl — paving trench including reinstatement.
+- `ATCD-FIB-SPLICE-OTDR-EACH` x10 @ R179 incl — splice plus OTDR test event.
+- `ATCD-FIB-4F-DROP-400M-RUN` x3 @ R4,089 incl — three 400m 4-core fibre runs.
+- `ATCD-FIB-50MM-SLEEVE-100M` x4 @ R3,450 incl — 400m 50mm sleeves.
+- `ATCD-FIB-400R-HANDHOLE` x4 @ R1,789 incl.
+- `ATCD-FIB-TP-COMPLETE` x6 @ R128 incl — LC connectors included in TP per supplier.
+- `ATCD-FIB-6U-OUTDOOR-CAB` x2 @ R7,667 incl — cabinet assumption x2.
+- `ATCD-FIB-LC-FLYLEAD` x6 @ R102 incl — patch/fly leads from TP to cabinet/router/switch.
+
+Q-2591 update:
+- Removed provisional/old civil/fibre/cabinet lines: `KG-CIVIL-REINSTATE-ALLOW`, `UNI-FIBRE-250m-MM`, `UNI-SVC-CONDUIT25-PM`, `UNI-CAB-4U`.
+- Added the ATCD detailed fibre/civils lines above.
+- Kept Cat6 cabling, switches, SFPs, media converters, boom bundle, cameras, HikCentral, workstation, and other site equipment.
+
+Verification:
+- `quote-items --quote-id=2591` shows all eight ATCD lines and no `KG-CIVIL-REINSTATE-ALLOW`, `UNI-FIBRE-250m-MM`, `UNI-SVC-CONDUIT25-PM`, or `UNI-CAB-4U`.
+- `raw-get mcp_quote_details.asp --quote_id=2591` reports total incl VAT `R781,753`, total ex VAT `R679,785.22`, VAT `R101,967.78`, item_count `50` including bundle components.
