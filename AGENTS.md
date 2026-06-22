@@ -177,3 +177,28 @@ Always check klaraheesen@gmail.com via the gog tooling for email access, calenda
 - If the learning is reusable, a doc under `docs/`, `docs/runbooks/`, or `docs/tasks/knowledge-base/` is updated.
 - `INDEX.md` and `COMPLETION_LOG.md` are updated if task status changed.
 - Commit and push after each completed task.
+
+## Billing-friendly commit and feature tracking
+
+All meaningful agent commits must be understandable later as billing evidence.
+
+Commit subjects should be short and outcome-focused. Prefer a client-safe summary of what changed over implementation noise.
+
+For every meaningful commit, add these trailers when applicable:
+
+```text
+Billing-One-Liner: <Clockify-ready one-line description of the work>
+Feature: <stable feature/workstream name from docs/FEATURES.md>
+Work-Type: feature|fix|support|research|ops|docs
+Requested-By: <person/context>
+Billing-Actor: klara
+Billing-Project: <Clockify project if known, otherwise TBD>
+Related-Ticket: <ticket/task/issue id if applicable>
+```
+
+Keep `docs/FEATURES.md` updated. When adding or materially changing a feature, support capability, automation, workflow, or client deliverable:
+
+1. Add or update the feature/workstream row.
+2. Use the same `Feature:` name in commit trailers.
+3. Make the `Billing-One-Liner` customer-safe and suitable as a Clockify time-entry description.
+4. Do not include secrets, private credentials, or unnecessary customer-sensitive details in commit messages.
